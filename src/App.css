@@ -2,25 +2,10 @@
   text-align: center;
 }
 
-nav {
-  padding: 25px;
-  /* border: solid red; */
-  display: flex;
-  flex-direction: row-reverse;
-}
-
-h2 {
-  width: 75px;
-  /* border: solid yellow; */
-  font-size: 15px;
-}
-
 .brackets {
-  /* border: solid red; */
   display: flex;
   justify-content: center;
   align-items: center;
-  /* height: 35vh; */
   margin-bottom: 25px;
 }
 
@@ -39,7 +24,7 @@ h2 {
   align-items: center;
 }
 
-p, h1 {
+p {
   margin: 0;
 }
 
@@ -58,4 +43,84 @@ p {
 
 .heading3 {
   background: plum;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 25px;
+  height: 100px;
+  box-sizing: border-box;
+  margin-bottom: 50px;
+}
+
+nav {
+  padding: 25px;
+  display: flex;
+}
+
+nav h2 {
+  margin: 0 5px;
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.teams {
+  columns: 2;
+  width: 35vw;
+  margin: 0 auto;
+  /* border: solid red; */
+}
+
+i:hover {
+  cursor: pointer;
+  color: purple;
+}
+
+.team-info {
+  margin: 0 auto;
+  margin-bottom: 25px;
+  width: 250px;
+  /* border: solid yellow; */
+  border: 1px solid lightblue;
+  border-radius: 7px;
+  padding: 15px;
+}
+
+.team-info:hover {
+  background: lightblue;
+  cursor: pointer;
+}
+
+.seed {
+  font-size: 1rem;
+  background: plum;
+  width: 1rem;
+  border-radius: 50%;
+}
+
+.inline {
+  display: inline-block;
+  margin: 2px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  list-style-position: inside;
+  text-align: left;
+  margin: 0;
+  padding-left: 10px;
 }
