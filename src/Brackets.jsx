@@ -22,30 +22,38 @@ export const Brackets = () => {
                     <div className='game'>
                         <div className='seed inline'>A</div>
                         <div className="inline pair">
-                            <div className="team">{teamNames.team1}</div>
-                            <div className="team">{teamNames.team8}</div>
+                            <div className='seed inline gray'>0</div>
+                            <div className="team inline">{teamNames.team1}</div>
+                            <div className='seed inline gray'>0</div>
+                            <div className="team inline">{teamNames.team8}</div>
                         </div>
                     </div>
                     <div className="game">
                         <div className='seed inline'>B</div>
                         <div className="inline pair">
-                            <div className="team">{teamNames.team4}</div>
-                            <div className="team">{teamNames.team5}</div>
+                        <div className='seed inline gray'>0</div>
+                            <div className="team inline">{teamNames.team4}</div>
+                            <div className='seed inline gray'>0</div>
+                            <div className="team inline">{teamNames.team5}</div>
                         </div>
                     </div>
                     <div className="space"></div>
                     <div className="game">
                         <div className='seed inline'>C</div>
                         <div className="inline pair">
-                            <div className="team">{teamNames.team2}</div>
-                            <div className="team">{teamNames.team7}</div>
+                        <div className='seed inline gray'>0</div>
+                            <div className="team inline">{teamNames.team2}</div>
+                            <div className='seed inline gray'>0</div>
+                            <div className="team inline">{teamNames.team7}</div>
                         </div>
                     </div>
                     <div className="game">
                         <div className='seed inline'>D</div>
                         <div className="inline pair">
-                            <div className="team">{teamNames.team3}</div>
-                            <div className="team">{teamNames.team6}</div>
+                        <div className='seed inline gray'>0</div>
+                            <div className="team inline">{teamNames.team3}</div>
+                            <div className='seed inline gray'>0</div>
+                            <div className="team inline">{teamNames.team6}</div>
                         </div>
                     </div>
                 </div>
