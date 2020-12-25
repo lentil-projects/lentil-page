@@ -1,5 +1,16 @@
 import React from 'react';
-import {teamNames} from './constants/teams';
+import { teamNames } from './constants/teams';
+import { winners, losers } from './constants/results';
+
+const returnResult = (team, game) => {
+    if (team === 'winner' && winners[game]) {
+        return (<div className="team">{winners[game]}</div>)
+    }
+    if (team === 'loser' && losers[game]) {
+        return (<div className="team">{losers[game]}</div>)
+    }
+    return (<div className="team"><em>{`${team} of ${game.toUpperCase()}`}</em></div>)
+}
 
 export const Brackets = () => {
     return (
@@ -39,11 +50,10 @@ export const Brackets = () => {
                     </div>
                 </div>
                 <div className='space-col'>
-                   <div className="space"></div>
+                    <div className="space"></div>
                     <div className="triangle">{']-'}</div>
-                   <div className="space"></div>
-                   {/* <div className="space"></div> */}
-                   <div className="space"></div>
+                    <div className="space"></div>
+                    <div className="space"></div>
                     <div className="triangle">{']-'}</div>
                 </div>
                 <div className="round">
@@ -51,18 +61,17 @@ export const Brackets = () => {
                     <div className="game">
                         <div className='seed inline'>E</div>
                         <div className="inline pair">
-                            <div className="team"><em>winner of A</em></div>
-                            <div className="team"><em>winner of B</em></div>
+                            {returnResult('winner', 'a')}
+                            {returnResult('winner', 'b')}
                         </div>
                     </div>
                     <div className="space"></div>
-                    {/* <div className="space"></div> */}
                     <div className="space"></div>
                     <div className="game">
                         <div className='seed inline'>F</div>
                         <div className="inline pair">
-                            <div className="team"><em>winner of C</em></div>
-                            <div className="team"><em>winner of D</em></div>
+                            {returnResult('winner', 'c')}
+                            {returnResult('winner', 'd')}
                         </div>
                     </div>
                 </div>
@@ -75,18 +84,20 @@ export const Brackets = () => {
                     <div className="game">
                         <div className='seed inline'>I</div>
                         <div className="inline pair">
-                            <div className="team"><em>winner of E</em></div>
-                            <div className="team"><em>winner of F</em></div>
+                            {returnResult('winner', 'e')}
+                            {returnResult('winner', 'f')}
                         </div>
                     </div>
                 </div>
                 <div className="space-col">
-                        <div className="space"></div>
-                        <div className="arrow">{'--'}</div>
-                    </div>
+                    <div className="space"></div>
+                    <div className="arrow">{'--'}</div>
+                </div>
                 <div className="round">
                     <div className="space"></div>
-                    <div className="team pair"><em>winner of I</em></div>
+                    <div className="pair">
+                        {returnResult('winner', 'i')}
+                    </div>
                 </div>
                 <div className="round"></div>
             </div>
@@ -98,37 +109,37 @@ export const Brackets = () => {
                     <div className="game">
                         <div className='seed inline'>G</div>
                         <div className="inline pair">
-                            <div className="team"><em>loser of A</em></div>
-                            <div className="team"><em>loser of B</em></div>
+                            {returnResult('loser', 'a')}
+                            {returnResult('loser', 'b')}
                         </div>
                     </div>
                     <div className="game">
                         <div className='seed inline'>H</div>
                         <div className="inline pair">
-                            <div className="team"><em>loser of C</em></div>
-                            <div className="team"><em>loser of D</em></div>
+                            {returnResult('loser', 'c')}
+                            {returnResult('loser', 'd')}
                         </div>
                     </div>
                 </div>
-                    <div className="space-col">
-                        <div className="space"></div>
-                        <div className="arrow">{'--'}</div>
-                        <div className="arrow">{'--'}</div>
-                    </div>
+                <div className="space-col">
+                    <div className="space"></div>
+                    <div className="arrow">{'--'}</div>
+                    <div className="arrow">{'--'}</div>
+                </div>
                 <div className="round">
                     <div className="heading2">Jan 31</div>
                     <div className="game">
                         <div className='seed inline'>J</div>
                         <div className="inline pair">
-                            <div className="team"><em>winner of G</em></div>
-                            <div className="team"><em>loser of F</em></div>
+                            {returnResult('winner', 'g')}
+                            {returnResult('loser', 'f')}
                         </div>
                     </div>
                     <div className="game">
                         <div className='seed inline'>K</div>
                         <div className="inline pair">
-                            <div className="team"><em>winner of H</em></div>
-                            <div className="team"><em>loser of E</em></div>
+                            {returnResult('winner', 'h')}
+                            {returnResult('loser', 'e')}
                         </div>
                     </div>
                 </div>
@@ -141,18 +152,20 @@ export const Brackets = () => {
                     <div className="game">
                         <div className='seed inline'>L</div>
                         <div className="inline pair">
-                            <div className="team"><em>winner of J</em></div>
-                            <div className="team"><em>winner of K</em></div>
+                            {returnResult('winner', 'j')}
+                            {returnResult('winner', 'k')}
                         </div>
                     </div>
                 </div>
                 <div className="space-col">
-                        <div className="space"></div>
-                        <div className="arrow">{'--'}</div>
-                    </div>
+                    <div className="space"></div>
+                    <div className="arrow">{'--'}</div>
+                </div>
                 <div className="round">
                     <div className="space"></div>
-                    <div className="team pair"><em>winner of L</em></div>
+                    <div className="pair">
+                        {returnResult('winner', 'l')}
+                    </div>
                 </div>
             </div>
         </div>

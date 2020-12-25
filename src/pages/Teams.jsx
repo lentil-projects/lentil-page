@@ -5,7 +5,7 @@ const mapTeams = (seed, team) => {
     const hasTwitch = (index) => {
         if (playerNames[team][index].twitch){
             return (
-                <a href={playerNames[team][index].twitch} target='_blank'>
+                <a href={playerNames[team][index].twitch} target='_blank' rel="noreferrer">
                     <i class="fab fa-twitch"></i>
                 </a>
             )

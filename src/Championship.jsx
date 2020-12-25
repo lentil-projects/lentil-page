@@ -1,4 +1,15 @@
 import React from 'react';
+import { winners, losers } from './constants/results';
+
+const returnResult = (team, game) => {
+    if (team === 'winner' && winners[game]) {
+        return (<div className="team">{winners[game]}</div>)
+    }
+    if (team === 'loser' && losers[game]) {
+        return (<div className="team">{losers[game]}</div>)
+    }
+    return (<div className="team"><em>{`${team} of ${game.toUpperCase()}`}</em></div>)
+}
 
 export const Championship = () => {
     return (
@@ -10,9 +21,19 @@ export const Championship = () => {
                     <div className="game">
                         <div className='seed inline'>M</div>
                         <div className="inline pair">
-                            <div className="team"><em>loser of I</em></div>
-                            <div className="team"><em>winner of L</em></div>
+                            {returnResult('loser', 'i')}
+                            {returnResult('winner', 'l')}
                         </div>
+                    </div>
+                </div>
+                <div className="space-col">
+                    <div className="space"></div>
+                    <div className="arrow">{'--'}</div>
+                </div>
+                <div className="round">
+                    <div className="space"></div>
+                    <div className="pair">
+                        {returnResult('winner', 'm')}
                     </div>
                 </div>
             </div>
@@ -23,9 +44,19 @@ export const Championship = () => {
                     <div className="game">
                         <div className='seed inline'>N</div>
                         <div className="inline pair">
-                            <div className="team"><em>winner of I</em></div>
-                            <div className="team"><em>winner of M</em></div>
+                            {returnResult('winner', 'i')}
+                            {returnResult('winner', 'm')}
                         </div>
+                    </div>
+                </div>
+                <div className="space-col">
+                    <div className="space"></div>
+                    <div className="arrow">{'--'}</div>
+                </div>
+                <div className="round">
+                    <div className="space"></div>
+                    <div className="pair">
+                        {returnResult('winner', 'n')}
                     </div>
                 </div>
             </div>
@@ -36,9 +67,19 @@ export const Championship = () => {
                     <div className="game">
                         <div className='seed inline'>O</div>
                         <div className="inline pair">
-                            <div className="team"><em>winner of N</em></div>
-                            <div className="team"><em>winner of M</em></div>
+                            {returnResult('loser', 'n')}
+                            {returnResult('winner', 'm')}
                         </div>
+                    </div>
+                </div>
+                <div className="space-col">
+                    <div className="space"></div>
+                    <div className="arrow">{'--'}</div>
+                </div>
+                <div className="round">
+                    <div className="space"></div>
+                    <div className="pair">
+                        {returnResult('winner', 'o')}
                     </div>
                 </div>
             </div>
