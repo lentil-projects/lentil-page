@@ -9,11 +9,6 @@ export const Header = () => {
                 <h1 className='inline'>Lentil Cup</h1>
             </Link>
             <a href='https://www.twitch.tv/lentil_aoe' target='_blank' rel="noreferrer"><i class="fab fa-twitch large-logo"></i></a>
-            {/* <h1> */}
-                {/* <a href='https://www.twitch.tv/lentil_aoe' target='_blank'> */}
-                    {/* <i class="fab fa-twitch"></i> */}
-                {/* </a> */}
-            {/* </h1> */}
             </div>
             <nav>
                 <Link to='/'>
