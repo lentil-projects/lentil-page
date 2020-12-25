@@ -4,9 +4,12 @@ import { Championship } from '../Championship';
 
 export const Page = () => {
     return (
+        <>
+        <h1>Brackets</h1>
         <div className="display">
             <Brackets />
             <Championship />
         </div>
+        </>
     )
 }

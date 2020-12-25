@@ -8,6 +8,9 @@ export const Header = () => {
                 <h1>Lentil Cup <i class="fab fa-twitch"></i></h1>
             </Link>
             <nav>
+                <Link to='/'>
+                    <h2>Brackets</h2>
+                </Link>
                 <Link to='/teams'>
                     <h2>Teams</h2>
                 </Link>
