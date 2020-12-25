@@ -5,7 +5,7 @@ import { Championship } from '../Championship';
 export const Page = () => {
     return (
         <>
-        <h1>Brackets</h1>
+        <h1>Bracket</h1>
         <div className="display">
             <Brackets />
             <Championship />

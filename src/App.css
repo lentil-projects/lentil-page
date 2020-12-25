@@ -153,7 +153,7 @@ em {
   color: lightgray;
 }
 
-h2:hover {
+.team-name h2:hover {
   color: purple;
   cursor: pointer;
 }
@@ -174,4 +174,9 @@ p {
 
 .team {
   width: calc(100px);
+}
+
+.large-logo {
+  font-size: 1.5rem;
+  margin-left: 5px;
 }

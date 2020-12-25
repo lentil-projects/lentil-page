@@ -60,7 +60,7 @@ export const Championship = () => {
                     </div>
                 </div>
             </div>
-            <h2>post-Finals (if needed)</h2>
+            <h2>Finals Rd. 2 (if needed)</h2>
             <div className="brackets">
                 <div className="round">
                     <div className="heading3">Feb 21</div>

@@ -4,12 +4,20 @@ import { Link } from 'react-router-dom';
 export const Header = () => {
     return (
         <header>
+            <div>
             <Link to='/'>
-                <h1>Lentil Cup <i class="fab fa-twitch"></i></h1>
+                <h1 className='inline'>Lentil Cup</h1>
             </Link>
+            <a href='https://www.twitch.tv/lentil_aoe' target='_blank'><i class="fab fa-twitch large-logo"></i></a>
+            {/* <h1> */}
+                {/* <a href='https://www.twitch.tv/lentil_aoe' target='_blank'> */}
+                    {/* <i class="fab fa-twitch"></i> */}
+                {/* </a> */}
+            {/* </h1> */}
+            </div>
             <nav>
                 <Link to='/'>
-                    <h2>Brackets</h2>
+                    <h2>Bracket</h2>
                 </Link>
                 <Link to='/teams'>
                     <h2>Teams</h2>
