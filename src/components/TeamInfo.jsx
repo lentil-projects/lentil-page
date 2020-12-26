@@ -1,5 +1,6 @@
 import React from 'react';
 import { teamNames, playerNames } from '../constants/teams';
+import {Civs} from './Civs';
 
 export const TeamInfo = props => {
     const { team } = props
@@ -8,7 +9,7 @@ export const TeamInfo = props => {
         if (playerNames[team][index].twitch) {
             return (
                 <a href={playerNames[team][index].twitch} target='_blank' rel="noreferrer">
-                    <i class="fab fa-twitch"></i>
+                    <i className="fab fa-twitch"></i>
                 </a>
             )
         }
@@ -26,6 +27,7 @@ export const TeamInfo = props => {
                 <li>{playerNames[team][0].player} ({playerNames[team][0].elo}) {hasTwitch(0)}</li>
                 <li>{playerNames[team][1].player} ({playerNames[team][1].elo}) {hasTwitch(1)}</li>
             </ul>
+            <Civs />
         </div>
     )
 }

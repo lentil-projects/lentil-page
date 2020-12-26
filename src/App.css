@@ -192,12 +192,11 @@ p {
   border: 1px solid gray;
   background: white;
   border-radius: 7px;
+  text-align: left;
+  padding-left: 50px;
 }
 
 .modal ul {
-  width: 200px;
-  margin: 0 auto;
-  padding-left: 50px;
   text-align: left;
 }
 
@@ -211,6 +210,40 @@ p {
 .flex2 {
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin-left: 50px;
+  justify-content: flex-start;
+}
+
+.civs {
+  flex-wrap: wrap;
+}
+
+.civ {
+  height: 100px;
+  width: 100px;
+  border: 1px solid gray;
+  justify-content: flex-end;
+  border-radius: 7px;
+  flex-direction: column;
+  background-image: url('/src/assets/civs/britons.png');
+  background-size: contain;
+}
+
+img {
+  height: 100%;
+}
+
+.civ p {
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  margin: 0;
+  font-size: 1.25rem;
+  padding: 0;
+}
+
+#x {
+  color: red;
+  font-size: 5.5rem;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: 700;
+  margin-bottom: -25px;
 }
