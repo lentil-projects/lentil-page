@@ -1,5 +1,5 @@
 export const teamNames = {
-    team1: 'Team 1',
+    team1: 'Basic B****es',
     team2: 'Team 2',
     team3: 'Team 3',
     team4: 'Team 4',
