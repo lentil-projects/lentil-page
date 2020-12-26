@@ -10,8 +10,7 @@
 }
 
 .bracket-panel {
-  border: solid purple;
-  border: 1px solid gray;
+  border: 1px solid lightgray;
   margin: 3px;
   border-radius: 7px;
   background-origin: border-box;
@@ -24,7 +23,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  /* border: solid yellow; */
 }
 
 .pair {
@@ -43,7 +41,7 @@
 .display {
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   margin: 0 auto;
 }
 
@@ -101,9 +99,10 @@ a:hover {
 }
 
 .teams {
-  columns: 2;
-  width: 35vw;
-  margin: 0 auto;
+  padding: 0 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 i:hover {
@@ -112,10 +111,11 @@ i:hover {
 }
 
 .team-info {
-  margin: 0 auto;
-  margin-bottom: 25px;
+  /* margin: 0 auto; */
+  /* margin-bottom: 25px; */
+  margin: 5px;
   width: 250px;
-  border: 1px solid lightblue;
+  border: 1px solid lightgray;
   border-radius: 7px;
   padding: 15px;
 }
@@ -275,7 +275,7 @@ img {
 }
 
 .rulebook {
-  border: 1px solid gray;
+  border: 1px solid lightgray;
   width: 75vw;
   margin: 0 auto;
   border-radius: 7px;
