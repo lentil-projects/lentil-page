@@ -13,73 +13,79 @@ const returnResult = (team, game) => {
 
 export const Championship = () => {
     return (
-        <div>
-            <h2>backdoor Finals</h2>
-            <div className="brackets">
-                <div className="round">
-                    <div className="heading3">Feb 7</div>
-                    <div className="game">
-                        <div className='seed inline'>M</div>
-                        <div className="inline pair">
-                            {returnResult('loser', 'i')}
-                            {returnResult('winner', 'l')}
+        <div className='bracket-group championship'>
+            <div className="bracket-panel">
+                <h2>backdoor Finals</h2>
+                <div className="brackets">
+                    <div className="round">
+                        <div className="heading3">Feb 7</div>
+                        <div className="game">
+                            <div className='seed inline'>M</div>
+                            <div className="inline pair">
+                                {returnResult('loser', 'i')}
+                                {returnResult('winner', 'l')}
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div className="space-col">
-                    <div className="space"></div>
-                    <div className="arrow">{'--'}</div>
-                </div>
-                <div className="round">
-                    <div className="space"></div>
-                    <div className="pair">
-                        {returnResult('winner', 'm')}
+                    <div className="space-col">
+                        <div className="space"></div>
+                        <div className="arrow">{'--'}</div>
                     </div>
-                </div>
-            </div>
-            <h2>Finals</h2>
-            <div className="brackets">
-                <div className="round">
-                    <div className="heading3">Feb 14</div>
-                    <div className="game">
-                        <div className='seed inline'>N</div>
-                        <div className="inline pair">
-                            {returnResult('winner', 'i')}
+                    <div className="round">
+                        <div className="space"></div>
+                        <div className="pair">
                             {returnResult('winner', 'm')}
                         </div>
                     </div>
                 </div>
-                <div className="space-col">
-                    <div className="space"></div>
-                    <div className="arrow">{'--'}</div>
-                </div>
-                <div className="round">
-                    <div className="space"></div>
-                    <div className="pair">
-                        {returnResult('winner', 'n')}
-                    </div>
-                </div>
             </div>
-            <h2>Finals Rd. 2 (if needed)</h2>
-            <div className="brackets">
-                <div className="round">
-                    <div className="heading3">Feb 21</div>
-                    <div className="game">
-                        <div className='seed inline'>O</div>
-                        <div className="inline pair">
+            <div className="bracket-panel">
+                <h2>Finals</h2>
+                <div className="brackets">
+                    <div className="round">
+                        <div className="heading3">Feb 14</div>
+                        <div className="game">
+                            <div className='seed inline'>N</div>
+                            <div className="inline pair">
+                                {returnResult('winner', 'i')}
+                                {returnResult('winner', 'm')}
+                            </div>
+                        </div>
+                    </div>
+                    <div className="space-col">
+                        <div className="space"></div>
+                        <div className="arrow">{'--'}</div>
+                    </div>
+                    <div className="round">
+                        <div className="space"></div>
+                        <div className="pair">
                             {returnResult('winner', 'n')}
-                            {returnResult('loser', 'n')}
                         </div>
                     </div>
                 </div>
-                <div className="space-col">
-                    <div className="space"></div>
-                    <div className="arrow">{'--'}</div>
-                </div>
-                <div className="round">
-                    <div className="space"></div>
-                    <div className="pair">
-                        {returnResult('winner', 'o')}
+            </div>
+            <div className="bracket-panel">
+                <h2>Finals Rd. 2 (if needed)</h2>
+                <div className="brackets">
+                    <div className="round">
+                        <div className="heading3">Feb 21</div>
+                        <div className="game">
+                            <div className='seed inline'>O</div>
+                            <div className="inline pair">
+                                {returnResult('winner', 'n')}
+                                {returnResult('loser', 'n')}
+                            </div>
+                        </div>
+                    </div>
+                    <div className="space-col">
+                        <div className="space"></div>
+                        <div className="arrow">{'--'}</div>
+                    </div>
+                    <div className="round">
+                        <div className="space"></div>
+                        <div className="pair">
+                            {returnResult('winner', 'o')}
+                        </div>
                     </div>
                 </div>
             </div>

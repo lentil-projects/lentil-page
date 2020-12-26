@@ -14,7 +14,9 @@ const returnResult = (team, game) => {
 
 export const Brackets = () => {
     return (
-        <div>
+        <div className='bracket-group'>
+            <div className="bracket-panel">
+
             <h2>Lentil bracket</h2>
             <div className='brackets'>
                 <div className='round'>
@@ -109,6 +111,9 @@ export const Brackets = () => {
                 </div>
                 <div className="round"></div>
             </div>
+            </div>
+            <div className="bracket-panel">
+
             <h2>Rice bracket</h2>
             <div className="brackets">
                 <div className="round"></div>
@@ -175,6 +180,7 @@ export const Brackets = () => {
                         {returnResult('winner', 'l')}
                     </div>
                 </div>
+            </div>
             </div>
         </div>
     )
