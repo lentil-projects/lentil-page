@@ -228,6 +228,11 @@ p {
   background-size: contain;
 }
 
+.civ:hover {
+  opacity: .8;
+  cursor: pointer;
+}
+
 img {
   height: 100%;
 }
@@ -246,4 +251,31 @@ img {
   font-family:'Courier New', Courier, monospace;
   font-weight: 700;
   margin-bottom: -25px;
+}
+
+.rulebook {
+  border: 1px solid gray;
+  width: 75vw;
+  margin: 0 auto;
+  border-radius: 7px;
+  text-align: left;
+  padding: 50px;
+}
+
+.rulebook h2 {
+  margin-bottom: 0;
+}
+
+.purple {
+  color: blue;
+  text-decoration: underline;
+}
+
+.fa-external-link-alt {
+  margin-left: 5px;
+}
+
+.fa-external-link-alt:hover {
+  color: black;
+  cursor: default;
 }
