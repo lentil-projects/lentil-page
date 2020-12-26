@@ -1,16 +1,17 @@
 import React, {useState} from 'react';
-import {civsList} from '../constants/civs';
+import {civsList, teamCivPicks} from '../constants/civs';
 
-export const Civs = () => {
-    const [team1Civs, updateCivs] = useState({
-        britons: false,
-        byzantines: false
-    })
+export const Civs = props => {
+    const [teamCivs, updateCivs] = useState({})
 
     const addX = (civ) => {
+        if(teamCivPicks[props.team].includes(civ)){
+            return
+        }
+
         updateCivs({
-            ...team1Civs,
-            [civ]: !team1Civs[civ],
+            ...teamCivs,
+            [civ]: !teamCivs[civ],
         })
     }
 
@@ -18,7 +19,8 @@ export const Civs = () => {
         return civsList.map(civ => {
             return (
                 <div className="civ flex2" onClick={() => addX(civ)}>
-                    {team1Civs[civ] && <p id='x'>X</p>}
+                    {teamCivPicks[props.team].includes(civ) && <p id='x'>X</p>}
+                    {teamCivs[civ] && <p id='x'>X</p>}
                     <p>{civ}</p>
                 </div>
             )

@@ -67,8 +67,8 @@ export const Championship = () => {
                     <div className="game">
                         <div className='seed inline'>O</div>
                         <div className="inline pair">
+                            {returnResult('winner', 'n')}
                             {returnResult('loser', 'n')}
-                            {returnResult('winner', 'm')}
                         </div>
                     </div>
                 </div>
