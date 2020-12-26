@@ -6,6 +6,7 @@ export const Page = () => {
     return (
         <>
         <h1>Bracket</h1>
+        <p>Dates reflect when games will be cast.</p>
         <div className="display">
             <Brackets />
             <Championship />

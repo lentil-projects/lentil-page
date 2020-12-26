@@ -1,3 +1,3 @@
-# Lentil Cup 2021 Website
+# Lentil Cup website
 
 ![Screenshot](src/assets/lentil-readme.png)
