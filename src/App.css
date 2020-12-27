@@ -86,7 +86,8 @@
 }
 
 .heading3 {
-  background: plum;
+  background: lightslategray;
+  color: white;
 }
 
 header {
@@ -237,6 +238,7 @@ p {
 
 .gray {
   background: lightgray;
+  background: plum;
   border-radius: 3px;
   right: 5px;
   border: 1px solid gray;
@@ -404,4 +406,21 @@ li img {
 
 .modal li {
   list-style: none;
+}
+
+.small-seed {
+  height: 1rem;
+  width: 1rem;
+  padding: 1px;
+  font-family: monospace;
+  font-weight: bold;
+  background: lightgray;
+  /* background: plum; */
+}
+
+.score {
+  font-family: monospace;
+  color: lightgray;
+  font-size: 1.25rem;
+  color: plum;
 }
