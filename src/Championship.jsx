@@ -33,8 +33,10 @@ export const Championship = () => {
                     </div>
                     <div className="round">
                         <div className="space"></div>
-                        <div className="pair">
-                            {returnResult('winner', 'm')}
+                        <div className="game">
+                            <div className="pair">
+                                {returnResult('winner', 'm')}
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -58,8 +60,10 @@ export const Championship = () => {
                     </div>
                     <div className="round">
                         <div className="space"></div>
-                        <div className="pair">
-                            {returnResult('winner', 'n')}
+                        <div className="game">
+                            <div className="pair">
+                                {returnResult('winner', 'n')}
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -83,8 +87,10 @@ export const Championship = () => {
                     </div>
                     <div className="round">
                         <div className="space"></div>
-                        <div className="pair">
-                            {returnResult('winner', 'o')}
+                        <div className="game">
+                            <div className="pair">
+                                {returnResult('winner', 'o')}
+                            </div>
                         </div>
                     </div>
                 </div>

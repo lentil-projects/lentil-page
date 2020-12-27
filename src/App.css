@@ -41,10 +41,10 @@
 
 .pair {
   margin: 5px;
-  width: 75%;
+  /* width: 75%; */
   border: 1px solid gray;
   text-align: left;
-  padding-left: 5px;
+  padding: 2px 5px;
 }
 
 .space {
@@ -209,7 +209,11 @@ ul {
 }
 
 em {
-  color: lightgray;
+  color: dimgray;
+  background: plum;
+  padding: 0 5px;
+  background: lightgray;
+  border-radius: 7px;
 }
 
 h1 {
@@ -224,10 +228,6 @@ p {
   background: lightgray;
   border-radius: 3px;
   right: 5px;
-}
-
-.team {
-  width: 100px;
 }
 
 .large-logo {
