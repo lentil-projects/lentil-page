@@ -15,7 +15,8 @@ export const playerNames = {
             player: 'EmpiranT',
             elo: '1425',
             twitch: 'https://www.twitch.tv/empirant',
-            logo: 'https://www.nicepng.com/png/detail/146-1465832_free-download-pink-starbucks-coffee-clipart-coffee-custom.png'
+            logo: 'https://www.nicepng.com/png/detail/146-1465832_free-download-pink-starbucks-coffee-clipart-coffee-custom.png',
+            seed: 1
         },
         {
             player: 'Gingersnap',
@@ -25,7 +26,8 @@ export const playerNames = {
     team2: [
         {
             player: 'Player 1',
-            elo: 'elo'
+            elo: 'elo',
+            seed: 2
         },
         {
             player: 'Player 2',
@@ -35,7 +37,8 @@ export const playerNames = {
     team3: [
         {
             player: 'Player 1',
-            elo: 'elo'
+            elo: 'elo',
+            seed: 3
         },
         {
             player: 'Player 2',
@@ -45,7 +48,8 @@ export const playerNames = {
     team4: [
         {
             player: 'Player 1',
-            elo: 'elo'
+            elo: 'elo',
+            seed: 4
         },
         {
             player: 'Player 2',
@@ -55,7 +59,8 @@ export const playerNames = {
     team5: [
         {
             player: 'Player 1',
-            elo: 'elo'
+            elo: 'elo',
+            seed: 5
         },
         {
             player: 'Player 2',
@@ -65,7 +70,8 @@ export const playerNames = {
     team6: [
         {
             player: 'Player 1',
-            elo: 'elo'
+            elo: 'elo',
+            seed: 6
         },
         {
             player: 'Player 2',
@@ -75,7 +81,8 @@ export const playerNames = {
     team7: [
         {
             player: 'Player 1',
-            elo: 'elo'
+            elo: 'elo',
+            seed: 7
         },
         {
             player: 'Player 2',
@@ -85,7 +92,8 @@ export const playerNames = {
     team8: [
         {
             player: 'Player 1',
-            elo: 'elo'
+            elo: 'elo',
+            seed: 8
         },
         {
             player: 'Player 2',

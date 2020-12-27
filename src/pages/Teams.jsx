@@ -15,7 +15,7 @@ export const Teams = () => {
         toggleTeamInfo(false);
     }
 
-    const mapTeams = (seed, team) => {
+    const mapTeams = (team) => {
         const hasTwitch = (index) => {
             if (playerNames[team][index].twitch) {
                 return (
@@ -32,7 +32,7 @@ export const Teams = () => {
                 <div className="team-info">
                     {playerNames[team][0].logo && <img className="team-logo" src={playerNames[team][0].logo} alt="" onClick={() => showModal(team)}/>}
                     <div className="team-name flex">
-                    <div className='seed inline'>{seed}</div>
+                    <div className='seed inline'>{playerNames[team][0].seed}</div>
                     <h2 className='inline' onClick={() => showModal(team)}>{teamNames[team]}</h2>
                     </div>
                     <ul>
@@ -50,14 +50,14 @@ export const Teams = () => {
             <h1>Teams</h1>
             <p>Click team name for more information.</p>
             <div className="teams">
-                {mapTeams(1, 'team1')}
-                {mapTeams(2, 'team2')}
-                {mapTeams(3, 'team3')}
-                {mapTeams(4, 'team4')}
-                {mapTeams(5, 'team5')}
-                {mapTeams(6, 'team6')}
-                {mapTeams(7, 'team7')}
-                {mapTeams(8, 'team8')}
+                {mapTeams('team1')}
+                {mapTeams('team2')}
+                {mapTeams('team3')}
+                {mapTeams('team4')}
+                {mapTeams('team5')}
+                {mapTeams('team6')}
+                {mapTeams('team7')}
+                {mapTeams('team8')}
             </div>
         </div>
     )

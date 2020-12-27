@@ -26,7 +26,7 @@ export const TeamInfo = props => {
                     </div>
                     <div className="right">
                         <div className='flex2'>
-                            <div className='seed inline'>1</div>
+                            <div className='seed inline'>{playerNames[props.team][0].seed}</div>
                             <h1>{teamNames[props.team]}</h1>
                         </div>
                         <ul>
