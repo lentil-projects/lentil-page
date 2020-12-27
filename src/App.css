@@ -186,6 +186,10 @@ ul {
   padding-left: 10px;
 }
 
+.modal ul {
+  font-size: 1.25rem;
+}
+
 .game {
   display: flex;
   align-items: center;
