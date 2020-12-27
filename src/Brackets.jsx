@@ -82,6 +82,7 @@ export const Brackets = () => {
                         <div className="triangle">{']-'}</div>
                         <div className="space"></div>
                         <div className="space"></div>
+                        <div className="space"></div>
                         <div className="triangle">{']-'}</div>
                     </div>
                     <div className="round">
@@ -93,6 +94,7 @@ export const Brackets = () => {
                                 {returnResult('winner', 'b')}
                             </div>
                         </div>
+                        <div className="space"></div>
                         <div className="space"></div>
                         <div className="space"></div>
                         <div className="game">
