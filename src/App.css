@@ -99,7 +99,7 @@ a:hover {
 }
 
 .teams {
-  padding: 0 50px;
+  padding: 0 10vw;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -118,6 +118,11 @@ i:hover {
   border-radius: 7px;
   padding: 15px;
   /* box-shadow: 0 0 2px 1px lightgray; */
+}
+
+.team-info:hover {
+  cursor: pointer;
+  background: lightgray;
 }
 
 .team-info img {
@@ -182,11 +187,6 @@ em {
   color: lightgray;
 }
 
-.team-name h2:hover {
-  color: purple;
-  cursor: pointer;
-}
-
 h1 {
   margin: 0;
 }
@@ -202,7 +202,7 @@ p {
 }
 
 .team {
-  width: calc(100px);
+  width: 100px;
 }
 
 .large-logo {
