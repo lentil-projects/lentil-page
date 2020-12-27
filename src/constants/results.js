@@ -1,9 +1,9 @@
-// import {teamNames} from './teams';
+import {teamNames} from './teams';
 
-// const {team1, team2} = teamNames
+const {team1, team2} = teamNames;
 
 export const winners = {
-    a: '',
+    a: team1,
     b: '',
     c: '',
     d: '',

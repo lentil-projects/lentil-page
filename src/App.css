@@ -16,7 +16,8 @@
   background-origin: border-box;
   padding: 10px;
   background: white;
-  background: rgba(255,255,255,.95);
+  background: rgba(255,255,255,.85);
+  /* background: rgba(205,205,205,.95); */
   max-width: 80vw;
   margin: 5px auto;
   margin-top: 0;
@@ -42,9 +43,13 @@
 .pair {
   margin: 5px;
   /* width: 75%; */
-  border: 1px solid gray;
+  /* border: 1px solid gray; */
+  border-radius: 3px;
   text-align: left;
-  padding: 2px 5px;
+  padding: 3px 5px;
+  background: white;
+  /* background: rgba(235,235,235,.9); */
+  box-shadow: 0 0 3px 1px gray;
 }
 
 .space {
@@ -143,6 +148,7 @@ i:hover {
   background: white;
   background: rgba(255,255,255,.95);
   padding-top: 25px;
+  background: rgba(255,255,255,.85);
 }
 
 .team-info:hover {
@@ -215,10 +221,10 @@ ul {
 
 em {
   color: dimgray;
-  background: plum;
-  padding: 0 5px;
   background: lightgray;
-  border-radius: 7px;
+  background: lightpink;
+  padding: 0 5px;
+  border-radius: 3px;
 }
 
 h1 {
@@ -233,6 +239,8 @@ p {
   background: lightgray;
   border-radius: 3px;
   right: 5px;
+  border: 1px solid gray;
+  box-sizing: border-box;
 }
 
 .large-logo {
@@ -334,6 +342,7 @@ img {
   padding: 50px;
   background: white;
   background: rgba(255,255,255,.95);
+  background: rgba(255,255,255,.85);
 }
 
 .rulebook h2 {
