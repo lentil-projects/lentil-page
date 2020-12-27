@@ -263,13 +263,11 @@ p {
   top: 100px;
   left: 25vw;
   background: white;
-  padding: 50px;
+  padding: 25px;
   border: 1px solid lightgray;
   border-radius: 7px;
   text-align: left;
-  padding-left: 50px;
   margin-top: 50px;
-  /* box-shadow: 0 0 3px 1px lightgray; */
 }
 
 .modal ul {
@@ -278,9 +276,7 @@ p {
 
 .fa-times {
   font-size: 2rem;
-  margin-left: 15px;
   float: right;
-  margin-right: 50px;
 }
 
 .flex2 {
@@ -398,4 +394,14 @@ body {
 .fab {
   color: black;
   text-shadow: none;
+  margin-right: 5px;
+}
+
+li img {
+  height: 1rem;
+  margin-left: 5px;
+}
+
+.modal li {
+  list-style: none;
 }

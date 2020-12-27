@@ -30,8 +30,8 @@ export const TeamInfo = props => {
                             <h1>{teamNames[props.team]}</h1>
                         </div>
                         <ul>
-                            <li>{playerNames[team][0].player} ({playerNames[team][0].elo}) {hasTwitch(0)}</li>
-                            <li>{playerNames[team][1].player} ({playerNames[team][1].elo}) {hasTwitch(1)}</li>
+                            <li>{hasTwitch(0)}{playerNames[team][0].player} ({playerNames[team][0].elo})<img src="https://seeklogo.com/images/A/American_Flag-logo-4ECE0EED17-seeklogo.com.png" alt=""/></li>
+                            <li>{hasTwitch(1)}{playerNames[team][1].player} ({playerNames[team][1].elo})<img src="https://seeklogo.com/images/A/American_Flag-logo-4ECE0EED17-seeklogo.com.png" alt=""/></li>
                         </ul>
                     </div>
                 </div>
