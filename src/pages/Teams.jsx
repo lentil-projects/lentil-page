@@ -30,13 +30,14 @@ export const Teams = () => {
         return (
             <>
                 <div className="team-info">
+                    {playerNames[team][0].logo && <img className="team-logo" src={playerNames[team][0].logo} alt="" onClick={() => showModal(team)}/>}
                     <div className="team-name flex">
-                        <div className='seed inline'>{seed}</div>
-                        <h2 className='inline' onClick={() => showModal(team)}>{teamNames[team]}</h2>
+                    <div className='seed inline'>{seed}</div>
+                    <h2 className='inline' onClick={() => showModal(team)}>{teamNames[team]}</h2>
                     </div>
                     <ul>
-                        <li>{playerNames[team][0].player} ({playerNames[team][0].elo}) {hasTwitch(0)}</li>
-                        <li>{playerNames[team][1].player} ({playerNames[team][1].elo}) {hasTwitch(1)}</li>
+                    <li>{playerNames[team][0].player} ({playerNames[team][0].elo}) {hasTwitch(0)}</li>
+                    <li>{playerNames[team][1].player} ({playerNames[team][1].elo}) {hasTwitch(1)}</li>
                     </ul>
                 </div>
             </>
@@ -45,7 +46,7 @@ export const Teams = () => {
 
     return (
         <div>
-            {showTeamInfo && <TeamInfo team={team} hideModal={hideModal}/>}
+            {showTeamInfo && <TeamInfo team={team} hideModal={hideModal} />}
             <h1>Teams</h1>
             <p>Click team name for more information.</p>
             <div className="teams">

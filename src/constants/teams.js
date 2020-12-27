@@ -14,7 +14,8 @@ export const playerNames = {
         {
             player: 'EmpiranT',
             elo: '1425',
-            twitch: 'https://www.twitch.tv/empirant'
+            twitch: 'https://www.twitch.tv/empirant',
+            logo: 'https://www.nicepng.com/png/detail/146-1465832_free-download-pink-starbucks-coffee-clipart-coffee-custom.png'
         },
         {
             player: 'Gingersnap',
