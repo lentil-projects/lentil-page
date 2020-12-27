@@ -14,11 +14,11 @@ const returnResult = (team, game) => {
 export const Championship = () => {
     return (
         <div className='bracket-group championship'>
-            <div className="bracket-panel">
+            <div className="bracket-panel little-bracket">
                 <h2>backdoor Finals</h2>
                 <div className="brackets">
                     <div className="round">
-                        <div className="heading3">Feb 7</div>
+                        <div className="heading3">Feb 7*</div>
                         <div className="game">
                             <div className='seed inline'>M</div>
                             <div className="inline pair">
@@ -39,11 +39,11 @@ export const Championship = () => {
                     </div>
                 </div>
             </div>
-            <div className="bracket-panel">
+            <div className="bracket-panel little-bracket">
                 <h2>Finals</h2>
                 <div className="brackets">
                     <div className="round">
-                        <div className="heading3">Feb 14</div>
+                        <div className="heading3">Feb 14*</div>
                         <div className="game">
                             <div className='seed inline'>N</div>
                             <div className="inline pair">
@@ -64,11 +64,11 @@ export const Championship = () => {
                     </div>
                 </div>
             </div>
-            <div className="bracket-panel">
+            <div className="bracket-panel little-bracket">
                 <h2>Finals Rd. 2 (if needed)</h2>
                 <div className="brackets">
                     <div className="round">
-                        <div className="heading3">Feb 21</div>
+                        <div className="heading3">Feb 21*</div>
                         <div className="game">
                             <div className='seed inline'>O</div>
                             <div className="inline pair">
@@ -89,6 +89,7 @@ export const Championship = () => {
                     </div>
                 </div>
             </div>
+            <p className='white note'>* dates reflect when games are cast.</p>
         </div>
     )
 }

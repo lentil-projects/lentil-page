@@ -47,8 +47,8 @@ export const Teams = () => {
     return (
         <div>
             {showTeamInfo && <TeamInfo team={team} hideModal={hideModal} />}
-            <h1>Teams</h1>
-            <p>Click on team for more information.</p>
+            <h1 className='white'>Teams</h1>
+            <p className='white'>Click on team for more information.</p>
             <div className="teams">
                 {mapTeams('team1')}
                 {mapTeams('team2')}

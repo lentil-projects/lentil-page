@@ -20,7 +20,7 @@ export const Brackets = () => {
             <h2>Lentil bracket</h2>
             <div className='brackets'>
                 <div className='round'>
-                    <div className="heading">Jan 17</div>
+                    <div className="heading">Jan 17*</div>
                     <div className='game'>
                         <div className='seed inline'>A</div>
                         <div className="inline pair">
@@ -67,7 +67,7 @@ export const Brackets = () => {
                     <div className="triangle">{']-'}</div>
                 </div>
                 <div className="round">
-                    <div className="heading">Jan 24</div>
+                    <div className="heading">Jan 24*</div>
                     <div className="game">
                         <div className='seed inline'>E</div>
                         <div className="inline pair">
@@ -90,7 +90,7 @@ export const Brackets = () => {
                     <div className="triangle">{']-'}</div>
                 </div>
                 <div className="round">
-                    <div className="heading">Jan 31</div>
+                    <div className="heading">Jan 31*</div>
                     <div className="game">
                         <div className='seed inline'>I</div>
                         <div className="inline pair">
@@ -109,16 +109,16 @@ export const Brackets = () => {
                         {returnResult('winner', 'i')}
                     </div>
                 </div>
-                <div className="round"></div>
+                {/* <div className="round"></div> */}
             </div>
             </div>
             <div className="bracket-panel">
 
             <h2>Rice bracket</h2>
             <div className="brackets">
-                <div className="round"></div>
+                {/* <div className="round"></div> */}
                 <div className="round">
-                    <div className="heading2">Jan 24</div>
+                    <div className="heading2">Jan 24*</div>
                     <div className="game">
                         <div className='seed inline'>G</div>
                         <div className="inline pair">
@@ -140,7 +140,7 @@ export const Brackets = () => {
                     <div className="arrow">{'--'}</div>
                 </div>
                 <div className="round">
-                    <div className="heading2">Jan 31</div>
+                    <div className="heading2">Jan 31*</div>
                     <div className="game">
                         <div className='seed inline'>J</div>
                         <div className="inline pair">
@@ -161,7 +161,7 @@ export const Brackets = () => {
                     <div className="triangle">{']-'}</div>
                 </div>
                 <div className="round">
-                    <div className="heading2">Feb 7</div>
+                    <div className="heading2">Feb 7*</div>
                     <div className="game">
                         <div className='seed inline'>L</div>
                         <div className="inline pair">

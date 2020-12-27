@@ -14,7 +14,21 @@
   margin: 3px;
   border-radius: 7px;
   background-origin: border-box;
-  padding: 15px;
+  padding: 10px;
+  background: white;
+  background: rgba(255,255,255,.95);
+  max-width: 80vw;
+  margin: 5px auto;
+  margin-top: 0;
+}
+
+.bracket-panel h2 {
+  margin: 5px;
+}
+
+.little-bracket {
+  margin: 5px;
+  margin-top: 0;
 }
 
 .round {
@@ -59,6 +73,7 @@
 .heading, .heading2, .heading3 {
   background: lightblue;
   padding: 3px 0;
+  font-weight: bold;
 }
 
 .heading2 {
@@ -85,13 +100,20 @@ nav {
 }
 
 nav h2 {
-  margin: 0 5px;
-  font-size: 15px;
+  margin: 0 10px;
+  font-size: 22px;
+}
+
+nav h2:hover {
+  /* color: purple; */
+  text-shadow: 2px 2px 5px black;
 }
 
 a {
   text-decoration: none;
   color: black;
+  color: white;
+  text-shadow: 1px 1px black;
 }
 
 a:hover {
@@ -118,11 +140,14 @@ i:hover {
   border-radius: 7px;
   padding: 15px;
   /* box-shadow: 0 0 2px 1px lightgray; */
+  background: white;
+  background: rgba(255,255,255,.95);
 }
 
 .team-info:hover {
   cursor: pointer;
   background: lightgray;
+  background: rgba(211,211,211,.9);
 }
 
 .team-info img {
@@ -215,23 +240,22 @@ p {
   top: 0;
   height: 100vh;
   width: 100vw;
-  background: rgba(255,255,255,.85);
-  margin-top: 100px;
+  background: rgba(11,11,11,.85);
+  /* margin-top: 100px; */
 }
 
 .modal {
-  height: 80vh;
   width: 50vw;
   position: fixed;
   top: 100px;
   left: 25vw;
   background: white;
-  padding-top: 50px;
+  padding: 50px;
   border: 1px solid lightgray;
-  background: white;
   border-radius: 7px;
   text-align: left;
   padding-left: 50px;
+  margin-top: 50px;
   /* box-shadow: 0 0 3px 1px lightgray; */
 }
 
@@ -298,11 +322,13 @@ img {
 
 .rulebook {
   border: 1px solid lightgray;
-  width: 75vw;
+  width: 70vw;
   margin: 0 auto;
   border-radius: 7px;
   text-align: left;
   padding: 50px;
+  background: white;
+  background: rgba(255,255,255,.95);
 }
 
 .rulebook h2 {
@@ -312,6 +338,7 @@ img {
 .purple {
   color: blue;
   text-decoration: underline;
+  text-shadow: none;
 }
 
 .fa-external-link-alt {
@@ -335,4 +362,24 @@ img {
 .team-header {
   display: flex;
   align-items: center;
+}
+
+body {
+  background-image: url('https://cdn.hipwallpaper.com/i/90/13/yajYgu.jpg');
+}
+
+.white {
+  color: white;
+  text-shadow: 1px 1px black;
+  font-weight: bold;
+}
+
+.note {
+  font-size: 1.2rem;
+  margin-top: 15px;
+}
+
+.fab {
+  color: black;
+  text-shadow: none;
 }
