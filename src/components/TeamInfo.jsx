@@ -16,6 +16,15 @@ export const TeamInfo = props => {
         return <></>
     }
 
+    const hasFlag = (index) => {
+        if (playerNames[team][index].flag){
+            return (
+                <img src={playerNames[team][index].flag} alt={playerNames[team][index].flag} />
+            )
+        }
+        return <></>
+    }
+
     return (
         <div className="modal-container">
             <div className="modal" >
@@ -30,8 +39,18 @@ export const TeamInfo = props => {
                             <h1>{teamNames[props.team]}</h1>
                         </div>
                         <ul>
-                            <li>{playerNames[team][0].player} ({playerNames[team][0].elo}) {hasTwitch(0)}</li>
-                            <li>{playerNames[team][1].player} ({playerNames[team][1].elo}) {hasTwitch(1)}</li>
+                            <li>
+                                {hasTwitch(0)}
+                                {playerNames[team][0].player}
+                                ({playerNames[team][0].elo})
+                                {hasFlag(0)}
+                            </li>
+                            <li>
+                                {hasTwitch(1)}
+                                {playerNames[team][1].player}
+                                ({playerNames[team][1].elo})
+                                {hasFlag(1)}
+                            </li>
                         </ul>
                     </div>
                 </div>

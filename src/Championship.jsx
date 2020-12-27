@@ -14,13 +14,13 @@ const returnResult = (team, game) => {
 export const Championship = () => {
     return (
         <div className='bracket-group championship'>
-            <div className="bracket-panel">
+            <div className="bracket-panel little-bracket">
                 <h2>backdoor Finals</h2>
                 <div className="brackets">
                     <div className="round">
-                        <div className="heading3">Feb 7</div>
+                        <div className="heading3">Feb 7*</div>
                         <div className="game">
-                            <div className='seed inline'>M</div>
+                            <div className='seed inline gray'>M</div>
                             <div className="inline pair">
                                 {returnResult('loser', 'i')}
                                 {returnResult('winner', 'l')}
@@ -33,19 +33,21 @@ export const Championship = () => {
                     </div>
                     <div className="round">
                         <div className="space"></div>
-                        <div className="pair">
-                            {returnResult('winner', 'm')}
+                        <div className="game">
+                            <div className="pair">
+                                {returnResult('winner', 'm')}
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="bracket-panel">
+            <div className="bracket-panel little-bracket">
                 <h2>Finals</h2>
                 <div className="brackets">
                     <div className="round">
-                        <div className="heading3">Feb 14</div>
+                        <div className="heading3">Feb 14*</div>
                         <div className="game">
-                            <div className='seed inline'>N</div>
+                            <div className='seed inline gray'>N</div>
                             <div className="inline pair">
                                 {returnResult('winner', 'i')}
                                 {returnResult('winner', 'm')}
@@ -58,19 +60,21 @@ export const Championship = () => {
                     </div>
                     <div className="round">
                         <div className="space"></div>
-                        <div className="pair">
-                            {returnResult('winner', 'n')}
+                        <div className="game">
+                            <div className="pair">
+                                {returnResult('winner', 'n')}
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="bracket-panel">
-                <h2>Finals Rd. 2 (if needed)</h2>
+            <div className="bracket-panel little-bracket">
+                <h2>Finals round 2** </h2>
                 <div className="brackets">
                     <div className="round">
-                        <div className="heading3">Feb 21</div>
+                        <div className="heading3">Feb 21*</div>
                         <div className="game">
-                            <div className='seed inline'>O</div>
+                            <div className='seed inline gray'>O</div>
                             <div className="inline pair">
                                 {returnResult('winner', 'n')}
                                 {returnResult('loser', 'n')}
@@ -83,12 +87,16 @@ export const Championship = () => {
                     </div>
                     <div className="round">
                         <div className="space"></div>
-                        <div className="pair">
-                            {returnResult('winner', 'o')}
+                        <div className="game">
+                            <div className="pair">
+                                {returnResult('winner', 'o')}
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <p className='white note'>* dates reflect when games are cast</p>
+            <p className='white note'>** if needed</p>
         </div>
     )
 }
