@@ -1,7 +1,3 @@
-import {teamNames} from './teams';
-
-const {team1} = teamNames;
-
 export const winners = {
     a: 'team1',
     b: '',
