@@ -312,7 +312,6 @@ p {
   justify-content: flex-end;
   border-radius: 7px;
   flex-direction: column;
-  background-image: url('/src/assets/civs/britons.png');
   background-size: contain;
 }
 

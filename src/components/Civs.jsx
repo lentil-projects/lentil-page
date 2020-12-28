@@ -18,7 +18,7 @@ export const Civs = props => {
     const mapCivs = () => {
         return civsList.map(civ => {
             return (
-                <div className="civ flex2" onClick={() => addX(civ)}>
+                <div className={`civ flex2 ${civ}`} onClick={() => addX(civ)}>
                     {teamCivPicks[props.team].includes(civ) && <p id='x' className='locked'>X</p>}
                     {teamCivs[civ] && <p id='x'>X</p>}
                     <p>{civ}</p>
