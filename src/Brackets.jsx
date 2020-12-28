@@ -3,22 +3,22 @@ import { teamNames, playerNames } from './constants/teams';
 import { results} from './constants/results';
 
 const returnResult = (team, game, newGame, newIndex) => {
-    if (team === 'winner' && results[game].winner){
+    if (team === 'winner' && results[game].winner) {
         return (
-            <div>
-            <div className='seed small-seed inline'>{playerNames[results[game].winner][0].seed}</div>
-            <div className='team inline'>{teamNames[results[game].winner]}</div>
-            {returnScore(newGame, newIndex)}
+            <div className='row'>
+                {returnScore(newGame, newIndex)}
+                <div className='seed small-seed inline'>{playerNames[results[game].winner][0].seed}</div>
+                <div className='team inline'>{teamNames[results[game].winner]}</div>
             </div>
         )
     }
-    if (team === 'loser' && results[game].loser){
+    if (team === 'loser' && results[game].loser) {
         return (
-        <div>
-        <div className='seed small-seed inline'>{playerNames[results[game].loser][0].seed}</div>
-        <div className='team inline'>{teamNames[results[game].loser]}</div>
-        {returnScore(newGame, newIndex)}
-        </div>
+            <div className='row'>
+                {returnScore(newGame, newIndex)}
+                <div className='seed small-seed inline'>{playerNames[results[game].loser][0].seed}</div>
+                <div className='team inline'>{teamNames[results[game].loser]}</div>
+            </div>
         )
     }
     return (<div className="team"><em>{`${team} of ${game.toUpperCase()}`}</em></div>)
@@ -38,7 +38,6 @@ export const Brackets = () => {
     return (
         <div className='bracket-group'>
             <div className="bracket-panel">
-
                 <h2>Lentil bracket</h2>
                 <div className='brackets'>
                     <div className='round'>
@@ -46,30 +45,30 @@ export const Brackets = () => {
                         <div className='game'>
                             <div className='seed inline gray'>A</div>
                             <div className="inline pair">
-                                <div className="line">
-                                    <div className='seed small-seed inline'>{playerNames.team1[0].seed}</div>
-                                    <div className="team inline winner">{teamNames.team1}</div>
+                                <div className="row winner">
                                     {returnScore('a', 0)}
+                                    <div className='seed small-seed inline'>{playerNames.team1[0].seed}</div>
+                                    <div className="team inline">{teamNames.team1}</div>
                                 </div>
-                                <div className="line">
+                                <div className="row loser">
+                                    {returnScore('a', 1)}
                                     <div className='seed small-seed inline'>{playerNames.team8[0].seed}</div>
                                     <div className="team inline">{teamNames.team8}</div>
-                                    {returnScore('a', 1)}
                                 </div>
                             </div>
                         </div>
                         <div className="game">
                             <div className='seed inline gray'>B</div>
                             <div className="inline pair">
-                                <div className="line">
+                                <div className="row loser">
+                                    {returnScore('b', 0)}
                                     <div className='seed small-seed inline'>{playerNames.team4[0].seed}</div>
                                     <div className="team inline">{teamNames.team4}</div>
-                                    {returnScore('b', 0)}
                                 </div>
-                                <div className="line">
-                                    <div className='seed small-seed inline'>{playerNames.team5[0].seed}</div>
-                                    <div className="team inline winner">{teamNames.team5}</div>
+                                <div className="row winner">
                                     {returnScore('b', 1)}
+                                    <div className='seed small-seed inline'>{playerNames.team5[0].seed}</div>
+                                    <div className="team inline">{teamNames.team5}</div>
                                 </div>
                             </div>
                         </div>
@@ -77,30 +76,30 @@ export const Brackets = () => {
                         <div className="game">
                             <div className='seed inline gray'>C</div>
                             <div className="inline pair">
-                                <div className="line">
+                                <div className="row">
+                                    {returnScore('c', 0)}
                                     <div className='seed small-seed inline'>{playerNames.team2[0].seed}</div>
                                     <div className="team inline">{teamNames.team2}</div>
-                                    {returnScore('c', 0)}
                                 </div>
-                                <div className="line">
+                                <div className="row">
+                                    {returnScore('c', 1)}
                                     <div className='seed small-seed inline'>{playerNames.team7[0].seed}</div>
                                     <div className="team inline">{teamNames.team7}</div>
-                                    {returnScore('c', 1)}
                                 </div>
                             </div>
                         </div>
                         <div className="game">
                             <div className='seed inline gray'>D</div>
                             <div className="inline pair">
-                                <div className="line">
+                                <div className="row">
+                                    {returnScore('d', 0)}
                                     <div className='seed small-seed inline'>{playerNames.team3[0].seed}</div>
                                     <div className="team inline">{teamNames.team3}</div>
-                                    {returnScore('d', 0)}
                                 </div>
-                                <div className="line">
+                                <div className="row">
+                                    {returnScore('d', 1)}
                                     <div className='seed small-seed inline'>{playerNames.team6[0].seed}</div>
                                     <div className="team inline">{teamNames.team6}</div>
-                                    {returnScore('d', 1)}
                                 </div>
                             </div>
                         </div>

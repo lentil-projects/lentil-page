@@ -220,9 +220,10 @@ ul {
   font-family: arial;
 }
 
-.winner, em {
+em, .winner {
   color: dimgray;
   background: lightgray;
+  background: gainsboro;
   padding: 0 5px;
   border-radius: 3px;
 }
@@ -231,6 +232,14 @@ ul {
   font-style: normal;
   color: black;
   background: lightpink;
+  /* background: none; */
+  padding-left: 0;
+  font-weight: bold;
+  /* background: gold; */
+}
+
+.loser {
+  color: gray;
 }
 
 h1 {
@@ -415,17 +424,37 @@ li img {
 
 .small-seed {
   height: 1rem;
-  width: 1rem;
+  /* width: 1rem; */
+  width: auto;
   padding: 1px;
   font-family: monospace;
   font-weight: bold;
   background: lightgray;
-  /* background: plum; */
+  background: none;
 }
 
 .score {
   font-family: monospace;
-  color: lightgray;
+  font-weight: 300;
+  background: lightgray;
   font-size: 1.25rem;
-  color: plum;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border: 1px solid gray;
+  color: gray;
+  color: black;
+  background: gainsboro;
+  padding: 0;
+  height: 100%;
+}
+
+.row {
+  display: flex;
+  align-items: center;
 }
