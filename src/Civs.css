@@ -35,38 +35,31 @@
 }
 
 .Ethiopians{
-    background-image: url('/src/assets/civs/flemish.png');
-    opacity: .5;
+    background-image: url('/src/assets/civs/ethiopians.png');
 }
 
 .Franks{
-    background-image: url('/src/assets/civs/flemish.png');
-    opacity: .5;
+    background-image: url('/src/assets/civs/franks.png');
 }
 
 .Goths{
-    background-image: url('/src/assets/civs/flemish.png');
-    opacity: .5;
+    background-image: url('/src/assets/civs/goths.png');
 }
 
 .Huns{
-    background-image: url('/src/assets/civs/flemish.png');
-    opacity: .5;
+    background-image: url('/src/assets/civs/huns.png');
 }
 
 .Incas{
-    background-image: url('/src/assets/civs/flemish.png');
-    opacity: .5;
+    background-image: url('/src/assets/civs/incas.png');
 }
 
 .Indians{
-    background-image: url('/src/assets/civs/flemish.png');
-    opacity: .5;
+    background-image: url('/src/assets/civs/indians.png');
 }
 
 .Japanese{
-    background-image: url('/src/assets/civs/flemish.png');
-    opacity: .5;
+    background-image: url('/src/assets/civs/japanese.png');
 }
 
 .Khmer{
@@ -154,8 +147,7 @@
 }
 
 .Italians {
-    background-image: url('/src/assets/civs/flemish.png');
-    opacity: .5;
+    background-image: url('/src/assets/civs/italians.png');
 }
 
 .Portuguese {

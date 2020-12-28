@@ -326,10 +326,12 @@ img {
 
 .civ p {
   color: white;
+  background: rgba(11,11,11,.85);
   text-shadow: 1px 1px 2px black;
   margin: 0;
   font-size: 1.25rem;
-  padding: 0;
+  padding: 0 2px;
+  border-radius: 3px;
 }
 
 #x {
@@ -338,6 +340,7 @@ img {
   font-family:'Courier New', Courier, monospace;
   font-weight: 700;
   margin-bottom: -25px;
+  background: none;
 }
 
 .locked:hover {
