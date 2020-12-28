@@ -458,3 +458,12 @@ li img {
   display: flex;
   align-items: center;
 }
+
+.fa-github {
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  color: white;
+  font-size: 2rem;
+  text-shadow: 1px 1px black;
+}
