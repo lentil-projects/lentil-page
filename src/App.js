@@ -1,4 +1,5 @@
 import './App.css';
+import './Civs.css';
 import { Switch, Route } from 'react-router-dom';
 import { Page } from './pages/Page';
 import { Rulebook } from './pages/Rulebook';
