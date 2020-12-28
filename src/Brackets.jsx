@@ -48,7 +48,7 @@ export const Brackets = () => {
                             <div className="inline pair">
                                 <div className="line">
                                     <div className='seed small-seed inline'>{playerNames.team1[0].seed}</div>
-                                    <div className="team inline">{teamNames.team1}</div>
+                                    <div className="team inline winner">{teamNames.team1}</div>
                                     {returnScore('a', 0)}
                                 </div>
                                 <div className="line">
@@ -68,7 +68,7 @@ export const Brackets = () => {
                                 </div>
                                 <div className="line">
                                     <div className='seed small-seed inline'>{playerNames.team5[0].seed}</div>
-                                    <div className="team inline">{teamNames.team5}</div>
+                                    <div className="team inline winner">{teamNames.team5}</div>
                                     {returnScore('b', 1)}
                                 </div>
                             </div>

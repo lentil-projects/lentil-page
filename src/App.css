@@ -220,12 +220,17 @@ ul {
   font-family: arial;
 }
 
-em {
+.winner, em {
   color: dimgray;
   background: lightgray;
-  background: lightpink;
   padding: 0 5px;
   border-radius: 3px;
+}
+
+.winner {
+  font-style: normal;
+  color: black;
+  background: lightpink;
 }
 
 h1 {
