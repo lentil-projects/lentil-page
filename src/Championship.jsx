@@ -11,7 +11,6 @@ const returnResult = (team, game) => {
     return (<div className="team"><em>{`${team} of ${game.toUpperCase()}`}</em></div>)
 }
 
-
 export const Championship = () => {
     return (
         <div className='bracket-group championship'>

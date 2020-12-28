@@ -1,23 +1,22 @@
 import React from 'react';
 import { teamNames, playerNames } from './constants/teams';
-import { winners, losers } from './constants/results';
+import { results} from './constants/results';
 
 const returnResult = (team, game) => {
-    if (team === 'winner' && winners[game]) {
-        return (<>
-            <div className='seed small-seed inline'>{playerNames[winners[game]][0].seed}</div>
-            <div className="inline team">{teamNames[winners[game]]}</div>
-            <div className='inline score'>0</div>
-        </>)
+    if (team === 'winner' && results[game].winner){
+        return (<div className='team'>{teamNames[results[game].winner]}</div>)
     }
-    if (team === 'loser' && losers[game]) {
-        return (<>
-            <div className='seed small-seed inline'>{playerNames[losers[game]][0].seed}</div>
-            <div className="inline team">{teamNames[losers[game]]}</div>
-            <div className='inline score'>0</div>
-        </>)
+    if (team === 'loser' && results[game].loser){
+        return (<div className='team'>{teamNames[results[game].loser]}</div>)
     }
     return (<div className="team"><em>{`${team} of ${game.toUpperCase()}`}</em></div>)
+}
+
+const returnScore = (game, index) => {
+    if (!results[game].score.length){
+        return (<div className='inline score'>0</div>)
+    }
+    return (<div className='inline score'>{results[game].score[index]}</div>)
 }
 
 export const Brackets = () => {
@@ -35,12 +34,12 @@ export const Brackets = () => {
                                 <div className="line">
                                     <div className='seed small-seed inline'>{playerNames.team1[0].seed}</div>
                                     <div className="team inline">{teamNames.team1}</div>
-                                    <div className='inline score'>0</div>
+                                    {returnScore('a', 0)}
                                 </div>
                                 <div className="line">
                                     <div className='seed small-seed inline'>{playerNames.team8[0].seed}</div>
                                     <div className="team inline">{teamNames.team8}</div>
-                                    <div className='inline score'>0</div>
+                                    {returnScore('a', 1)}
                                 </div>
                             </div>
                         </div>
@@ -50,12 +49,12 @@ export const Brackets = () => {
                                 <div className="line">
                                     <div className='seed small-seed inline'>{playerNames.team4[0].seed}</div>
                                     <div className="team inline">{teamNames.team4}</div>
-                                    <div className='inline score'>0</div>
+                                    {returnScore('b', 0)}
                                 </div>
                                 <div className="line">
                                     <div className='seed small-seed inline'>{playerNames.team5[0].seed}</div>
                                     <div className="team inline">{teamNames.team5}</div>
-                                    <div className='inline score'>0</div>
+                                    {returnScore('b', 1)}
                                 </div>
                             </div>
                         </div>
@@ -66,12 +65,12 @@ export const Brackets = () => {
                                 <div className="line">
                                     <div className='seed small-seed inline'>{playerNames.team2[0].seed}</div>
                                     <div className="team inline">{teamNames.team2}</div>
-                                    <div className='inline score'>0</div>
+                                    {returnScore('c', 0)}
                                 </div>
                                 <div className="line">
                                     <div className='seed small-seed inline'>{playerNames.team7[0].seed}</div>
                                     <div className="team inline">{teamNames.team7}</div>
-                                    <div className='inline score'>0</div>
+                                    {returnScore('a', 1)}
                                 </div>
                             </div>
                         </div>
@@ -81,12 +80,12 @@ export const Brackets = () => {
                                 <div className="line">
                                     <div className='seed small-seed inline'>{playerNames.team3[0].seed}</div>
                                     <div className="team inline">{teamNames.team3}</div>
-                                    <div className='inline score'>0</div>
+                                    {returnScore('d', 0)}
                                 </div>
                                 <div className="line">
                                     <div className='seed small-seed inline'>{playerNames.team6[0].seed}</div>
                                     <div className="team inline">{teamNames.team6}</div>
-                                    <div className='inline score'>0</div>
+                                    {returnScore('d', 1)}
                                 </div>
                             </div>
                         </div>

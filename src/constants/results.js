@@ -1,44 +1,13 @@
-export const winners = {
-    a: 'team1',
-    b: '',
-    c: '',
-    d: '',
-    e: '',
-    f: '',
-    g: '',
-    h: '',
-    i: '',
-    j: '',
-    k: '',
-    l: '',
-    m: '',
-    n: '',
-    o: '',
-}
+// enter in teams as generic strings --> 'team1', 'team2' 
+// will add actual team name constants later?
 
-export const losers = {
-    a: 'team8',
-    b: '',
-    c: '',
-    d: '',
-    e: '',
-    f: '',
-    g: '',
-    h: '',
-    i: '',
-    j: '',
-    k: '',
-    l: '',
-    m: '',
-    n: '',
-    o: '',
-}
+// add score in order shown on bracket
 
 export const results = {
     a: {
-        winner: '',
-        loser: '',
-        score: []
+        winner: 'team1',
+        loser: 'team8',
+        score: [3,1]
     },
     b: {
         winner: '',
