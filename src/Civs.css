@@ -67,83 +67,67 @@
 }
 
 .Koreans{
-    background-image: url('/src/assets/civs/flemish.png');
-    opacity: .5;
+    background-image: url('/src/assets/civs/koreans.png');
 }
 
 .Lithuanians{
-    background-image: url('/src/assets/civs/flemish.png');
-    opacity: .5;
+    background-image: url('/src/assets/civs/lith.png');
 }
 
 .Magyars{
-    background-image: url('/src/assets/civs/flemish.png');
-    opacity: .5;
+    background-image: url('/src/assets/civs/magyars.png');
 }
 
 .Malay{
-    background-image: url('/src/assets/civs/flemish.png');
-    opacity: .5;
+    background-image: url('/src/assets/civs/malay.png');
 }
 
 .Malians{
-    background-image: url('/src/assets/civs/flemish.png');
-    opacity: .5;
+    background-image: url('/src/assets/civs/malians.png');
 }
 
 .Mayans{
-    background-image: url('/src/assets/civs/flemish.png');
-    opacity: .5;
+    background-image: url('/src/assets/civs/mayans.png');
 }
 
 .Mongols{
-    background-image: url('/src/assets/civs/flemish.png');
-    opacity: .5;
+    background-image: url('/src/assets/civs/mongols.png');
 }
 
 .Persians{
-    background-image: url('/src/assets/civs/flemish.png');
-    opacity: .5;
+    background-image: url('/src/assets/civs/persians.png');
 }
 
 .Saracens{
-    background-image: url('/src/assets/civs/flemish.png');
-    opacity: .5;
+    background-image: url('/src/assets/civs/saracens.png');
 }
 
 .Slavs {
-    background-image: url('/src/assets/civs/flemish.png');
-    opacity: .5;
+    background-image: url('/src/assets/civs/slavs.png');
 }
 
 .Spanish {
-    background-image: url('/src/assets/civs/flemish.png');
-    opacity: .5;
+    background-image: url('/src/assets/civs/spanish.png');
 }
 
 .Tatars {
-    background-image: url('/src/assets/civs/flemish.png');
-    opacity: .5;
+    background-image: url('/src/assets/civs/tatars.png');
 }
 
 .Teutons {
-    background-image: url('/src/assets/civs/flemish.png');
-    opacity: .5;
+    background-image: url('/src/assets/civs/teutons.png');
 }
 
 .Turks {
-    background-image: url('/src/assets/civs/flemish.png');
-    opacity: .5;
+    background-image: url('/src/assets/civs/turks.png');
 }
 
 .Vietnamese {
-    background-image: url('/src/assets/civs/flemish.png');
-    opacity: .5;
+    background-image: url('/src/assets/civs/vietnamese.png');
 }
 
 .Vikings {
-    background-image: url('/src/assets/civs/flemish.png');
-    opacity: .5;
+    background-image: url('/src/assets/civs/vikings.png');
 }
 
 .Italians {
@@ -151,6 +135,5 @@
 }
 
 .Portuguese {
-    background-image: url('/src/assets/civs/flemish.png');
-    opacity: .5;
+    background-image: url('/src/assets/civs/portos.png');
 }

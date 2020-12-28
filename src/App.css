@@ -73,6 +73,10 @@
     flex-wrap: wrap;
     justify-content: center;
   }
+  .civ {
+    max-height: 80px;
+    max-width: 80px;
+  }
 }
 
 .heading, .heading2, .heading3 {
@@ -276,7 +280,7 @@ p {
 .modal {
   width: 50vw;
   position: fixed;
-  top: 100px;
+  top: 50px;
   left: 25vw;
   background: white;
   padding: 25px;
@@ -329,14 +333,14 @@ img {
   background: rgba(11,11,11,.85);
   text-shadow: 1px 1px 2px black;
   margin: 0;
-  font-size: 1.25rem;
+  font-size: 1rem;
   padding: 0 2px;
   border-radius: 3px;
 }
 
 #x {
   color: red;
-  font-size: 5.5rem;
+  font-size: 6rem;
   font-family:'Courier New', Courier, monospace;
   font-weight: 700;
   margin-bottom: -25px;
