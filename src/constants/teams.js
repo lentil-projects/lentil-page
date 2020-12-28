@@ -1,12 +1,12 @@
 export const teamNames = {
     team1: 'Basic B****es',
     team2: 'RitterDesRechts',
-    team3: 'Team 3',
-    team4: 'Team 4',
-    team5: 'Team 5',
-    team6: 'Team 6',
-    team7: 'Team 7',
-    team8: 'Team 8',
+    team3: 'Team Three',
+    team4: 'Team Four',
+    team5: 'Team Five',
+    team6: 'Team Six',
+    team7: 'Team Seven',
+    team8: 'Team Eight',
 }
 
 const flags = {

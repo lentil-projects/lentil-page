@@ -1,35 +1,82 @@
-export const winners = {
-    a: 'team1',
-    b: '',
-    c: '',
-    d: '',
-    e: '',
-    f: '',
-    g: '',
-    h: '',
-    i: '',
-    j: '',
-    k: '',
-    l: '',
-    m: '',
-    n: '',
-    o: '',
-}
+// enter in teams as generic strings --> 'team1', 'team2' 
+// will add actual team name constants later?
 
-export const losers = {
-    a: 'team8',
-    b: '',
-    c: '',
-    d: '',
-    e: '',
-    f: '',
-    g: '',
-    h: '',
-    i: '',
-    j: '',
-    k: '',
-    l: '',
-    m: '',
-    n: '',
-    o: '',
+// add score in order shown on bracket
+
+export const results = {
+    a: {
+        winner: 'team1',
+        loser: 'team8',
+        score: [3,1]
+    },
+    b: {
+        winner: 'team5',
+        loser: 'team4',
+        score: [2,3]
+    },
+    c: {
+        winner: '',
+        loser: '',
+        score: []
+    },
+    d: {
+        winner: '',
+        loser: '',
+        score: []
+    },
+    e: {
+        winner: '',
+        loser: '',
+        score: [1,2]
+    },
+    f: {
+        winner: '',
+        loser: '',
+        score: []
+    },
+    g: {
+        winner: '',
+        loser: '',
+        score: []
+    },
+    h: {
+        winner: '',
+        loser: '',
+        score: []
+    },
+    i: {
+        winner: '',
+        loser: '',
+        score: []
+    },
+    j: {
+        winner: '',
+        loser: '',
+        score: []
+    },
+    k: {
+        winner: '',
+        loser: '',
+        score: []
+    },
+    l: {
+        winner: '',
+        loser: '',
+        score: []
+    },
+    m: {
+        winner: '',
+        loser: '',
+        score: []
+    },
+    n: {
+        winner: '',
+        loser: '',
+        score: []
+    },
+    o: {
+        winner: '',
+        loser: '',
+        score: []
+    }
 }
