@@ -19,23 +19,19 @@
   }
 
 .Burmese {
-    background-image: url('/src/assets/civs/flemish.png');
-    opacity: .5;
+    background-image: url('/src/assets/civs/burmese.png');
 }
 
 .Celts {
-    background-image: url('/src/assets/civs/flemish.png');
-    opacity: .5;
+    background-image: url('/src/assets/civs/celts.png');
 }
 
 .Chinese{
-    background-image: url('/src/assets/civs/flemish.png');
-    opacity: .5;
+    background-image: url('/src/assets/civs/chinese.png');
 }
 
 .Cumans{
-    background-image: url('/src/assets/civs/flemish.png');
-    opacity: .5;
+    background-image: url('/src/assets/civs/cumans.png');
 }
 
 .Ethiopians{
@@ -74,8 +70,7 @@
 }
 
 .Khmer{
-    background-image: url('/src/assets/civs/flemish.png');
-    opacity: .5;
+    background-image: url('/src/assets/civs/khmer.png');
 }
 
 .Koreans{
