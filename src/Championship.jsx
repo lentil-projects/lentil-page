@@ -1,15 +1,16 @@
 import React from 'react';
-import { winners, losers } from './constants/results';
+import { results} from './constants/results';
 
 const returnResult = (team, game) => {
-    if (team === 'winner' && winners[game]) {
-        return (<div className="team">{winners[game]}</div>)
+    if (team === 'winner' && results[game].winner){
+        return (<div className='team'>{results[game].winner}</div>)
     }
-    if (team === 'loser' && losers[game]) {
-        return (<div className="team">{losers[game]}</div>)
+    if (team === 'loser' && results[game].loser){
+        return (<div className='team'>{results[game].loser}</div>)
     }
     return (<div className="team"><em>{`${team} of ${game.toUpperCase()}`}</em></div>)
 }
+
 
 export const Championship = () => {
     return (
