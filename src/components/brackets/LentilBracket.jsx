@@ -8,24 +8,24 @@ export const LentilBracket = props => {
         <div className='brackets'>
             <div className='round'>
                 <div className="heading">Jan 17*</div>
-                <div className='game'>
+                <div className='game-group'>
                     <div className='seed inline gray'>A</div>
-                    <div className="inline pair">
+                    <div className="game">
                         <div className="row winner">
                             {props.returnScore('a', 0)}
-                            <div className='seed small-seed inline'>{playerNames.team1[0].seed}</div>
-                            <div className="team inline">{teamNames.team1}</div>
+                            <div className='seed small-seed'>{playerNames.team1[0].seed}</div>
+                            <div>{teamNames.team1}</div>
                         </div>
                         <div className="row loser">
                             {props.returnScore('a', 1)}
-                            <div className='seed small-seed inline'>{playerNames.team8[0].seed}</div>
-                            <div className="team inline">{teamNames.team8}</div>
+                            <div className='seed small-seed'>{playerNames.team8[0].seed}</div>
+                            <div className="">{teamNames.team8}</div>
                         </div>
                     </div>
                 </div>
-                <div className="game">
+                <div className="game-group">
                     <div className='seed inline gray'>B</div>
-                    <div className="inline pair">
+                    <div className="game">
                         <div className="row loser">
                             {props.returnScore('b', 0)}
                             <div className='seed small-seed inline'>{playerNames.team4[0].seed}</div>
@@ -39,9 +39,9 @@ export const LentilBracket = props => {
                     </div>
                 </div>
                 <div className="space"></div>
-                <div className="game">
+                <div className="game-group">
                     <div className='seed inline gray'>C</div>
-                    <div className="inline pair">
+                    <div className="game">
                         <div className="row">
                             {props.returnScore('c', 0)}
                             <div className='seed small-seed inline'>{playerNames.team2[0].seed}</div>
@@ -54,9 +54,9 @@ export const LentilBracket = props => {
                         </div>
                     </div>
                 </div>
-                <div className="game">
+                <div className="game-group">
                     <div className='seed inline gray'>D</div>
-                    <div className="inline pair">
+                    <div className="game">
                         <div className="row">
                             {props.returnScore('d', 0)}
                             <div className='seed small-seed inline'>{playerNames.team3[0].seed}</div>
@@ -80,9 +80,9 @@ export const LentilBracket = props => {
             </div>
             <div className="round">
                 <div className="heading">Jan 24*</div>
-                <div className="game">
+                <div className="game-group">
                     <div className='seed inline gray'>E</div>
-                    <div className="inline pair">
+                    <div className="game">
                         {props.returnResult('winner', 'a', 'e', 0)}
                         {props.returnResult('winner', 'b', 'e', 1)}
                     </div>
@@ -90,9 +90,9 @@ export const LentilBracket = props => {
                 <div className="space"></div>
                 <div className="space"></div>
                 <div className="space"></div>
-                <div className="game">
+                <div className="game-group">
                     <div className='seed inline gray'>F</div>
-                    <div className="inline pair">
+                    <div className="game">
                         {props.returnResult('winner', 'c', 'f', 0)}
                         {props.returnResult('winner', 'd', 'f', 1)}
                     </div>
@@ -104,9 +104,9 @@ export const LentilBracket = props => {
             </div>
             <div className="round">
                 <div className="heading">Jan 31*</div>
-                <div className="game">
+                <div className="game-group">
                     <div className='seed inline gray'>I</div>
-                    <div className="inline pair">
+                    <div className="game">
                         {props.returnResult('winner', 'e', 'i', 0)}
                         {props.returnResult('winner', 'f', 'i', 1)}
                     </div>

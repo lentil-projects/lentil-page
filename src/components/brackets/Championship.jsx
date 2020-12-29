@@ -8,9 +8,9 @@ export const ChampionshipBrackets = props => {
                 <div className="brackets">
                     <div className="round">
                         <div className="heading3">Feb 7*</div>
-                        <div className="game">
+                        <div className='game-group'>
                             <div className='seed inline gray'>M</div>
-                            <div className="inline pair">
+                            <div className='game'>
                                 {props.returnResult('loser', 'i', 'm', 0)}
                                 {props.returnResult('winner', 'l', 'm', 1)}
                             </div>
@@ -35,9 +35,9 @@ export const ChampionshipBrackets = props => {
                 <div className="brackets">
                     <div className="round">
                         <div className="heading3">Feb 14*</div>
-                        <div className="game">
+                        <div className='game-group'>
                             <div className='seed inline gray'>N</div>
-                            <div className="inline pair">
+                            <div className='game'>
                                 {props.returnResult('winner', 'i', 'n', 0)}
                                 {props.returnResult('winner', 'm', 'n', 1)}
                             </div>
@@ -62,9 +62,9 @@ export const ChampionshipBrackets = props => {
                 <div className="brackets">
                     <div className="round">
                         <div className="heading3">Feb 21*</div>
-                        <div className="game">
+                        <div className='game-group'>
                             <div className='seed inline gray'>O</div>
-                            <div className="inline pair">
+                            <div className='game'>
                                 {props.returnResult('winner', 'n', 'o', 0)}
                                 {props.returnResult('loser', 'n', 'o', 1)}
                             </div>

@@ -32,23 +32,11 @@
 }
 
 .round {
-  width: 200px;
+  width: 210px;
   margin: 5px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-}
-
-.pair {
-  margin: 5px;
-  /* width: 75%; */
-  /* border: 1px solid gray; */
-  border-radius: 3px;
-  text-align: left;
-  padding: 3px 5px;
-  background: white;
-  /* background: rgba(235,235,235,.9); */
-  box-shadow: 0 0 3px 1px gray;
 }
 
 .space {
@@ -148,7 +136,6 @@ i:hover {
   border: 1px solid lightgray;
   border-radius: 7px;
   padding: 15px;
-  /* box-shadow: 0 0 2px 1px lightgray; */
   background: white;
   background: rgba(255,255,255,.95);
   padding-top: 25px;
@@ -164,7 +151,6 @@ i:hover {
 .team-info img {
   height: 75px;
   width: 75px;
-  /* height: 100%; */
   float: left;
   cursor: pointer;
 }
@@ -201,11 +187,6 @@ ul {
   font-size: 1.25rem;
 }
 
-.game {
-  display: flex;
-  align-items: center;
-}
-
 .triangle, .arrow {
   height: 50px;
   width: 15px;
@@ -223,26 +204,15 @@ ul {
   font-family: arial;
 }
 
-em, .winner {
+em  {
   color: dimgray;
-  background: lightgray;
   background: gainsboro;
-  padding: 0 5px;
-  border-radius: 3px;
-}
-
-.winner {
-  font-style: normal;
-  color: black;
-  background: lightpink;
-  /* background: none; */
-  padding-left: 0;
-  font-weight: bold;
-  /* background: gold; */
-}
-
-.loser {
-  color: gray;
+  width: 100%;
+  text-align: left;
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 h1 {
@@ -260,6 +230,7 @@ p {
   right: 5px;
   border: 1px solid gray;
   box-sizing: border-box;
+  background: gold;
 }
 
 .large-logo {
@@ -273,7 +244,6 @@ p {
   height: 100vh;
   width: 100vw;
   background: rgba(11,11,11,.85);
-  /* margin-top: 100px; */
 }
 
 .modal {
@@ -438,27 +408,6 @@ li img {
   background: none;
 }
 
-.score {
-  font-family: monospace;
-  font-weight: 300;
-  background: lightgray;
-  font-size: 1.25rem;
-  height: 1rem;
-  width: 1rem;
-  border-radius: 50%;
-  border-radius: 3px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  border: 1px solid gray;
-  color: gray;
-  color: black;
-  background: gainsboro;
-  padding: 0;
-  height: 100%;
-}
-
 .row {
   display: flex;
   align-items: center;
@@ -471,4 +420,46 @@ li img {
   color: white;
   font-size: 2rem;
   text-shadow: 1px 1px black;
+}
+
+.game-group {
+  display: flex;
+  align-items: center;
+}
+
+.game {
+  box-shadow: 0 0 3px 1px gray;
+  background: white;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+.score {
+  border: 1px solid gray;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: -1px;
+  margin-right: 5px;
+  background: gainsboro;
+  font-weight: 300;
+  color: black;
+  font-family: monospace;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.winner {
+  font-style: normal;
+  color: black;
+  background: plum;
+  padding-right: 10px;
+}
+
+.row {
+  border: 1px solid gray;
+  height: 1.5rem;
 }

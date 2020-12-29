@@ -7,16 +7,16 @@ export const RiceBracket = props => {
                 <div className="brackets">
                     <div className="round">
                         <div className="heading2">Jan 24*</div>
-                        <div className="game">
+                        <div className="game-group">
                             <div className='seed inline gray'>G</div>
-                            <div className="inline pair">
+                            <div className='game'>
                                 {props.returnResult('loser', 'a', 'g', 0)}
                                 {props.returnResult('loser', 'b', 'g', 1)}
                             </div>
                         </div>
-                        <div className="game">
+                        <div className="game-group">
                             <div className='seed inline gray'>H</div>
-                            <div className="inline pair">
+                            <div className="game">
                                 {props.returnResult('loser', 'c', 'h', 0)}
                                 {props.returnResult('loser', 'd', 'h', 1)}
                             </div>
@@ -29,16 +29,16 @@ export const RiceBracket = props => {
                     </div>
                     <div className="round">
                         <div className="heading2">Jan 31*</div>
-                        <div className="game">
+                        <div className="game-group">
                             <div className='seed inline gray'>J</div>
-                            <div className="inline pair">
+                            <div className="game">
                                 {props.returnResult('winner', 'g', 'j', 0)}
                                 {props.returnResult('loser', 'f', 'j', 1)}
                             </div>
                         </div>
-                        <div className="game">
+                        <div className="game-group">
                             <div className='seed inline gray'>K</div>
-                            <div className="inline pair">
+                            <div className="game">
                                 {props.returnResult('winner', 'h', 'k', 0)}
                                 {props.returnResult('loser', 'e', 'k', 1)}
                             </div>
@@ -50,9 +50,9 @@ export const RiceBracket = props => {
                     </div>
                     <div className="round">
                         <div className="heading2">Feb 7*</div>
-                        <div className="game">
+                        <div className="game-group">
                             <div className='seed inline gray'>L</div>
-                            <div className="inline pair">
+                            <div className="game">
                                 {props.returnResult('winner', 'j', 'l', 0)}
                                 {props.returnResult('winner', 'k', 'l', 1)}
                             </div>

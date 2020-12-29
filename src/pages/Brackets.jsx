@@ -24,7 +24,7 @@ const returnResult = (team, game, newGame, newIndex) => {
             </div>
         )
     }
-    return (<div className="team"><em>{`${team} of ${game.toUpperCase()}`}</em></div>)
+    return (<div className="row"><em>{`${team} of ${game.toUpperCase()}`}</em></div>)
 }
 
 const returnScore = (game, index) => {
@@ -32,9 +32,9 @@ const returnScore = (game, index) => {
         return
     }
     if (!results[game].score.length) {
-        return (<div className='inline score'>0</div>)
+        return (<div className='score'>0</div>)
     }
-    return (<div className='inline score'>{results[game].score[index]}</div>)
+    return (<div className='score'>{results[game].score[index]}</div>)
 }
 
 export const Brackets = () => {
