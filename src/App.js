@@ -1,7 +1,7 @@
 import './App.css';
 import './Civs.css';
 import { Switch, Route } from 'react-router-dom';
-import { Page } from './pages/Page';
+import { Brackets } from './pages/Brackets';
 import { Rulebook } from './pages/Rulebook';
 import { Teams } from './pages/Teams';
 import { Header } from './components/Header';
@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Header />
       <Switch>
-        <Route exact path='/' component={Page} />
+        <Route exact path='/' component={Brackets} />
         <Route path='/teams' component={Teams} />
         <Route path='/rulebook' component={Rulebook} />
       </Switch>
