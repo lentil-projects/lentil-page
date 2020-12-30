@@ -11,30 +11,38 @@ export const LentilBracket = props => {
                 <div className='game-group'>
                     <div className='seed inline gray'>A</div>
                     <div className="game">
-                        <div className="row winner">
-                            {props.returnScore('a', 0)}
+                        <div className="row">
+                            <div className='team-name'>
                             <div className='seed small-seed'>{playerNames.team1[0].seed}</div>
                             <div>{teamNames.team1}</div>
+                            </div>
+                            {props.returnScore('a', 0)}
                         </div>
-                        <div className="row loser">
-                            {props.returnScore('a', 1)}
+                        <div className="row">
+                            <div className='team-name'>
                             <div className='seed small-seed'>{playerNames.team8[0].seed}</div>
                             <div className="">{teamNames.team8}</div>
+                            </div>
+                            {props.returnScore('a', 1)}
                         </div>
                     </div>
                 </div>
                 <div className="game-group">
                     <div className='seed inline gray'>B</div>
                     <div className="game">
-                        <div className="row loser">
-                            {props.returnScore('b', 0)}
+                        <div className="row">
+                            <div className='team-name'>
                             <div className='seed small-seed inline'>{playerNames.team4[0].seed}</div>
                             <div className="team inline">{teamNames.team4}</div>
+                            </div>
+                            {props.returnScore('b', 0)}
                         </div>
-                        <div className="row winner">
-                            {props.returnScore('b', 1)}
+                        <div className="row">
+                            <div className='team-name'>
                             <div className='seed small-seed inline'>{playerNames.team5[0].seed}</div>
                             <div className="team inline">{teamNames.team5}</div>
+                            </div>
+                            {props.returnScore('b', 1)}
                         </div>
                     </div>
                 </div>
@@ -43,14 +51,18 @@ export const LentilBracket = props => {
                     <div className='seed inline gray'>C</div>
                     <div className="game">
                         <div className="row">
-                            {props.returnScore('c', 0)}
+                            <div className='team-name'>
                             <div className='seed small-seed inline'>{playerNames.team2[0].seed}</div>
                             <div className="team inline">{teamNames.team2}</div>
+                            </div>
+                            {props.returnScore('c', 0)}
                         </div>
                         <div className="row">
-                            {props.returnScore('c', 1)}
+                            <div className='team-name'>
                             <div className='seed small-seed inline'>{playerNames.team7[0].seed}</div>
                             <div className="team inline">{teamNames.team7}</div>
+                            </div>
+                            {props.returnScore('c', 1)}
                         </div>
                     </div>
                 </div>
@@ -58,14 +70,18 @@ export const LentilBracket = props => {
                     <div className='seed inline gray'>D</div>
                     <div className="game">
                         <div className="row">
-                            {props.returnScore('d', 0)}
+                            <div className='team-name'>
                             <div className='seed small-seed inline'>{playerNames.team3[0].seed}</div>
                             <div className="team inline">{teamNames.team3}</div>
+                            </div>
+                            {props.returnScore('d', 0)}
                         </div>
                         <div className="row">
-                            {props.returnScore('d', 1)}
+                            <div className='team-name'>
                             <div className='seed small-seed inline'>{playerNames.team6[0].seed}</div>
                             <div className="team inline">{teamNames.team6}</div>
+                            </div>
+                            {props.returnScore('d', 1)}
                         </div>
                     </div>
                 </div>

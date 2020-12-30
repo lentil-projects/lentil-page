@@ -398,7 +398,7 @@ li img {
 }
 
 .small-seed {
-  height: 1rem;
+  /* height: 1rem; */
   /* width: 1rem; */
   width: auto;
   padding: 1px;
@@ -406,6 +406,9 @@ li img {
   font-weight: bold;
   background: lightgray;
   background: none;
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
 }
 
 .row {
@@ -444,12 +447,13 @@ li img {
   align-items: center;
   justify-content: center;
   margin: -1px;
-  margin-right: 5px;
+  margin-left: 5px;
   background: gainsboro;
   font-weight: 300;
   color: black;
   font-family: monospace;
   font-family: Arial, Helvetica, sans-serif;
+  float: right;
 }
 
 .winner {
@@ -462,4 +466,12 @@ li img {
 .row {
   border: 1px solid gray;
   height: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: .8rem;
+}
+
+.team-name {
+  display: flex;
+  align-items: center;
 }

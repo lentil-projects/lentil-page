@@ -1,12 +1,12 @@
 export const teamNames = {
-    team1: 'Basic B****es',
-    team2: 'RitterDesRechts',
-    team3: 'Team Three',
-    team4: 'Team Four',
-    team5: 'Team Five',
-    team6: 'Team Six',
-    team7: 'Team Seven',
-    team8: 'Team Eight',
+    team1: 'Airiel/CaptainQueso',
+    team2: 'Basic Bitches',
+    team3: 'Hippo_run/skyruby',
+    team4: 'RitterDesRechts',
+    team5: 'hyap/ScrapIron',
+    team6: 'GuanFranco/crochet',
+    team7: 'MasterBeef/Albatross',
+    team8: 'Pina/GrayCarbon',
 }
 
 const flags = {

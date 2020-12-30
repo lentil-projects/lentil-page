@@ -5,14 +5,14 @@
 
 export const results = {
     a: {
-        winner: 'team1',
-        loser: 'team8',
-        score: [3,1]
+        winner: '',
+        loser: '',
+        score: []
     },
     b: {
-        winner: 'team5',
-        loser: 'team4',
-        score: [2,3]
+        winner: '',
+        loser: '',
+        score: []
     },
     c: {
         winner: '',
@@ -27,7 +27,7 @@ export const results = {
     e: {
         winner: '',
         loser: '',
-        score: [1,2]
+        score: []
     },
     f: {
         winner: '',
