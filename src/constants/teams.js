@@ -16,11 +16,22 @@ const flags = {
 export const playerNames = {
     team1: [
         {
+            player: 'Player 1',
+            elo: 'elo',
+            seed: 1
+        },
+        {
+            player: 'Player 2',
+            elo: 'elo'
+        }
+    ],
+    team2: [
+        {
             player: 'EmpiranT',
             elo: '1425',
             twitch: 'https://www.twitch.tv/empirant',
-            logo: 'https://www.nicepng.com/png/detail/146-1465832_free-download-pink-starbucks-coffee-clipart-coffee-custom.png',
-            seed: 1,
+            // logo: 'https://www.nicepng.com/png/detail/146-1465832_free-download-pink-starbucks-coffee-clipart-coffee-custom.png',
+            seed: 2,
             flag: flags.usa
         },
         {
@@ -29,11 +40,11 @@ export const playerNames = {
             flag: flags.usa
         }
     ],
-    team2: [
+    team4: [
         {
             player: 'Invictus',
             elo: '1300',
-            seed: 2
+            seed: 4
         },
         {
             player: 'HopesPokes',
@@ -45,17 +56,6 @@ export const playerNames = {
             player: 'Player 1',
             elo: 'elo',
             seed: 3
-        },
-        {
-            player: 'Player 2',
-            elo: 'elo'
-        }
-    ],
-    team4: [
-        {
-            player: 'Player 1',
-            elo: 'elo',
-            seed: 4
         },
         {
             player: 'Player 2',

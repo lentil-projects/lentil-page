@@ -278,7 +278,7 @@ p {
   flex-wrap: wrap;
 }
 
-.civ {
+.civ, .used {
   height: 100px;
   width: 100px;
   border: 1px solid gray;
@@ -316,9 +316,9 @@ img {
   background: none;
 }
 
-.locked:hover {
+/* .locked:hover {
   cursor: not-allowed;
-}
+} */
 
 .rulebook {
   border: 1px solid lightgray;
@@ -474,4 +474,8 @@ li img {
 .team-name {
   display: flex;
   align-items: center;
+}
+
+.used:hover {
+  cursor: not-allowed;
 }

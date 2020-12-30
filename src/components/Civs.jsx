@@ -1,11 +1,11 @@
-import React, {useState} from 'react';
-import {civsList, teamCivPicks} from '../constants/civs';
+import React, { useState } from 'react';
+import { civsList, teamCivPicks } from '../constants/civs';
 
 export const Civs = props => {
     const [teamCivs, updateCivs] = useState({})
 
     const addX = (civ) => {
-        if(teamCivPicks[props.team].includes(civ)){
+        if (teamCivPicks[props.team].includes(civ)) {
             return
         }
 
@@ -15,11 +15,28 @@ export const Civs = props => {
         })
     }
 
+    const mapUsedCivs = () => {
+        return teamCivPicks[props.team].map(civ => {
+            return (
+                <div className={`civ flex2 ${civ} used`} onClick={() => addX(civ)}>
+                    {<p id='x' className='locked'>X</p>}
+                    {teamCivs[civ] && <p id='x'>X</p>}
+                    <p>{civ}</p>
+                </div>
+            )
+        })
+    }
+
+    const remainingCivs = () => {
+        return civsList.filter(civ => !teamCivPicks[props.team].includes(civ))
+        // return civsList.filter(civ => teamCivPicks[props.team].includes(civ))
+    }
+
     const mapCivs = () => {
-        return civsList.map(civ => {
+        return remainingCivs().map(civ => {
             return (
                 <div className={`civ flex2 ${civ}`} onClick={() => addX(civ)}>
-                    {teamCivPicks[props.team].includes(civ) && <p id='x' className='locked'>X</p>}
+                    {teamCivPicks[props.team].includes(civ) && <p id='x'>X</p>}
                     {teamCivs[civ] && <p id='x'>X</p>}
                     <p>{civ}</p>
                 </div>
@@ -28,11 +45,15 @@ export const Civs = props => {
     }
 
     return (
-    <>
-        <h2>Remaining Civs:</h2>
+        <>
+            <h2>Used Civs:</h2>
+            <div className="civs flex2">
+                {mapUsedCivs()}
+            </div>
+            <h2>Remaining Civs:</h2>
             <div className="civs flex2">
                 {mapCivs()}
             </div>
-    </>
+        </>
     )
 }
