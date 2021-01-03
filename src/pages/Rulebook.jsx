@@ -22,6 +22,7 @@ export const Rulebook = () => {
                 <li>Casting will be from recs. Each team will be given a week to schedule and play their games.</li>
             </ul>
             <h2>Specifics</h2>
+            <h3>Coming Soon!</h3>
         </div>
     )
 }

@@ -16,6 +16,10 @@ export const Civs = props => {
     }
 
     const mapUsedCivs = () => {
+        if (!teamCivPicks[props.team].length){
+            return <h3>None.</h3>
+        }
+
         return teamCivPicks[props.team].map(civ => {
             return (
                 <div className={`civ flex2 ${civ} used`} onClick={() => addX(civ)}>
@@ -27,13 +31,10 @@ export const Civs = props => {
         })
     }
 
-    const remainingCivs = () => {
-        return civsList.filter(civ => !teamCivPicks[props.team].includes(civ))
-        // return civsList.filter(civ => teamCivPicks[props.team].includes(civ))
-    }
+    const remainingCivs = civsList.filter(civ => !teamCivPicks[props.team].includes(civ));
 
     const mapCivs = () => {
-        return remainingCivs().map(civ => {
+        return remainingCivs.map(civ => {
             return (
                 <div className={`civ flex2 ${civ}`} onClick={() => addX(civ)}>
                     {teamCivPicks[props.team].includes(civ) && <p id='x'>X</p>}

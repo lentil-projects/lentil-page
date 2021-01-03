@@ -41,13 +41,13 @@ export const TeamInfo = props => {
                         <ul>
                             <li>
                                 {hasTwitch(0)}
-                                {playerNames[team][0].player}
+                                {playerNames[team][0].player}{' '}
                                 ({playerNames[team][0].elo})
                                 {hasFlag(0)}
                             </li>
                             <li>
                                 {hasTwitch(1)}
-                                {playerNames[team][1].player}
+                                {playerNames[team][1].player}{' '}
                                 ({playerNames[team][1].elo})
                                 {hasFlag(1)}
                             </li>
