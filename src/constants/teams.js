@@ -1,20 +1,11 @@
-// export const teamNames = {
-//     team1: 'Airiel/CaptainQueso',
-//     team2: 'Basic Bitches',
-//     team3: 'Hippo_run/skyruby',
-//     team4: 'RitterDesRechts',
-//     team5: 'hyap/ScrapIron',
-//     team6: 'GuanFranco/crochet',
-//     team7: 'MasterBeef/Albatross',
-//     team8: 'Pina/GrayCarbon',
-// }
+import greg from '../assets/logos/greg.png';
 
 export const teamNames = {
     team1: 'Airiel/SurlyFish',
     team2: 'RitterDesRechts',
     team3: 'Basic Bitches',
     team4: 'Hippo_run/skyruby',
-    team5: 'MasterBeef/ScrapIron',
+    team5: 'ScrapIron/Master_Beef',
     team6: 'GuanFranco/crochet',
     team7: 'hyap/Albatross',
     team8: 'Team Greg'
@@ -30,72 +21,74 @@ export const playerNames = {
             seed: 1,
             flag: flags.usa,
             player: 'Airiel',
-            elo: 'elo',
+            elo: '1378',
             twitch: 'https://www.twitch.tv/airiel_aoc'
         },
         {
             player: 'SurlyFish',
-            elo: 'elo'
+            elo: '~850'
         }
     ],
     team2: [
         {
             player: 'Invictus',
-            elo: '1300',
+            elo: '1295',
             seed: 2,
             twitch: 'https://www.twitch.tv/invictus1988spqr'
         },
         {
             player: 'HopesPokes',
-            elo: '869'
+            elo: '904'
         }
     ],
     team3: [
         {
             seed: 3,
             player: 'EmpiranT',
-            elo: '1425',
-            twitch: 'https://www.twitch.tv/empirant'
+            elo: '1387',
+            twitch: 'https://www.twitch.tv/empirant',
+            flag: flags.usa
         },
         {
            player: 'Gingersnap',
-            elo: 'N/A',
+            elo: '~800',
             flag: flags.usa
         }
     ],
     team4: [
         {
             player: 'Hippo_run',
-            elo: 'elo',
+            elo: '1284',
             seed: 4,
-            twitch: 'https://www.twitch.tv/hippo_run'
+            twitch: 'https://www.twitch.tv/hippo_run',
+            flag: flags.usa
         },
         {
             player: 'skyruby',
-            elo: 'elo'
+            elo: '~900'
         }
     ],
     team5: [
         {
-            player: 'MasterBeef',
-            elo: 'elo',
+            player: 'ScrapIron',
+            elo: '1042',
             seed: 5
         },
         {
-            player: 'ScrapIron',
-            elo: 'elo'
+            player: 'Master_Beef',
+            elo: '996',
         }
     ],
     team6: [
         {
             player: 'GuanFranco',
-            elo: 'elo',
+            elo: '1228',
             seed: 6,
             twitch: 'https://www.twitch.tv/guanfranco'
         },
         {
             player: 'crochet',
-            elo: 'elo',
+            elo: '768',
             flag: flags.usa,
             twitch: 'https://www.twitch.tv/crochetcode'
         }
@@ -103,24 +96,25 @@ export const playerNames = {
     team7: [
         {
             player: 'hyap',
-            elo: 'elo',
+            elo: '1043',
             seed: 7
         },
         {
             player: 'Albatross_Rex',
-            elo: 'elo'
+            elo: '850'
         }
     ],
     team8: [
         {
             player: 'Piña Koala',
-            elo: 'elo',
+            elo: '~1000',
             seed: 8,
-            flag: flags.usa
+            flag: flags.usa,
+            logo: greg
         },
         {
             player: 'GrayCarbon',
-            elo: 'elo',
+            elo: '~800',
             flag: flags.usa
         }
     ],
