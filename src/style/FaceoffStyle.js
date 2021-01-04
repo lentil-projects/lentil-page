@@ -6,23 +6,27 @@ height: 100vh;
 width: 100vw;
 position: fixed;
 top: 0;
+display: flex;
+justify-content: space-between;
 
 .foreground {
-    z-index: 10;
+    z-index: 20;
     height: 100vh;
     width: 100vw;
+    position: fixed;
+    top: 0;
 }
 
 .container {
-    border: solid yellow;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    width: 100vw;
 }
 
 .panel {
-    margin-top: 10vh;
+    margin: 50px;
     background: white;
     padding: 35px;
     border-radius: 7px;
@@ -30,11 +34,21 @@ top: 0;
     flex-direction: column;
 }
 
-h1 {
-    color: white;
+.faceoff-team {
+    background: white;
+    margin: 10px;
+    width: 600px;
+    padding: 10px;
+    text-align: left;
+    border-radius: 7px;
 }
 
-h3 {
+.title {
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+h4 {
     float: right;
     color: white;
     margin: 25px;
@@ -48,5 +62,15 @@ h3:hover {
 
 .gif {
     height: 250px;
+}
+
+.civ {
+    height: 75px;
+    width: 75px;
+}
+
+#x {
+    font-size: 65px;
+    margin-bottom: -15px;
 }
 `
