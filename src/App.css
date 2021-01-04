@@ -131,7 +131,7 @@ i:hover {
 
 .team-info {
   margin: 3px;
-  width: 300px;
+  width: 325px;
   height: 85px;
   border: 1px solid lightgray;
   border-radius: 7px;
@@ -148,7 +148,7 @@ i:hover {
   background: rgba(211,211,211,.9);
 }
 
-.team-info img {
+.team-info .team-logo {
   height: 75px;
   width: 75px;
   float: left;
@@ -183,7 +183,7 @@ ul {
   padding-left: 10px;
 }
 
-.modal ul {
+.modal ul, .team-info ul {
   font-size: 1.25rem;
 }
 
@@ -387,9 +387,10 @@ body {
 li img {
   height: 1rem;
   margin-left: 5px;
+
 }
 
-.modal li {
+.modal li, .team-info li {
   list-style: none;
 }
 

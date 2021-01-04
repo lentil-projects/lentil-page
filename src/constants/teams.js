@@ -12,7 +12,9 @@ export const teamNames = {
 }
 
 const flags = {
-    usa: 'https://seeklogo.com/images/A/American_Flag-logo-4ECE0EED17-seeklogo.com.png'
+    usa: 'https://cdn.britannica.com/79/4479-050-6EF87027/flag-Stars-and-Stripes-May-1-1795.jpg',
+    germany: 'https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/1200px-Flag_of_Germany.svg.png',
+    trinidad: 'https://upload.wikimedia.org/wikipedia/commons/6/64/Flag_of_Trinidad_and_Tobago.svg'
 }
 
 export const playerNames = {
@@ -33,12 +35,14 @@ export const playerNames = {
         {
             player: 'Invictus',
             elo: '1295',
+            flag: flags.germany,
             seed: 2,
             twitch: 'https://www.twitch.tv/invictus1988spqr'
         },
         {
             player: 'HopesPokes',
-            elo: '904'
+            elo: '904',
+            flag: flags.germany
         }
     ],
     team3: [
@@ -72,11 +76,13 @@ export const playerNames = {
         {
             player: 'ScrapIron',
             elo: '1042',
-            seed: 5
+            seed: 5,
+            flag: flags.usa
         },
         {
             player: 'Master_Beef',
             elo: '996',
+            flag: flags.usa
         }
     ],
     team6: [
@@ -84,7 +90,8 @@ export const playerNames = {
             player: 'GuanFranco',
             elo: '1228',
             seed: 6,
-            twitch: 'https://www.twitch.tv/guanfranco'
+            twitch: 'https://www.twitch.tv/guanfranco',
+            flag: flags.trinidad
         },
         {
             player: 'crochet',
@@ -97,11 +104,13 @@ export const playerNames = {
         {
             player: 'hyap',
             elo: '1043',
-            seed: 7
+            seed: 7,
+            flag: flags.usa
         },
         {
             player: 'Albatross_Rex',
-            elo: '850'
+            elo: '850',
+            flag: flags.usa
         }
     ],
     team8: [

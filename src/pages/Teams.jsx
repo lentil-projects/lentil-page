@@ -27,17 +27,26 @@ export const Teams = () => {
             return <></>
         }
 
+        const hasFlag = (index) => {
+            if (playerNames[team][index].flag) {
+                return (
+                    <img src={playerNames[team][index].flag} alt={playerNames[team][index].flag} />
+                )
+            }
+            return <></>
+        }
+
         return (
             <>
                 <div className="team-info" onClick={() => showModal(team)}>
-                    {playerNames[team][0].logo && <img className="team-logo" src={playerNames[team][0].logo} alt={`${team} logo`}/>}
+                    {playerNames[team][0].logo && <img className="team-logo" src={playerNames[team][0].logo} alt={`${team} logo`} />}
                     <div className="team-name flex">
-                    <div className='seed inline'>{playerNames[team][0].seed}</div>
-                    <h2 className='inline'>{teamNames[team]}</h2>
+                        <div className='seed inline'>{playerNames[team][0].seed}</div>
+                        <h2 className='inline'>{teamNames[team]}</h2>
                     </div>
                     <ul>
-                    <li>{playerNames[team][0].player} ({playerNames[team][0].elo}) {hasTwitch(0)}</li>
-                    <li>{playerNames[team][1].player} ({playerNames[team][1].elo}) {hasTwitch(1)}</li>
+                        <li>{hasTwitch(0)} {playerNames[team][0].player} ({playerNames[team][0].elo}) {hasFlag(0)}</li>
+                        <li>{hasTwitch(1)} {playerNames[team][1].player} ({playerNames[team][1].elo}) {hasFlag(1)}</li>
                     </ul>
                 </div>
             </>
