@@ -3,17 +3,27 @@ import { Link } from 'react-router-dom';
 import { FaceoffStyle } from '../style/FaceoffStyle';
 
 export const Faceoff = () => {
-    const [teamA, chooseTeamA] = useState();
-    const [teamB, chooseTeamB] = useState();
+    const [teamA, chooseTeamA] = useState('Team 1');
+    const [teamB, chooseTeamB] = useState('Team 1');
     const [teamsVisible, showTeams] = useState(false);
 
     const chooseTeams = () => {
         showTeams(true)
     }
 
-    const teamOptions = () => {
+    const input = (e) => {
+        console.log(e.target.value)
+        if (e.target.name === 'teamA'){
+            chooseTeamA(e.target.value)
+        }
+        if (e.target.name === 'teamB'){
+            chooseTeamB(e.target.value)
+        }
+    }
+
+    const teamOptions = team => {
         return (
-            <select type="text">
+            <select type="text" name={team} onChange={e => input(e)}>
                 <option>Team 1</option>
                 <option>Team 2</option>
                 <option>Team 3</option>
@@ -38,11 +48,11 @@ export const Faceoff = () => {
                     <div className="panel">
                             <div>
                                 Pick Team
-                                {teamOptions()}
+                                {teamOptions('teamA')}
                             </div>
                             <div>
                                 Pick Team
-                                {teamOptions()}
+                                {teamOptions('teamB')}
                             </div>
                             <br />
                             <button onClick={() => chooseTeams()}>submit</button>
@@ -51,8 +61,8 @@ export const Faceoff = () => {
                         </div>}
                         {teamsVisible && <div className='container'>
                     <div className='flex'>
-                        <div className='panel'>Team A</div>
-                        <div className='panel'>Team B</div>
+                        <div className='panel'>{teamA}</div>
+                        <div className='panel'>{teamB}</div>
                 </div>
                         </div>}
             </div>
