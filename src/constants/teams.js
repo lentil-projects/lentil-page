@@ -10,119 +10,118 @@
 // }
 
 export const teamNames = {
-    team1: 'Team One',
-    team2: 'Team Two',
-    team3: 'Team Three',
-    team4: 'Team Four',
-    team5: 'Team Five',
-    team6: 'Team Six',
-    team7: 'Team Seven',
-    team8: 'Team Eight',
+    team1: 'Airiel/SurlyFish',
+    team2: 'RitterDesRechts',
+    team3: 'Basic Bitches',
+    team4: 'Hippo_run/skyruby',
+    team5: 'MasterBeef/ScrapIron',
+    team6: 'GuanFranco/crochet',
+    team7: 'hyap/Albatross',
+    team8: 'Team Greg'
 }
 
-// const flags = {
-//     usa: 'https://seeklogo.com/images/A/American_Flag-logo-4ECE0EED17-seeklogo.com.png'
-// }
+const flags = {
+    usa: 'https://seeklogo.com/images/A/American_Flag-logo-4ECE0EED17-seeklogo.com.png'
+}
 
 export const playerNames = {
     team1: [
         {
-            // player: 'EmpiranT',
-            // elo: '1425',
-            // twitch: 'https://www.twitch.tv/empirant',
-            // logo: 'https://www.nicepng.com/png/detail/146-1465832_free-download-pink-starbucks-coffee-clipart-coffee-custom.png',
             seed: 1,
-            // flag: flags.usa
-            player: 'Player 1',
+            flag: flags.usa,
+            player: 'Airiel',
             elo: 'elo',
+            twitch: 'https://www.twitch.tv/airiel_aoc'
         },
         {
-            // player: 'Gingersnap',
-            // elo: 'N/A',
-            // flag: flags.usa
-            player: 'Player 2',
+            player: 'SurlyFish',
             elo: 'elo'
         }
     ],
     team2: [
         {
-            // player: 'Invictus',
-            // elo: '1300',
+            player: 'Invictus',
+            elo: '1300',
             seed: 2,
-            player: 'Player 1',
-            elo: 'elo',
+            twitch: 'https://www.twitch.tv/invictus1988spqr'
         },
         {
-            // player: 'HopesPokes',
-            // elo: '869'
-            player: 'Player 2',
-            elo: 'elo'
+            player: 'HopesPokes',
+            elo: '869'
         }
     ],
     team3: [
         {
-            player: 'Player 1',
-            elo: 'elo',
-            seed: 3
+            seed: 3,
+            player: 'EmpiranT',
+            elo: '1425',
+            twitch: 'https://www.twitch.tv/empirant'
         },
         {
-            player: 'Player 2',
-            elo: 'elo'
+           player: 'Gingersnap',
+            elo: 'N/A',
+            flag: flags.usa
         }
     ],
     team4: [
         {
-            player: 'Player 1',
+            player: 'Hippo_run',
             elo: 'elo',
-            seed: 4
+            seed: 4,
+            twitch: 'https://www.twitch.tv/hippo_run'
         },
         {
-            player: 'Player 2',
+            player: 'skyruby',
             elo: 'elo'
         }
     ],
     team5: [
         {
-            player: 'Player 1',
+            player: 'MasterBeef',
             elo: 'elo',
             seed: 5
         },
         {
-            player: 'Player 2',
+            player: 'ScrapIron',
             elo: 'elo'
         }
     ],
     team6: [
         {
-            player: 'Player 1',
+            player: 'GuanFranco',
             elo: 'elo',
-            seed: 6
+            seed: 6,
+            twitch: 'https://www.twitch.tv/guanfranco'
         },
         {
-            player: 'Player 2',
-            elo: 'elo'
+            player: 'crochet',
+            elo: 'elo',
+            flag: flags.usa,
+            twitch: 'https://www.twitch.tv/crochetcode'
         }
     ],
     team7: [
         {
-            player: 'Player 1',
+            player: 'hyap',
             elo: 'elo',
             seed: 7
         },
         {
-            player: 'Player 2',
+            player: 'Albatross_Rex',
             elo: 'elo'
         }
     ],
     team8: [
         {
-            player: 'Player 1',
+            player: 'Piña Koala',
             elo: 'elo',
-            seed: 8
+            seed: 8,
+            flag: flags.usa
         },
         {
-            player: 'Player 2',
-            elo: 'elo'
+            player: 'GrayCarbon',
+            elo: 'elo',
+            flag: flags.usa
         }
     ],
 }

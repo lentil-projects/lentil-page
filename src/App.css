@@ -15,7 +15,7 @@
   border-radius: 7px;
   background-origin: border-box;
   padding: 10px;
-  max-width: 80vw;
+  max-width: 75vw;
   margin: 5px auto;
   margin-top: 0;
   background: rgba(255,255,255,.85);
@@ -103,6 +103,7 @@ nav h2 {
 nav h2:hover {
   /* color: purple; */
   text-shadow: 2px 2px 5px black;
+  cursor: pointer;
 }
 
 a {
