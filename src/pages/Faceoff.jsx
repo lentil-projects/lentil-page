@@ -9,7 +9,7 @@ import title from '../assets/faceoff/faceoff-title.png';
 
 export const Faceoff = () => {
     const [teamA, chooseTeamA] = useState('team1');
-    const [teamB, chooseTeamB] = useState('team1');
+    const [teamB, chooseTeamB] = useState('team2');
     const [teamsVisible, showTeams] = useState(false);
 
     const chooseTeams = () => {
@@ -29,6 +29,7 @@ export const Faceoff = () => {
     const teamOptions = team => {
         return (
             <select type="text" name={team} onChange={e => input(e)}>
+                <option value="" disabled selected>Select a team</option>
                 <option value='team1'>{teamNames['team1']}</option>
                 <option value='team2'>{teamNames['team2']}</option>
                 <option value='team3'>{teamNames['team3']}</option>
@@ -47,29 +48,26 @@ export const Faceoff = () => {
             <img src={travolta} alt=""/>
             <div className="foreground">
                 <Link to='/'>
-                    <h4>X</h4>
+                <i class="fas fa-times"></i>
                 </Link>
                 {!teamsVisible &&
                     <div className='container'>
-                        <img className='title' src={title} alt='faceoff movie title'/>
+                        <h6>LENTIL/CUP</h6>
                         <img className='gif' src='https://i.pinimg.com/originals/e0/bf/51/e0bf51ef59b428e3dca0b08b1516c839.gif' alt='faceoff movie gif' />
                         <div className="panel">
                             <div>
-                                Pick Team
                                 {teamOptions('teamA')}
                             </div>
                             <div>
-                                Pick Team
                                 {teamOptions('teamB')}
                             </div>
                             <br />
                             <button onClick={() => chooseTeams()}>submit</button>
                         </div>
+                        <img className='title' src={title} alt='faceoff movie title'/>
                     </div>}
                 {teamsVisible && <div className='container'>
                     <div className='flex'>
-                        {/* <div className='panel'>{teamNames[teamA]}</div>
-                        <div className='panel'>{teamNames[teamB]}</div> */}
                         <div className="faceoff-team">
                             <TeamInfo team={teamA} />
                         </div>

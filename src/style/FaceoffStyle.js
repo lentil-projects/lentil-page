@@ -32,12 +32,29 @@ justify-content: space-between;
     border-radius: 7px;
     display: flex;
     flex-direction: column;
+    width: 300px;
+    background: lightgray;
+}
+
+button {
+    width: 200px;
+    margin: 0 auto;
+    height: 2.5rem;
+    font-size: 2rem;
+    border-radius: 7px;
+    background: lightgray;
+    background: rgba(14,52,145,.35);
+}
+
+button:hover {
+    background: rgba(14,52,145,.75);
+    cursor: pointer;
 }
 
 .faceoff-team {
     background: white;
     margin: 10px;
-    width: 600px;
+    width: 575px;
     padding: 10px;
     text-align: left;
     border-radius: 7px;
@@ -46,13 +63,7 @@ justify-content: space-between;
 .title {
     height: 100px;
     margin-bottom: 50px;
-}
-
-h4 {
-    float: right;
-    color: white;
-    margin: 25px;
-    font-size: 3rem;
+    border-radius: 50px;
 }
 
 h3:hover {
@@ -62,6 +73,7 @@ h3:hover {
 
 .gif {
     height: 250px;
+    border-radius: 50px;
 }
 
 .civ {
@@ -72,5 +84,37 @@ h3:hover {
 #x {
     font-size: 65px;
     margin-bottom: -15px;
+}
+
+.fa-times {
+    margin: 25px;
+    font-size: 2.5rem;
+}
+
+li {
+    list-style: none;
+}
+
+.civs {
+    justify-content: center;
+}
+
+h3 {
+    width: 100%;
+}
+
+h6 {
+    margin: 0;
+    margin-bottom: 50px;
+    font-size: 5rem;
+    color: slategrey;
+    font-weight: 300;
+    text-shadow: -2px 2px rgba(94,206,236);
+    padding: 0 25px; 
+    background: rgba(14,52,145,.35);
+    border-radius: 50px;
+    height: 4.75rem;
+    display: flex;
+    align-items: center;
 }
 `
