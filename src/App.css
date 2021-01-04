@@ -90,6 +90,11 @@ header {
   margin-bottom: 50px;
 }
 
+nav a {
+  display: flex;
+  align-items: center;
+}
+
 nav {
   padding: 25px;
   display: flex;
@@ -101,7 +106,6 @@ nav h2 {
 }
 
 nav h2:hover {
-  /* color: purple; */
   text-shadow: 2px 2px 5px black;
   cursor: pointer;
 }
@@ -481,4 +485,16 @@ li img {
 h3 {
   margin: 0;
   color: gray;
+}
+
+.cage-logo {
+  height: 2.5rem;
+  border-radius: 50%;
+}
+
+.cage-logo:hover {
+  cursor: pointer;
+  box-shadow: 0 0 5px 1px black;
+  background: black;
+  height: 3rem;
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import cageLogo from '../assets/cage-logo.png';
 
 export const Header = () => {
     return (
@@ -20,6 +21,7 @@ export const Header = () => {
                 <Link to='/rulebook'>
                     <h2>Rulebook</h2>
                 </Link>
+                <img className='cage-logo' src={cageLogo} alt=""/>
             </nav>
         </header>
     )
