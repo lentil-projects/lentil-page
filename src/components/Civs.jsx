@@ -17,6 +17,7 @@ export const Civs = props => {
 
     const mapUsedCivs = () => {
         if (!teamCivPicks[props.team].length){
+            console.log(props.team)
             return <h3>None.</h3>
         }
 

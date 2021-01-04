@@ -26,9 +26,10 @@ export const TeamInfo = props => {
     }
 
     return (
-        <div className="modal-container">
-            <div className="modal" >
-                <i class="fas fa-times" onClick={() => props.hideModal()}></i>
+        // <div className="modal-container">
+            // <div className="modal" >
+            <>
+                {/* <i class="fas fa-times" onClick={() => props.hideModal()}></i> */}
                 <div className="team-header">
                     <div className="left">
                         {playerNames[props.team][0].logo && <img className="team-logo" src={playerNames[props.team][0].logo} alt="" />}
@@ -55,7 +56,8 @@ export const TeamInfo = props => {
                     </div>
                 </div>
                 <Civs team={props.team} />
-            </div>
-        </div>
+                </>
+            // </div>
+        // </div>
     )
 }

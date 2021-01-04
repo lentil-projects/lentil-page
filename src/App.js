@@ -1,10 +1,11 @@
 import './App.css';
 import './Civs.css';
 import { Switch, Route } from 'react-router-dom';
+import { Header } from './components/Header';
 import { Brackets } from './pages/Brackets';
 import { Rulebook } from './pages/Rulebook';
 import { Teams } from './pages/Teams';
-import { Header } from './components/Header';
+import {Faceoff} from './pages/Faceoff';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route exact path='/' component={Brackets} />
         <Route path='/teams' component={Teams} />
         <Route path='/rulebook' component={Rulebook} />
+        <Route path='/faceoff' component={Faceoff} />
       </Switch>
       <a href='https://github.com/lentil-projects/lentil-cup' target='_blank' rel='noreferrer'>
         <i className="fab fa-github"></i>

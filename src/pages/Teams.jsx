@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { teamNames, playerNames } from '../constants/teams';
-import { TeamInfo } from '../components/TeamInfo';
+import { Modal } from '../components/Modal';
 
 export const Teams = () => {
     const [showTeamInfo, toggleTeamInfo] = useState(false);
@@ -55,7 +55,7 @@ export const Teams = () => {
 
     return (
         <div>
-            {showTeamInfo && <TeamInfo team={team} hideModal={hideModal} />}
+            {showTeamInfo && <Modal team={team} hideModal={hideModal} />}
             <h1 className='white'>Teams</h1>
             <p className='white'>Click on team for more information.</p>
             <div className="teams">
