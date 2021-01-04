@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FaceoffStyle } from '../style/FaceoffStyle';
+import {teamNames} from '../constants/teams';
 
 export const Faceoff = () => {
-    const [teamA, chooseTeamA] = useState('Team 1');
-    const [teamB, chooseTeamB] = useState('Team 1');
+    const [teamA, chooseTeamA] = useState('team1');
+    const [teamB, chooseTeamB] = useState('team1');
     const [teamsVisible, showTeams] = useState(false);
 
     const chooseTeams = () => {
@@ -24,14 +25,14 @@ export const Faceoff = () => {
     const teamOptions = team => {
         return (
             <select type="text" name={team} onChange={e => input(e)}>
-                <option>Team 1</option>
-                <option>Team 2</option>
-                <option>Team 3</option>
-                <option>Team 4</option>
-                <option>Team 5</option>
-                <option>Team 6</option>
-                <option>Team 7</option>
-                <option>Team 8</option>
+                <option value='team1'>{teamNames['team1']}</option>
+                <option value='team2'>{teamNames['team2']}</option>
+                <option value='team3'>{teamNames['team3']}</option>
+                <option value='team4'>{teamNames['team4']}</option>
+                <option value='team5'>{teamNames['team5']}</option>
+                <option value='team6'>{teamNames['team6']}</option>
+                <option value='team7'>{teamNames['team7']}</option>
+                <option value='team8'>{teamNames['team8']}</option>
             </select>
         )
     }
@@ -61,8 +62,8 @@ export const Faceoff = () => {
                         </div>}
                         {teamsVisible && <div className='container'>
                     <div className='flex'>
-                        <div className='panel'>{teamA}</div>
-                        <div className='panel'>{teamB}</div>
+                        <div className='panel'>{teamNames[teamA]}</div>
+                        <div className='panel'>{teamNames[teamB]}</div>
                 </div>
                         </div>}
             </div>
