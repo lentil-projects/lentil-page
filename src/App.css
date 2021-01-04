@@ -366,6 +366,7 @@ img {
 }
 
 body {
+  background: tan;
   background-image: url('https://cdn.hipwallpaper.com/i/90/13/yajYgu.jpg');
 }
 
@@ -425,7 +426,7 @@ li img {
 }
 
 .fa-github {
-  position: fixed;
+  position: absolute;
   right: 25px;
   bottom: 25px;
   color: white;
