@@ -7,7 +7,7 @@ export const teamNames = {
     team4: 'Hippo_run/skyruby',
     team5: 'ScrapIron/Master_Beef',
     team6: 'GuanFranco/crochet',
-    team7: 'hyap/Albatross',
+    team7: 'nyap/Albatross',
     team8: 'Team Greg'
 }
 
@@ -102,7 +102,7 @@ export const playerNames = {
     ],
     team7: [
         {
-            player: 'hyap',
+            player: 'nyap',
             elo: '1043',
             seed: 7,
             flag: flags.usa
