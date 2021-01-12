@@ -49,7 +49,7 @@ export const RiceBracket = props => {
                         <div className="triangle">{']-'}</div>
                     </div>
                     <div className="round">
-                        <div className="heading2">Feb 7*</div>
+                        <div className="heading2">Feb 7*: The Rice Bowl</div>
                         <div className="game-group">
                             <div className='seed inline gray'>L</div>
                             <div className="game">

@@ -119,7 +119,7 @@ export const LentilBracket = props => {
                 <div className="triangle">{']-'}</div>
             </div>
             <div className="round">
-                <div className="heading">Jan 31*</div>
+                <div className="heading">Jan 31*: The Lentil Bowl</div>
                 <div className="game-group">
                     <div className='seed inline gray'>I</div>
                     <div className="game">

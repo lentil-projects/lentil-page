@@ -4,7 +4,7 @@ export const ChampionshipBrackets = props => {
     return (
         <div className='bracket-group championship'>
             <div className="bracket-panel little-bracket">
-                <h2>backdoor Finals</h2>
+                <h2>The Stir-Frynals</h2>
                 <div className="brackets">
                     <div className="round">
                         <div className="heading3">Feb 7*</div>
@@ -31,7 +31,7 @@ export const ChampionshipBrackets = props => {
                 </div>
             </div>
             <div className="bracket-panel little-bracket">
-                <h2>Finals</h2>
+                <h2>Lentil SOUPer Bowl</h2>
                 <div className="brackets">
                     <div className="round">
                         <div className="heading3">Feb 14*</div>
@@ -58,7 +58,7 @@ export const ChampionshipBrackets = props => {
                 </div>
             </div>
             <div className="bracket-panel little-bracket">
-                <h2>Finals round 2** </h2>
+                <h2>Lentil SOUPer Bowl 2** </h2>
                 <div className="brackets">
                     <div className="round">
                         <div className="heading3">Feb 21*</div>
