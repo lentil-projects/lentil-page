@@ -18,6 +18,9 @@ export const Header = () => {
                 <Link to='/teams'>
                     <h2>Teams</h2>
                 </Link>
+                {/* <Link to='/caster'>
+                <h2>About</h2>
+                </Link> */}
                 <Link to='/rulebook'>
                     <h2>Rulebook</h2>
                 </Link>
