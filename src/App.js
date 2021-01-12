@@ -6,7 +6,7 @@ import { Brackets } from './pages/Brackets';
 import { Rulebook } from './pages/Rulebook';
 import { Teams } from './pages/Teams';
 import {Faceoff} from './pages/Faceoff';
-import {Caster} from './pages/Caster';
+// import {Caster} from './pages/Caster';
 
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
         <Route path='/teams' component={Teams} />
         <Route path='/rulebook' component={Rulebook} />
         <Route path='/faceoff' component={Faceoff} />
-        <Route path='/caster' component={Caster} />
+        {/* <Route path='/caster' component={Caster} /> */}
       </Switch>
       <a href='https://github.com/lentil-projects/lentil-cup' target='_blank' rel='noreferrer'>
         <i className="fab fa-github"></i>

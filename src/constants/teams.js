@@ -9,7 +9,7 @@ export const teamNames = {
     team5: 'ScrapIron/Master_Beef',
     // team6: 'GuanFranco/crochet',
     team6: 'Minnesota Twins',
-    team7: 'nyap/Albatross',
+    team7: 'King Bird',
     team8: 'Team Greg'
 }
 
