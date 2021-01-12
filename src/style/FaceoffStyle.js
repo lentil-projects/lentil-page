@@ -117,4 +117,9 @@ h6 {
     display: flex;
     align-items: center;
 }
+
+.team-logo {
+    height: 80px;
+    width: 80px;
+}
 `
