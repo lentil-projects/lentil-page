@@ -1,4 +1,5 @@
 import greg from '../assets/logos/greg.png';
+import twins from '../assets/logos/twins.jpg';
 
 export const teamNames = {
     team1: 'Airiel/SurlyFish',
@@ -6,7 +7,8 @@ export const teamNames = {
     team3: 'Basic Bitches',
     team4: 'Hippo_run/skyruby',
     team5: 'ScrapIron/Master_Beef',
-    team6: 'GuanFranco/crochet',
+    // team6: 'GuanFranco/crochet',
+    team6: 'Minnesota Twins',
     team7: 'nyap/Albatross',
     team8: 'Team Greg'
 }
@@ -88,6 +90,7 @@ export const playerNames = {
     team6: [
         {
             player: 'GuanFranco',
+            logo: twins,
             elo: '1228',
             seed: 6,
             twitch: 'https://www.twitch.tv/guanfranco',
