@@ -31,7 +31,7 @@
 }
 
 .round {
-  width: 210px;
+  width: 215px;
   margin: 5px;
   display: flex;
   flex-direction: column;
@@ -122,10 +122,17 @@ a:hover {
 }
 
 .teams {
-  padding: 0 10vw;
+  padding: 0 5vw;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  columns: 2;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.teams h2 {
+  font-size: 1.25rem;
 }
 
 i:hover {
@@ -135,13 +142,10 @@ i:hover {
 
 .team-info {
   margin: 3px;
-  width: 325px;
-  height: 85px;
+  width: 350px;
   border: 1px solid lightgray;
   border-radius: 7px;
-  padding: 15px;
-  background: white;
-  background: rgba(255,255,255,.95);
+  padding: 25px;
   padding-top: 25px;
   background: rgba(255,255,255,.85);
 }
