@@ -8,7 +8,7 @@ const secondPlace = (subMoney * .25).toFixed(2);
 const thirdPlace = (subMoney * .15).toFixed(2);
 const fourthPlace = (subMoney * .1).toFixed(2);
 
-export const Caster = () => {
+export const About = () => {
     return (
         <div className='rulebook'>
             <h1>About</h1>
