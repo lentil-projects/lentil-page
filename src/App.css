@@ -356,7 +356,7 @@ img {
 .team-logo {
   height: 100px;
   width: 100px;
-  /* border-radius: 7px; */
+  border-radius: 15px;
   /* border: 1px solid gray; */
   margin-right: 15px;
   object-fit: cover;
@@ -529,4 +529,34 @@ h3 {
 
 .soundboard .fas:hover {
   color: gray;
+}
+
+.money {
+  border: 1px solid gray;
+  width: 250px;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.money li {
+  display: flex;
+  justify-content: space-between;
+  padding: 3px;
+} 
+
+.money li:nth-child(even) {
+  background: lightgray;
+}
+
+a strong {
+  color: black;
+  text-shadow: none;
+}
+
+a strong:hover {
+  color: purple;
+}
+
+a strong .fa-twitch {
+  font-size: 1rem;
 }
