@@ -122,4 +122,8 @@ h6 {
     height: 80px;
     width: 80px;
 }
+
+h1 {
+    font-size: 1.5rem;
+}
 `
