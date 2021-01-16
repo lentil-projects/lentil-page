@@ -355,8 +355,6 @@ img {
 .team-logo {
   height: 100px;
   width: 100px;
-  border-radius: 15px;
-  /* border: 1px solid gray; */
   margin-right: 15px;
   object-fit: cover;
 }
