@@ -1,6 +1,7 @@
 import greg from '../assets/logos/greg.png';
 import twins from '../assets/logos/twins.jpg';
 import ernest from '../assets/logos/ernest.png';
+import coffee from '../assets/logos/coffee5.png';
 
 export const teamNames = {
     team1: 'Ernest Pudding\'s Gourd Surprise',
@@ -66,7 +67,8 @@ export const playerNames = {
             player: 'EmpiranT',
             elo: '1387',
             twitch: 'https://www.twitch.tv/empirant',
-            flag: flags.usa
+            flag: flags.usa,
+            logo: coffee
         },
         {
            player: 'Gingersnap',
