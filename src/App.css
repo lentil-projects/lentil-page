@@ -25,11 +25,6 @@
   margin: 5px;
 }
 
-.little-bracket {
-  margin: 5px;
-  margin-top: 0;
-}
-
 .round {
   width: 215px;
   margin: 5px;
@@ -40,25 +35,27 @@
 
 .space {
   height: 25px;
-  /* background: pink; */
 }
 
 .display {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
   margin: 0 auto;
+}
+
+.championship {
+  margin: 0 3px;
 }
 
 @media (max-width: 1500px){
   .display {
     flex-direction: column;
   }
-  .championship {
+  /* .championship {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-  }
+  } */
   .civ {
     max-height: 80px;
     max-width: 80px;
@@ -378,7 +375,6 @@ body {
 .note {
   font-size: 1.2rem;
   margin-top: 15px;
-  text-align: left;
   margin-left: 35px;
 }
 
@@ -406,8 +402,6 @@ li img {
 }
 
 .small-seed {
-  /* height: 1rem; */
-  /* width: 1rem; */
   width: auto;
   padding: 1px;
   font-family: monospace;
