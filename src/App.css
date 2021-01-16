@@ -51,11 +51,6 @@
   .display {
     flex-direction: column;
   }
-  /* .championship {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  } */
   .civ {
     max-height: 80px;
     max-width: 80px;
