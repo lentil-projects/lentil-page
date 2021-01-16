@@ -1,12 +1,24 @@
 import greg from '../assets/logos/greg.png';
 import twins from '../assets/logos/twins.jpg';
+import ernest from '../assets/logos/ernest.png';
 
 export const teamNames = {
-    team1: 'Airiel/SurlyFish',
+    team1: 'Ernest Pudding\'s Gourd Surprise',
     team2: 'RitterDesRechts',
     team3: 'Basic Bitches',
     team4: 'Hippo_run/skyruby',
-    team5: 'ScrapIron/Master_Beef',
+    team5: 'Dick Bremer\'s AOE Indictment',
+    team6: 'The Minnesota Twins',
+    team7: 'King Bird',
+    team8: 'Team Greg'
+}
+
+export const shortNames = {
+    team1: 'EPGS',
+    team2: 'RitterDesRechts',
+    team3: 'Basic Bitches',
+    team4: 'Hippo_run/skyruby',
+    team5: 'DBAOEI',
     team6: 'The Minnesota Twins',
     team7: 'King Bird',
     team8: 'Team Greg'
@@ -23,13 +35,15 @@ export const playerNames = {
         {
             seed: 1,
             flag: flags.usa,
+            logo: ernest,
             player: 'Airiel',
             elo: '1378',
             twitch: 'https://www.twitch.tv/airiel_aoc'
         },
         {
             player: 'SurlyFish',
-            elo: '~850'
+            elo: '~850',
+            flag: flags.usa
         }
     ],
     team2: [

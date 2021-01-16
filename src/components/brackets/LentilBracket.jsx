@@ -1,5 +1,5 @@
 import React from 'react';
-import { teamNames, playerNames } from '../../constants/teams';
+import { teamNames, playerNames, shortNames } from '../../constants/teams';
 
 export const LentilBracket = props => {
     return (
@@ -14,7 +14,7 @@ export const LentilBracket = props => {
                         <div className="row">
                             <div className='team-name'>
                             <div className='seed small-seed'>{playerNames.team1[0].seed}</div>
-                            <div>{teamNames.team1}</div>
+                            <div>{shortNames.team1}</div>
                             </div>
                             {props.returnScore('a', 0)}
                         </div>
@@ -40,7 +40,7 @@ export const LentilBracket = props => {
                         <div className="row">
                             <div className='team-name'>
                             <div className='seed small-seed inline'>{playerNames.team5[0].seed}</div>
-                            <div className="team inline">{teamNames.team5}</div>
+                            <div className="team inline">{shortNames.team5}</div>
                             </div>
                             {props.returnScore('b', 1)}
                         </div>
