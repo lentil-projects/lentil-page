@@ -10,9 +10,9 @@ export const results = {
         score: [2,0]
     },
     b: {
-        winner: '',
-        loser: '',
-        score: []
+        winner: 'team4',
+        loser: 'team5',
+        score: [2,0]
     },
     c: {
         winner: '',
