@@ -8,6 +8,7 @@ export const ChampionshipBrackets = props => {
                 <div className="brackets">
                     <div className="round">
                         <div className="heading3">Feb 7*</div>
+                        <p>best of</p>
                         <div className='game-group'>
                             <div className='seed inline gray'>M</div>
                             <div className='game'>
@@ -18,9 +19,11 @@ export const ChampionshipBrackets = props => {
                     </div>
                     <div className="space-col">
                         <div className="space"></div>
+                        <div className="space"></div>
                         <div className="arrow">{'--'}</div>
                     </div>
                     <div className="round">
+                        <div className="space"></div>
                         <div className="space"></div>
                         <div className="game">
                             <div className="pair">
@@ -35,6 +38,7 @@ export const ChampionshipBrackets = props => {
                 <div className="brackets">
                     <div className="round">
                         <div className="heading3">Feb 14*</div>
+                        <p>best of</p>
                         <div className='game-group'>
                             <div className='seed inline gray'>N</div>
                             <div className='game'>
@@ -45,9 +49,11 @@ export const ChampionshipBrackets = props => {
                     </div>
                     <div className="space-col">
                         <div className="space"></div>
+                        <div className="space"></div>
                         <div className="arrow">{'--'}</div>
                     </div>
                     <div className="round">
+                        <div className="space"></div>
                         <div className="space"></div>
                         <div className="game">
                             <div className="pair">
@@ -62,6 +68,7 @@ export const ChampionshipBrackets = props => {
                 <div className="brackets">
                     <div className="round">
                         <div className="heading3">Feb 21*</div>
+                        <p>best of</p>
                         <div className='game-group'>
                             <div className='seed inline gray'>O</div>
                             <div className='game'>
@@ -72,9 +79,11 @@ export const ChampionshipBrackets = props => {
                     </div>
                     <div className="space-col">
                         <div className="space"></div>
+                        <div className="space"></div>
                         <div className="arrow">{'--'}</div>
                     </div>
                     <div className="round">
+                        <div className="space"></div>
                         <div className="space"></div>
                         <div className="game">
                             <div className="pair">

@@ -8,6 +8,7 @@ export const LentilBracket = props => {
         <div className='brackets'>
             <div className='round'>
                 <div className="heading">Jan 17*</div>
+                <p>best of 3</p>
                 <div className='game-group'>
                     <div className='seed inline gray'>A</div>
                     <div className="game">
@@ -88,7 +89,9 @@ export const LentilBracket = props => {
             </div>
             <div className='space-col'>
                 <div className="space"></div>
+                <div className="space"></div>
                 <div className="triangle">{']-'}</div>
+                <div className="space"></div>
                 <div className="space"></div>
                 <div className="space"></div>
                 <div className="space"></div>
@@ -96,6 +99,7 @@ export const LentilBracket = props => {
             </div>
             <div className="round">
                 <div className="heading">Jan 24*</div>
+                <p>best of 3</p>
                 <div className="game-group">
                     <div className='seed inline gray'>E</div>
                     <div className="game">
@@ -116,10 +120,12 @@ export const LentilBracket = props => {
             </div>
             <div className="space-col">
                 <div className="space"></div>
+                <div className="space"></div>
                 <div className="triangle">{']-'}</div>
             </div>
             <div className="round">
                 <div className="heading">Jan 31*: The Lentil Bowl</div>
+                <p>best of</p>
                 <div className="game-group">
                     <div className='seed inline gray'>I</div>
                     <div className="game">
@@ -130,9 +136,11 @@ export const LentilBracket = props => {
             </div>
             <div className="space-col">
                 <div className="space"></div>
+                <div className="space"></div>
                 <div className="arrow">{'--'}</div>
             </div>
             <div className="round">
+                <div className="space"></div>
                 <div className="space"></div>
                 <div className="game">
                     <div className="pair">

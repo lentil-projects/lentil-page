@@ -7,6 +7,7 @@ export const RiceBracket = props => {
                 <div className="brackets">
                     <div className="round">
                         <div className="heading2">Jan 24*</div>
+                        <p>best of 3</p>
                         <div className="game-group">
                             <div className='seed inline gray'>G</div>
                             <div className='game'>
@@ -24,11 +25,13 @@ export const RiceBracket = props => {
                     </div>
                     <div className="space-col">
                         <div className="space"></div>
+                        <div className="space"></div>
                         <div className="arrow">{'--'}</div>
                         <div className="arrow">{'--'}</div>
                     </div>
                     <div className="round">
                         <div className="heading2">Jan 31*</div>
+                        <p>best of</p>
                         <div className="game-group">
                             <div className='seed inline gray'>J</div>
                             <div className="game">
@@ -46,10 +49,12 @@ export const RiceBracket = props => {
                     </div>
                     <div className="space-col">
                         <div className="space"></div>
+                        <div className="space"></div>
                         <div className="triangle">{']-'}</div>
                     </div>
                     <div className="round">
                         <div className="heading2">Feb 7*: The Rice Bowl</div>
+                        <p>best of</p>
                         <div className="game-group">
                             <div className='seed inline gray'>L</div>
                             <div className="game">
@@ -60,9 +65,11 @@ export const RiceBracket = props => {
                     </div>
                     <div className="space-col">
                         <div className="space"></div>
+                        <div className="space"></div>
                         <div className="arrow">{'--'}</div>
                     </div>
                     <div className="round">
+                        <div className="space"></div>
                         <div className="space"></div>
                         <div className="game">
                             <div className="pair">
