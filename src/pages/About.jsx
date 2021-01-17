@@ -1,6 +1,6 @@
 import React from 'react';
 
-const subs = 52;
+const subs = 57;
 const subMoney = (100 + (subs * 2.5)).toFixed(2)
 
 const firstPlace = (subMoney * .5).toFixed(2);
