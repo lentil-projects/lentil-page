@@ -6,7 +6,7 @@
 export const results = {
     a: {
         winner: 'team1',
-        loser: 'team2',
+        loser: 'team8',
         score: [2,0]
     },
     b: {
