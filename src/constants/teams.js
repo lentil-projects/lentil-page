@@ -28,7 +28,8 @@ export const shortNames = {
 const flags = {
     usa: 'https://cdn.britannica.com/79/4479-050-6EF87027/flag-Stars-and-Stripes-May-1-1795.jpg',
     germany: 'https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/1200px-Flag_of_Germany.svg.png',
-    trinidad: 'https://upload.wikimedia.org/wikipedia/commons/6/64/Flag_of_Trinidad_and_Tobago.svg'
+    trinidad: 'https://upload.wikimedia.org/wikipedia/commons/6/64/Flag_of_Trinidad_and_Tobago.svg',
+    canada: 'https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Canada_%28Pantone%29.svg'
 }
 
 export const playerNames = {
@@ -86,7 +87,8 @@ export const playerNames = {
         },
         {
             player: 'skyruby',
-            elo: '~900'
+            elo: '~900',
+            flag: flags.canada
         }
     ],
     team5: [

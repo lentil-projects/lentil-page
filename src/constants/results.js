@@ -17,7 +17,7 @@ export const results = {
     c: {
         winner: '',
         loser: '',
-        score: []
+        score: [1, 0]
     },
     d: {
         winner: '',
