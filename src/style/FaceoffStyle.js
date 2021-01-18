@@ -96,7 +96,7 @@ li {
 }
 
 .civs {
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 h3 {

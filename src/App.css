@@ -11,12 +11,11 @@
 
 .bracket-panel {
   border: 1px solid lightgray;
-  margin: 3px;
   border-radius: 7px;
   background-origin: border-box;
   padding: 10px;
   max-width: 75vw;
-  margin: 5px auto;
+  margin: 3px auto;
   margin-top: 0;
   background: rgba(255,255,255,.85);
 }
@@ -79,7 +78,7 @@ header {
   padding: 0 25px;
   height: 100px;
   box-sizing: border-box;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 nav a {
@@ -133,7 +132,7 @@ i:hover {
 }
 
 .team-info {
-  margin: 3px;
+  margin: 1.5px;
   width: 400px;
   border: 1px solid lightgray;
   border-radius: 7px;
@@ -370,7 +369,6 @@ body {
 .note {
   font-size: 1.2rem;
   margin-top: 15px;
-  margin-left: 35px;
 }
 
 .fab {
