@@ -31,7 +31,7 @@ export const RiceBracket = props => {
                     </div>
                     <div className="round">
                         <div className="heading2">Jan 31*</div>
-                        <p>best of</p>
+                        <p>best of 3</p>
                         <div className="game-group">
                             <div className='seed inline gray'>J</div>
                             <div className="game">
@@ -54,7 +54,7 @@ export const RiceBracket = props => {
                     </div>
                     <div className="round">
                         <div className="heading2">Feb 7*: The Rice Bowl</div>
-                        <p>best of</p>
+                        <p>best of 5</p>
                         <div className="game-group">
                             <div className='seed inline gray'>L</div>
                             <div className="game">
