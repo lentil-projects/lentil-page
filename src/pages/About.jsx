@@ -27,7 +27,7 @@ export const About = () => {
                 <li>Fourth place (10%):<strong> ${fourthPlace}</strong></li>
             </ul>
             <h2>Schedule</h2>
-            <p>Round 1 casting begins Sunday, January 17th @ 10am (EST).</p>
+            <p>Round 2 casting begins Sunday, January 24th @ 10am (EST).</p>
         </div>
     )
 }

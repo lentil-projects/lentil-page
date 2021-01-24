@@ -1,12 +1,6 @@
 import React from 'react';
-import hi from '../assets/soundboard/hi.m4a'
 
 export const Rulebook = () => {
-    const hello = new Audio(hi)
-
-    const playHi = () => {
-        hello.play()
-    }
 
     return (
         <div className='rulebook'>
@@ -31,9 +25,6 @@ export const Rulebook = () => {
             </ul>
             <h2>Specifics</h2>
             <h3>Coming Soon!</h3>
-            <br/>
-            {/* <h3>Good Luck Have Fun!</h3> */}
-            <button className='soundboard' onClick={() => playHi()}>glhf<i class="fas fa-volume-up"></i></button>
         </div>
     )
 }
