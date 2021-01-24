@@ -73,10 +73,10 @@ export const civsList = [
 ]
 
 export const teamCivPicks = {
-    team1: [saracens, spanish],
+    team1: [saracens, spanish, huns, malay],
     team2: [turks, indians],
     team3: [incas, indians],
-    team4: [persians, ethiopians],
+    team4: [persians, ethiopians, franks, mongols],
     team5: [byzantines, magyars, vikings, burmese],
     team6: [teutons, lithuanians, vikings, persians],
     team7: [incas, khmer, franks, lithuanians],
