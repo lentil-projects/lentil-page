@@ -77,8 +77,8 @@ export const teamCivPicks = {
     team2: [turks, indians],
     team3: [incas, indians],
     team4: [persians, ethiopians],
-    team5: [byzantines, magyars],
+    team5: [byzantines, magyars, vikings, burmese],
     team6: [teutons, lithuanians],
     team7: [incas, khmer],
-    team8: [franks, goths]
+    team8: [franks, goths, magyars, huns]
 };

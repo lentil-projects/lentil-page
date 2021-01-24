@@ -35,9 +35,9 @@ export const results = {
         score: []
     },
     g: {
-        winner: '',
-        loser: '',
-        score: []
+        winner: 'team5',
+        loser: 'team8',
+        score: [0, 2]
     },
     h: {
         winner: '',
