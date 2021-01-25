@@ -2,6 +2,7 @@ import greg from '../assets/logos/greg.png';
 import twins from '../assets/logos/twins.jpg';
 import ernest from '../assets/logos/ernest.png';
 import coffee from '../assets/logos/coffee5.png';
+import hippo from '../assets/logos/chicken-hippo.png';
 
 export const teamNames = {
     team1: 'Ernest Pudding\'s Gourd Surprise',
@@ -83,7 +84,8 @@ export const playerNames = {
             elo: '1284',
             seed: 4,
             twitch: 'https://www.twitch.tv/hippo_run',
-            flag: flags.usa
+            flag: flags.usa,
+            logo: hippo
         },
         {
             player: 'skyruby',
