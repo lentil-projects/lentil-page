@@ -119,8 +119,8 @@ h6 {
 }
 
 .team-logo {
-    height: 80px;
-    width: 80px;
+    height: 60px;
+    width: 60px;
 }
 
 h1 {

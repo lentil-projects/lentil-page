@@ -54,7 +54,7 @@ export const Teams = () => {
     }
 
     return (
-        <div>
+        <div className='teams-div'>
             {showTeamInfo && <Modal team={team} hideModal={hideModal} />}
             <h1 className='white'>Teams</h1>
             <p className='white'>Click on team for more information.</p>
