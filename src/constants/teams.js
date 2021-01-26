@@ -3,6 +3,7 @@ import twins from '../assets/logos/twins.jpg';
 import ernest from '../assets/logos/ernest.png';
 import coffee from '../assets/logos/coffee5.png';
 import hippo from '../assets/logos/chicken-hippo.png';
+import bird from '../assets/logos/bird.png';
 
 export const teamNames = {
     team1: 'Ernest Pudding\'s Gourd Surprise',
@@ -127,7 +128,8 @@ export const playerNames = {
             player: 'nyap',
             elo: '1043',
             seed: 7,
-            flag: flags.usa
+            flag: flags.usa,
+            logo: bird
         },
         {
             player: 'Albatross_Rex',
