@@ -4,6 +4,8 @@ import ernest from '../assets/logos/ernest.png';
 import coffee from '../assets/logos/coffee5.png';
 import hippo from '../assets/logos/chicken-hippo.png';
 import bird from '../assets/logos/bird.png';
+import jail from '../assets/logos/jail.png';
+import rdr from '../assets/logos/RDR.png';
 
 export const teamNames = {
     team1: 'Ernest Pudding\'s Gourd Surprise',
@@ -56,7 +58,8 @@ export const playerNames = {
             elo: '1295',
             flag: flags.germany,
             seed: 2,
-            twitch: 'https://www.twitch.tv/invictus1988spqr'
+            twitch: 'https://www.twitch.tv/invictus1988spqr',
+            logo: rdr
         },
         {
             player: 'HopesPokes',
@@ -99,7 +102,8 @@ export const playerNames = {
             player: 'ScrapIron',
             elo: '1042',
             seed: 5,
-            flag: flags.usa
+            flag: flags.usa,
+            logo: jail
         },
         {
             player: 'Master_Beef',
