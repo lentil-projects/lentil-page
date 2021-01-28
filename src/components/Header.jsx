@@ -4,12 +4,12 @@ import cageLogo from '../assets/faceoff/cage-logo.png';
 
 export const Header = () => {
     return (
-        <header>
+        <header className='mobile'>
             <div>
                 <Link to='/'>
                     <h1 className='inline'>Lentil Cup</h1>
                 </Link>
-                <a href='https://www.twitch.tv/lentil_aoe' target='_blank' rel="noreferrer"><i class="fab fa-twitch large-logo"></i></a>
+                <a href='https://www.twitch.tv/lentil_aoe' target='_blank' rel="noreferrer"><i class="fab fa-twitch large-logo mobile-hide"></i></a>
             </div>
             <nav>
                 <Link to='/'>
@@ -24,7 +24,7 @@ export const Header = () => {
                 <Link to='/rulebook'>
                     <h2>Rulebook</h2>
                 </Link>
-                <Link to='/faceoff'>
+                <Link to='/faceoff' className='mobile-hide'>
                     <img className='cage-logo' src={cageLogo} alt="" />
                 </Link>
             </nav>

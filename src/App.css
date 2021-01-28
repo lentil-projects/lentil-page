@@ -81,7 +81,25 @@ header {
   box-sizing: border-box;
   max-width: 1475px;
   margin: 0 auto;
-  /* margin-bottom: 10px; */
+}
+
+@media (max-width: 800px){
+  .mobile-hide {
+    display: none;
+  }
+  .mobile h1 {
+    font-size: 1rem;
+  }
+  .mobile nav h2 {
+    font-size: .8rem;
+  }
+  .mobile .fa-twitch {
+    font-size: 1rem;
+  }
+  header {
+    padding: 5px;
+    justify-content: center;
+  }
 }
 
 nav a {
@@ -203,7 +221,6 @@ ul {
 }
 
 .space-col {
-  /* background: gray; */
   width: 25px;
   font-size: 2.5rem;
   font-family: arial;
