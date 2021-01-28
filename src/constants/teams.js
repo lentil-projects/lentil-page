@@ -123,8 +123,7 @@ export const playerNames = {
         {
             player: 'crochet',
             elo: '768',
-            flag: flags.usa,
-            twitch: 'https://www.twitch.tv/crochetcode'
+            flag: flags.usa
         }
     ],
     team7: [

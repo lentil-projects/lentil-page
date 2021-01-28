@@ -100,6 +100,13 @@ header {
     padding: 5px;
     justify-content: center;
   }
+  .mobile .note {
+    font-size: .8rem;
+  }
+  div .mobile-only {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 nav a {
@@ -573,4 +580,8 @@ a strong .fa-twitch {
 .teams-div {
   max-width: 1100px;
   margin: 0 auto;
+}
+
+.mobile-only {
+  display: none;
 }

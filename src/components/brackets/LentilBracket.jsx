@@ -1,11 +1,13 @@
 import React from 'react';
 import { teamNames, playerNames, shortNames } from '../../constants/teams';
+import  {MobileLentil} from '../mobile-brackets/MobileLentil';
 
 export const LentilBracket = props => {
     return (
         <div className="bracket-panel">
         <h2>Lentil bracket</h2>
-        <div className='brackets'>
+        <MobileLentil returnResult={props.returnResult} returnScore={props.returnScore} />
+        <div className='brackets mobile-hide'>
             <div className='round'>
                 <div className="heading">Jan 17*</div>
                 <p>best of 3</p>
