@@ -17,12 +17,12 @@ export const ChampionshipBrackets = props => {
                             </div>
                         </div>
                     </div>
-                    <div className="space-col">
+                    <div className="space-col mobile-hide">
                         <div className="space"></div>
                         <div className="space"></div>
                         <div className="arrow">{'--'}</div>
                     </div>
-                    <div className="round">
+                    <div className="round mobile-hide">
                         <div className="space"></div>
                         <div className="space"></div>
                         <div className="game">
@@ -47,12 +47,12 @@ export const ChampionshipBrackets = props => {
                             </div>
                         </div>
                     </div>
-                    <div className="space-col">
+                    <div className="space-col mobile-hide">
                         <div className="space"></div>
                         <div className="space"></div>
                         <div className="arrow">{'--'}</div>
                     </div>
-                    <div className="round">
+                    <div className="round mobile-hide">
                         <div className="space"></div>
                         <div className="space"></div>
                         <div className="game">
@@ -77,12 +77,12 @@ export const ChampionshipBrackets = props => {
                             </div>
                         </div>
                     </div>
-                    <div className="space-col">
+                    <div className="space-col mobile-hide">
                         <div className="space"></div>
                         <div className="space"></div>
                         <div className="arrow">{'--'}</div>
                     </div>
-                    <div className="round">
+                    <div className="round mobile-hide">
                         <div className="space"></div>
                         <div className="space"></div>
                         <div className="game">
@@ -93,8 +93,10 @@ export const ChampionshipBrackets = props => {
                     </div>
                 </div>
             </div>
+            <div className='mobile'>
             <p className='white note'>* dates reflect when games are cast</p>
             <p className='white note'>** if needed</p>
+            </div>
         </div>
     )
 }

@@ -7,6 +7,10 @@ export const Teams = () => {
     const [team, updateTeam] = useState('')
 
     const showModal = team => {
+        console.log(window.innerWidth)
+        if (window.innerWidth < 800){
+            return
+        }
         updateTeam(team);
         toggleTeamInfo(true);
     }
@@ -57,7 +61,7 @@ export const Teams = () => {
         <div className='teams-div'>
             {showTeamInfo && <Modal team={team} hideModal={hideModal} />}
             <h1 className='white'>Teams</h1>
-            <p className='white'>Click on team for more information.</p>
+            <p className='white mobile-hide'>Click on team for more information.</p>
             <div className="teams">
                 {mapTeams('team1')}
                 {mapTeams('team2')}

@@ -1,10 +1,12 @@
 import React from 'react';
+import {MobileRice} from '../mobile-brackets/MobileRice';
 
 export const RiceBracket = props => {
     return (
         <div className="bracket-panel">
                 <h2>Rice bracket</h2>
-                <div className="brackets">
+            <MobileRice returnResult={props.returnResult} returnScore={props.returnScore} />
+                <div className="brackets mobile-hide">
                     <div className="round">
                         <div className="heading2">Jan 24*</div>
                         <p>best of 3</p>
