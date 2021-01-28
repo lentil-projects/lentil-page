@@ -7,6 +7,10 @@ export const Teams = () => {
     const [team, updateTeam] = useState('')
 
     const showModal = team => {
+        console.log(window.innerWidth)
+        if (window.innerWidth < 800){
+            return
+        }
         updateTeam(team);
         toggleTeamInfo(true);
     }

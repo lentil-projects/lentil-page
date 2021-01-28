@@ -4,7 +4,6 @@ import { LentilBracket } from '../components/brackets/LentilBracket'
 import { RiceBracket } from '../components/brackets/RiceBracket'
 import { playerNames, shortNames } from '../constants/teams';
 import { results } from '../constants/results';
-import {MobileLentil} from '../components/mobile-brackets/MobileLentil';
 
 const returnResult = (team, game, newGame, newIndex) => {
     if (team === 'winner' && results[game].winner) {

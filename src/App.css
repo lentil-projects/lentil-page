@@ -107,6 +107,18 @@ header {
     display: flex;
     justify-content: center;
   }
+  .teams .team-info h2, .teams .team-info li {
+    font-size: .8rem;
+    text-align: start;
+  }
+  .teams .team-info .team-logo {
+    height: 50px;
+    width: 50px;
+  }
+  .teams .team-info:hover {
+    background: rgba(255,255,255,.5);
+    cursor: default;
+  }
 }
 
 nav a {
@@ -165,7 +177,6 @@ i:hover {
   border: 1px solid lightgray;
   border-radius: 7px;
   padding: 20px;
-  background: rgba(255,255,255,.85);
   background: rgba(255,255,255,.5);
   /* backdrop-filter: blur(10px); */
 }
@@ -173,7 +184,6 @@ i:hover {
 .team-info:hover {
   cursor: pointer;
   background: lightgray;
-  background: rgba(211,211,211,.9);
   background: rgba(255,255,255,.75);
   /* backdrop-filter: blur(10px); */
 }

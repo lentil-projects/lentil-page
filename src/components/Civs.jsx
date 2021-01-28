@@ -17,7 +17,6 @@ export const Civs = props => {
 
     const mapUsedCivs = () => {
         if (!teamCivPicks[props.team].length){
-            console.log(props.team)
             return <h3>None.</h3>
         }
 
@@ -37,7 +36,7 @@ export const Civs = props => {
     const mapCivs = () => {
         return remainingCivs.map(civ => {
             return (
-                <div className={`civ flex2 ${civ}`} onClick={() => addX(civ)}>
+                <div key={civ} className={`civ flex2 ${civ}`} onClick={() => addX(civ)}>
                     {teamCivPicks[props.team].includes(civ) && <p id='x'>X</p>}
                     {teamCivs[civ] && <p id='x'>X</p>}
                     <p>{civ}</p>
