@@ -18,7 +18,8 @@ export const About = () => {
                 <i class="fab fa-twitch large-logo"></i>
                     </strong></a></p>
             <h2>Current Prize Pool: ${subMoney}</h2>
-            <p>$100 plus $2.50 for every Lentil sub ({subs} subs @ last update)</p>
+            <p>$150 plus $2.50 for every Lentil sub ({subs} subs @ last update)</p>
+            <p>---($50 donated by Albatross_Rex!)---</p>
             <p>Prize pool will be split as follows:</p>
             <ul className='money'>
                 <li>First place (50%):<strong> ${firstPlace}</strong></li>
