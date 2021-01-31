@@ -12,17 +12,17 @@ export const Header = () => {
                 <a href='https://www.twitch.tv/lentil_aoe' target='_blank' rel="noreferrer"><i className="fab fa-twitch large-logo mobile-hide"></i></a>
             </div>
             <nav>
-                <Link to='/'>
-                    <h2>Bracket</h2>
-                </Link>
-                <Link to='/teams'>
-                    <h2>Teams</h2>
-                </Link>
                 <Link to='/about'>
                 <h2>About</h2>
                 </Link>
                 <Link to='/rulebook'>
                     <h2>Rulebook</h2>
+                </Link>
+                <Link to='/'>
+                    <h2>Bracket</h2>
+                </Link>
+                <Link to='/teams'>
+                    <h2>Teams</h2>
                 </Link>
                 <Link to='/faceoff' className='mobile-hide'>
                     <img className='cage-logo' src={cageLogo} alt="" />

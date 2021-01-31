@@ -28,7 +28,7 @@ export const About = () => {
                 <li>Fourth place (10%):<strong> ${fourthPlace}</strong></li>
             </ul>
             <h2>Schedule</h2>
-            <p>Rice Bowl round 2 and Lentil Bowl: casting begins Sunday, January 31st @ 10am (EST)</p>
+            <p>Rice Bowl and Stir-FryNals: casting begins Sunday, February 7th @ 10am (EST)</p>
         </div>
     )
 }
