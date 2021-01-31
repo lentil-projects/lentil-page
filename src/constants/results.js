@@ -50,9 +50,9 @@ export const results = {
         score: []
     },
     j: {
-        winner: '',
-        loser: '',
-        score: []
+        winner: 'team3',
+        loser: 'team5',
+        score: [0,2]
     },
     k: {
         winner: 'team4',
