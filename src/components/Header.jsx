@@ -13,7 +13,7 @@ export const Header = () => {
             </div>
             <nav>
                 <Link to='/about'>
-                <h2>About</h2>
+                    <h2>About</h2>
                 </Link>
                 <Link to='/rulebook'>
                     <h2>Rulebook</h2>
