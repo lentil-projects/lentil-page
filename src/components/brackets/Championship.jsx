@@ -7,7 +7,7 @@ export const ChampionshipBrackets = props => {
                 <h2>The Stir-Frynals</h2>
                 <div className="brackets">
                     <div className="round">
-                        <div className="heading3">Feb 7*</div>
+                        <div className="heading3">Feb 14*</div>
                         <p>best of 5</p>
                         <div className='game-group'>
                             <div className='seed inline gray'>M</div>
@@ -37,7 +37,7 @@ export const ChampionshipBrackets = props => {
                 <h2>The Lentil SOUPer Bowl</h2>
                 <div className="brackets">
                     <div className="round">
-                        <div className="heading3">Feb 14*</div>
+                        <div className="heading3">Feb 21*</div>
                         <p>best of 7</p>
                         <div className='game-group'>
                             <div className='seed inline gray'>N</div>
@@ -67,7 +67,7 @@ export const ChampionshipBrackets = props => {
                 <h2>The Lentil SOUPer Bowl 2** </h2>
                 <div className="brackets">
                     <div className="round">
-                        <div className="heading3">Feb 21*</div>
+                        <div className="heading3">Feb 28*</div>
                         <p>best of 7</p>
                         <div className='game-group'>
                             <div className='seed inline gray'>O</div>
