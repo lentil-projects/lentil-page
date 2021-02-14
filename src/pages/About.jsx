@@ -1,6 +1,6 @@
 import React from 'react';
 
-const subs = 61;
+const subs = 62;
 const subMoney = (150 + (subs * 2.5)).toFixed(2)
 
 const firstPlace = (subMoney * .5).toFixed(2);
@@ -28,8 +28,7 @@ export const About = () => {
                 <li>Fourth place (10%):<strong> ${fourthPlace}</strong></li>
             </ul>
             <h2>Schedule</h2>
-            <p>Stir-FryNals: casting begins Sunday, February 14th @ 10am (EST)</p>
-            <p>(Happy Stir-FryNalintine's Day!)</p>
+            <p>Lentil SOUPer Bowl!: casting begins Sunday, February 21st @ 10am (EST)</p>
         </div>
     )
 }

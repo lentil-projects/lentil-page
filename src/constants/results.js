@@ -67,7 +67,7 @@ export const results = {
     m: {
         winner: '',
         loser: '',
-        score: []
+        score: [2,2]
     },
     n: {
         winner: '',
