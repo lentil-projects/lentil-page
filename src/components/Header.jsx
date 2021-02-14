@@ -15,14 +15,11 @@ export const Header = () => {
                 <Link to='/about'>
                     <h2>About</h2>
                 </Link>
-                <Link to='/rulebook'>
-                    <h2>Rulebook</h2>
+                <Link to='/teams'>
+                    <h2>Teams</h2>
                 </Link>
                 <Link to='/'>
                     <h2>Bracket</h2>
-                </Link>
-                <Link to='/teams'>
-                    <h2>Teams</h2>
                 </Link>
                 <Link to='/faceoff' className='mobile-hide'>
                     <img className='cage-logo' src={cageLogo} alt="" />

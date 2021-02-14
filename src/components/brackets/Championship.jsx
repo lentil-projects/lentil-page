@@ -34,7 +34,7 @@ export const ChampionshipBrackets = props => {
                 </div>
             </div>
             <div className="bracket-panel little-bracket">
-                <h2>The Lentil SOUPer Bowl</h2>
+                <h2>The Lentil SOUPer Bowl**</h2>
                 <div className="brackets">
                     <div className="round">
                         <div className="heading3">Feb 21*</div>
@@ -63,7 +63,7 @@ export const ChampionshipBrackets = props => {
                     </div>
                 </div>
             </div>
-            <div className="bracket-panel little-bracket">
+            {/* <div className="bracket-panel little-bracket">
                 <h2>The Lentil SOUPer Bowl 2** </h2>
                 <div className="brackets">
                     <div className="round">
@@ -92,10 +92,10 @@ export const ChampionshipBrackets = props => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             <div className='mobile'>
             <p className='white note'>* dates reflect when games are cast</p>
-            <p className='white note'>** if needed</p>
+            <p className='white note'>**SOUPer Bowl rematch Feb. 28th if needed</p>
             </div>
         </div>
     )
