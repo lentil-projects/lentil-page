@@ -49,7 +49,7 @@ export const About = () => {
                 <li>Fourth place (10%):<strong> ${fourthPlace}</strong></li>
             </ul>
             <h2>Schedule</h2>
-            <p>Lentil SOUPer Bowl!: casting begins Sunday, February 21st @ 10am (EST)</p>
+            <p>Lentil SOUPer Bowl!: casting begins Sunday, February 21st @ 9am (EST)</p>
         </div>
     )
 }
