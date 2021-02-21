@@ -48,8 +48,8 @@ export const About = () => {
                 <li>Third place (15%):<strong> ${thirdPlace}</strong></li>
                 <li>Fourth place (10%):<strong> ${fourthPlace}</strong></li>
             </ul>
-            <h2>Schedule</h2>
-            <p>Lentil SOUPer Bowl!: casting begins Sunday, February 21st @ 9am (EST)</p>
+            {/* <h2>Schedule</h2> */}
+            {/* <p>Lentil SOUPer Bowl!: casting begins Sunday, February 21st @ 9am (EST)</p> */}
         </div>
     )
 }
