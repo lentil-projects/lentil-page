@@ -8,7 +8,7 @@ export const RiceBracket = props => {
             <MobileRice returnResult={props.returnResult} returnScore={props.returnScore} />
                 <div className="brackets mobile-hide">
                     <div className="round">
-                        <div className="heading2">Jan 24*</div>
+                        <div className="heading2">Jan 24</div>
                         <p>best of 3</p>
                         <div className="game-group">
                             <div className='seed inline gray'>G</div>
@@ -32,7 +32,7 @@ export const RiceBracket = props => {
                         <div className="arrow">{'--'}</div>
                     </div>
                     <div className="round">
-                        <div className="heading2">Jan 31*</div>
+                        <div className="heading2">Jan 31</div>
                         <p>best of 3</p>
                         <div className="game-group">
                             <div className='seed inline gray'>J</div>
@@ -55,7 +55,7 @@ export const RiceBracket = props => {
                         <div className="triangle">{']-'}</div>
                     </div>
                     <div className="round">
-                        <div className="heading2">Feb 7*: The Rice Bowl</div>
+                        <div className="heading2">Feb 7: The Rice Bowl</div>
                         <p>best of 5</p>
                         <div className="game-group">
                             <div className='seed inline gray'>L</div>

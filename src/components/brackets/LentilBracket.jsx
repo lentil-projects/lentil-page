@@ -9,7 +9,7 @@ export const LentilBracket = props => {
         <MobileLentil returnResult={props.returnResult} returnScore={props.returnScore} />
         <div className='brackets mobile-hide'>
             <div className='round'>
-                <div className="heading">Jan 17*</div>
+                <div className="heading">Jan 17</div>
                 <p>best of 3</p>
                 <div className='game-group'>
                     <div className='seed inline gray'>A</div>
@@ -100,7 +100,7 @@ export const LentilBracket = props => {
                 <div className="triangle">{']-'}</div>
             </div>
             <div className="round">
-                <div className="heading">Jan 24*</div>
+                <div className="heading">Jan 24</div>
                 <p>best of 3</p>
                 <div className="game-group">
                     <div className='seed inline gray'>E</div>
@@ -126,7 +126,7 @@ export const LentilBracket = props => {
                 <div className="triangle">{']-'}</div>
             </div>
             <div className="round">
-                <div className="heading">Jan 31*: The Lentil Bowl</div>
+                <div className="heading">Jan 31: The Lentil Bowl</div>
                 <p>best of 5</p>
                 <div className="game-group">
                     <div className='seed inline gray'>I</div>

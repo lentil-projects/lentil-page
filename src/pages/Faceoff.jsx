@@ -47,7 +47,7 @@ export const Faceoff = () => {
             <img src={cage} alt=""/>
             <img src={travolta} alt=""/>
             <div className="foreground">
-                <Link to='/'>
+                <Link to='/lentil-cup'>
                 <i class="fas fa-times"></i>
                 </Link>
                 {!teamsVisible &&
