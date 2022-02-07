@@ -9,10 +9,10 @@ export const Lentil = () => {
                     <button><i className="fab fa-twitch"></i>Lentil Twitch</button>
                 </a>
                 <a href='https://twitter.com/LentilDestroyer' target='_blank' rel="noreferrer">
-                <button><i class="fab fa-twitter"></i> Lentil Destroyer</button>
+                    <button><i class="fab fa-twitter"></i> Lentil Destroyer</button>
                 </a>
                 <a href='https://twitter.com/lentilgarf' target='_blank' rel="noreferrer">
-                <button><i class="fab fa-twitter"></i> Lentil Garfield</button>
+                    <button><i class="fab fa-twitter"></i> Lentil Garfield</button>
                 </a>
                 <Link to='/lentil-cup'>
                     <button>Lentil Cup</button>
