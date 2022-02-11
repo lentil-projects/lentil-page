@@ -14,8 +14,8 @@ export const Lentil = () => {
                 <a href='https://twitter.com/lentilgarf' target='_blank' rel="noreferrer">
                     <button><i class="fab fa-twitter"></i> Lentil Garfield</button>
                 </a>
-                <Link to='/lentil-cup'>
-                    <button>Lentil Cup</button>
+                <Link to='/tournaments'>
+                    <button>Tournaments</button>
                 </Link>
             </div>
         </div>
