@@ -15,12 +15,14 @@ export const About = () => {
             <p>Tournament presented by
                 <a href='https://www.twitch.tv/lentil_aoe' target='_blank' rel="noreferrer">
                     <strong> Lentil
-                <i class="fab fa-twitch large-logo"></i>
-                    </strong></a></p>
-            <a href='https://docs.google.com/document/d/1FeTpa_AYYSYhO7UsA_7CIggEXysJtDuFVvf42aaW1Ts/edit' 
-            target='_blank' 
-            rel='noreferrer'
-            className='purple' 
+                        <i class="fab fa-twitch large-logo"></i>
+                    </strong>
+                </a>
+            </p>
+            <a href='https://docs.google.com/document/d/1FeTpa_AYYSYhO7UsA_7CIggEXysJtDuFVvf42aaW1Ts/edit'
+                target='_blank'
+                rel='noreferrer'
+                className='purple'
             >
                 Link to Rulebook
             </a>
@@ -31,7 +33,7 @@ export const About = () => {
                 <li>Megarandom only</li>
                 <li>No civ draft, but no civ-repeat for the entire tournament</li>
                 <li>Sixteen players, eight teams, double-elimination</li>
-                <li>Games start January 9th, casting starts the 16th.</li> 
+                <li>Games start January 9th, casting starts the 16th.</li>
                 <li>Five weeks of play, unless an undefeated team loses in the finals, then six weeks of play.</li>
                 <li>Casting will be from recs. Each team will be given a week to schedule and play their games.</li>
             </ul>
@@ -40,7 +42,7 @@ export const About = () => {
             <ul>
                 <li>$50 donated by Albatross_Rex!</li>
             </ul>
-            <br/>
+            <br />
             <p>Prize pool will be split as follows:</p>
             <ul className='money'>
                 <li>First place (50%):<strong> ${firstPlace}</strong></li>
