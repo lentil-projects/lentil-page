@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom"
 import { LentilCupOneAndAHalfBrackets } from "../lc-1.5/brackets"
-import '../style/New.css'
 
 export const Tournaments = () => {
     return (

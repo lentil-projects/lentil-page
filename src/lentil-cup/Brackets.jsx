@@ -1,9 +1,9 @@
 import React from 'react';
-import { ChampionshipBrackets } from '../components/brackets/Championship';
-import { LentilBracket } from '../components/brackets/LentilBracket'
-import { RiceBracket } from '../components/brackets/RiceBracket'
-import { playerNames, shortNames } from '../constants/teams';
-import { results } from '../constants/results';
+import { ChampionshipBrackets } from '../lentil-cup/components/brackets/Championship';
+import { LentilBracket } from '../lentil-cup/components/brackets/LentilBracket'
+import { RiceBracket } from '../lentil-cup/components/brackets/RiceBracket'
+import { playerNames, shortNames } from '../lentil-cup/constants/teams';
+import { results } from '../lentil-cup/constants/results';
 
 const returnResult = (team, game, newGame, newIndex) => {
     if (team === 'winner' && results[game].winner) {

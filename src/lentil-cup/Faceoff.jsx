@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FaceoffStyle } from '../style/FaceoffStyle';
-import { teamNames } from '../constants/teams';
-import { TeamInfo } from '../components/TeamInfo';
-import cage from '../assets/faceoff/cage.jpg';
-import travolta from '../assets/faceoff/travolta.jpg';
-import title from '../assets/faceoff/faceoff-title.png';
+import { teamNames } from '../lentil-cup/constants/teams';
+import { TeamInfo } from '../lentil-cup/components/TeamInfo';
+import cage from '../lentil-cup/assets/faceoff/cage.jpg';
+import travolta from '../lentil-cup/assets/faceoff/travolta.jpg';
+import title from '../lentil-cup/assets/faceoff/faceoff-title.png';
 
 export const Faceoff = () => {
     const [teamA, chooseTeamA] = useState('team1');

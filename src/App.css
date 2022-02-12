@@ -176,14 +176,12 @@ i:hover {
   border-radius: 7px;
   padding: 20px;
   background: rgba(255,255,255,.5);
-  /* backdrop-filter: blur(10px); */
 }
 
 .team-info:hover {
   cursor: pointer;
   background: lightgray;
   background: rgba(255,255,255,.75);
-  /* backdrop-filter: blur(10px); */
 }
 
 .team-info .team-logo {
@@ -400,7 +398,7 @@ img {
 
 body {
   background: black;
-  background-image: url('./assets/lentil-wallpaper.jpg');
+  background-image: url('./lentil-cup/assets/lentil-wallpaper.jpg');
 }
 
 .white {
