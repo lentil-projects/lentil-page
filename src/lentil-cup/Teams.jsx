@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { teamNames, playerNames } from '../constants/teams';
-import { Modal } from '../components/Modal';
+import { teamNames, playerNames } from '../lentil-cup/constants/teams';
+import { Modal } from '../lentil-cup/components/Modal';
 
 export const Teams = () => {
     const [showTeamInfo, toggleTeamInfo] = useState(false);

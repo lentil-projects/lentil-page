@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import '../style/New.css'
+import { LentilCupOneAndAHalfBrackets } from "../lc-1.5/brackets"
 
 export const Tournaments = () => {
     return (
@@ -52,7 +52,7 @@ export const Tournaments = () => {
                 <br />
                 <p>Maps will be available <a href='https://github.com/lentil-projects/lc1.5-maps' target='_blank' rel='noreferrer' className='purple'>here</a>.</p>
                 <h2>Players</h2>
-                <div className='flex'>
+                {/* <div className='flex'>
                     <ul>
                         <li>Albatross Rex</li>
                         <li>FireEMT?</li>
@@ -65,8 +65,23 @@ export const Tournaments = () => {
                         <li>Monkeyninja</li>
                         <li>Nathan Skip</li>
                     </ul>
+                </div> */}
+                <div className='flex'>
+                    <ul>
+                        <li>Player 1</li>
+                        <li>Player 2</li>
+                        <li>Player 3</li>
+                        <li>Player 4</li>
+                    </ul>
+                    <ul>
+                        <li>Player 5</li>
+                        <li>Player 6</li>
+                        <li>Player 7</li>
+                        <li>Player 8</li>
+                    </ul>
                 </div>
-                <h2>Brackets</h2>
+                <br />
+                <LentilCupOneAndAHalfBrackets />
             </div>
             <div className="rulebook">
                 <h1>Lentil Cup 2</h1>

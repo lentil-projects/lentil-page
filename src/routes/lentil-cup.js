@@ -2,12 +2,12 @@ import '../App.css';
 import '../Civs.css';
 import { Link } from 'react-router-dom';
 import { Routes, Route } from 'react-router-dom';
-import { Header } from '../components/Header';
+import { Header } from '../lentil-cup/components/Header';
 import { Brackets } from '../lentil-cup/Brackets';
 import { Teams } from '../lentil-cup/Teams';
 import { Faceoff } from '../lentil-cup/Faceoff';
 import { About } from '../lentil-cup/About';
-import cageLogo from '../assets/faceoff/cage-logo.png';
+import cageLogo from '../lentil-cup/assets/faceoff/cage-logo.png';
 
 export const LentilCupRoutes = () => {
   return (

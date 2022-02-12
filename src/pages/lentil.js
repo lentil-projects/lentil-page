@@ -15,7 +15,7 @@ export const Lentil = () => {
                     <button><i class="fab fa-twitter"></i> Lentil Garfield</button>
                 </a>
                 <Link to='/tournaments'>
-                    <button>Tournaments</button>
+                    <button>Lentil Tournaments</button>
                 </Link>
             </div>
         </div>
