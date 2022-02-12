@@ -3,10 +3,10 @@ import '../Civs.css';
 import { Link } from 'react-router-dom';
 import { Routes, Route } from 'react-router-dom';
 import { Header } from '../components/Header';
-import { Brackets } from '../lentil-cup-1/Brackets';
-import { Teams } from '../lentil-cup-1/Teams';
-import { Faceoff } from '../lentil-cup-1/Faceoff';
-import { About } from '../lentil-cup-1/About';
+import { Brackets } from '../lentil-cup/Brackets';
+import { Teams } from '../lentil-cup/Teams';
+import { Faceoff } from '../lentil-cup/Faceoff';
+import { About } from '../lentil-cup/About';
 import cageLogo from '../assets/faceoff/cage-logo.png';
 
 export const LentilCupRoutes = () => {
