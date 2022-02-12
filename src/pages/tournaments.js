@@ -24,7 +24,6 @@ export const Tournaments = () => {
                 <ul>
                     <li>Single elimination?</li>
                     <li>Best of 5?</li>
-                    <li>Prize Pool: bragging rights</li>
                 </ul>
                 <br />
                 <p>Each round a player can choose one of the following game modes:</p>
@@ -50,6 +49,8 @@ export const Tournaments = () => {
                         <li>ZeWall?</li>
                     </ul>
                 </div>
+                <br />
+                <p>Maps will be available <a href='https://github.com/lentil-projects/lc1.5-maps' target='_blank' rel='noreferrer' className='purple'>here</a>.</p>
                 <h2>Players</h2>
                 <div className='flex'>
                     <ul>
