@@ -50,6 +50,7 @@
             "number": 1,
             "settings": {
                 "size": 8,
+                "grandFinal": "single",
                 "matchesChildCount": 0
             }
         }

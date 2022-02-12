@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+.brackets-viewer h1 {
+    font-weight: bold;
+    color: black;
+}
+
 .brackets-viewer h3 {
     font-size: 1rem;
     background:rgba(71, 73, 71, 0.75);
@@ -13,4 +18,9 @@
 
 .participant {
     border: 1px solid black;
+}
+
+.rounds .round {
+    margin: 0;
+    width: 160px;
 }
