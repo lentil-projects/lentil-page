@@ -1,23 +1,7 @@
-import React, { useState } from 'react';
-import { teamNames, playerNames } from '../lentil-cup/constants/teams';
-import { Modal } from '../lentil-cup/components/Modal';
+import React from 'react';
+import { teamNames, playerNames } from '../../lentil-cup/constants/teams';
 
-export const Teams = () => {
-    const [showTeamInfo, toggleTeamInfo] = useState(false);
-    const [team, updateTeam] = useState('')
-
-    const showModal = team => {
-        console.log(window.innerWidth)
-        if (window.innerWidth < 800){
-            return
-        }
-        updateTeam(team);
-        toggleTeamInfo(true);
-    }
-
-    const hideModal = () => {
-        toggleTeamInfo(false);
-    }
+export const Teams = () => { 
 
     const mapTeams = (team) => {
         const hasTwitch = (index) => {
@@ -42,8 +26,8 @@ export const Teams = () => {
 
         return (
             <>
-                <div className="team-info" onClick={() => showModal(team)}>
-                    {playerNames[team][0].logo && <img className="team-logo" src={playerNames[team][0].logo} alt={`${team} logo`} />}
+                <div className='team-info' >
+                    {playerNames[team][0].logo && <img className='team-logo' src={playerNames[team][0].logo} alt={`${team} logo`} />}
                     <div className="team-name flex">
                         <div className='seed inline'>{playerNames[team][0].seed}</div>
                         <h2 className='inline'>{teamNames[team]}</h2>
@@ -58,10 +42,7 @@ export const Teams = () => {
     }
 
     return (
-        <div className='teams-div'>
-            {showTeamInfo && <Modal team={team} hideModal={hideModal} />}
-            <h1 className='white'>Teams</h1>
-            <p className='white mobile-hide'>Click on team for more information.</p>
+        <div>
             <div className="teams">
                 {mapTeams('team1')}
                 {mapTeams('team2')}
