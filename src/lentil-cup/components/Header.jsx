@@ -15,12 +15,6 @@ export const Header = () => {
                 <Link to='/tournaments/lentil-cup/about'>
                     <h2>About</h2>
                 </Link>
-                <Link to='/tournaments/lentil-cup/teams'>
-                    <h2>Teams</h2>
-                </Link>
-                <Link to='/tournaments/lentil-cup/'>
-                    <h2>Bracket</h2>
-                </Link>
                 <Link to='/tournaments'>
                     <h2>Back</h2>
                 </Link>
