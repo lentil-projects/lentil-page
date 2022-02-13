@@ -21,7 +21,7 @@ export const teamNames = {
 export const shortNames = {
     team1: 'EPGS',
     team2: 'RitterDesRechts',
-    team3: 'Basic Bitches',
+    team3: 'Team Basic',
     team4: 'Hippo Thiccc',
     team5: 'DBAOEI',
     team6: 'The Minnesota Twins',

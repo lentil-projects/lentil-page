@@ -1,6 +1,7 @@
 import React from 'react';
 import { LentilCupOneBrackets } from './components/brackets';
 import { Teams } from '../lentil-cup/Teams';
+import { shortNames } from './constants/teams';
 
 const subs = 63;
 const subMoney = (150 + (subs * 2.5)).toFixed(2)
@@ -39,16 +40,16 @@ export const About = () => {
             <Teams />
             <LentilCupOneBrackets />
             <h2>Prize Pool: ${subMoney}</h2>
-            <p>$150 plus $2.50 for every Lentil sub ({subs} subs @ last update)</p>
+            <p>$150 plus $2.50 for every Lentil sub ({subs})</p>
             <ul>
-                <li>$50 donated by Albatross_Rex!</li>
+                <li>plus $50 donated by Albatross_Rex!</li>
             </ul>
             <br />
             <ul className='money'>
-                <li>First place (50%):<strong> ${firstPlace}</strong></li>
-                <li>Second place (25%):<strong> ${secondPlace}</strong></li>
-                <li>Third place (15%):<strong> ${thirdPlace}</strong></li>
-                <li>Fourth place (10%):<strong> ${fourthPlace}</strong></li>
+                <li>1. {shortNames.team1} (50%): <strong>${firstPlace}</strong></li>
+                <li>2. {shortNames.team2} (25%):<strong> ${secondPlace}</strong></li>
+                <li>3. {shortNames.team3} (15%):<strong> ${thirdPlace}</strong></li>
+                <li>4. {shortNames.team4} (10%):<strong> ${fourthPlace}</strong></li>
             </ul>
         </div>
     )

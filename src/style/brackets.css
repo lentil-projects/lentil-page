@@ -9,6 +9,10 @@
     color: black;
 }
 
+.brackets-viewer .bracket h2 {
+    color: black;
+}
+
 .brackets-viewer h3 {
     font-size: 1rem;
     background:rgba(71, 73, 71, 0.75);
