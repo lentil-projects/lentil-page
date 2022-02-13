@@ -1,6 +1,6 @@
 import React from 'react';
 import { LentilCupOneBrackets } from './components/brackets';
-import { Teams } from '../lentil-cup/Teams';
+import { Teams } from './components/Teams';
 import { shortNames } from './constants/teams';
 
 const subs = 63;

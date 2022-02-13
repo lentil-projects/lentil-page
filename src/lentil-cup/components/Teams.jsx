@@ -1,5 +1,5 @@
 import React from 'react';
-import { teamNames, playerNames } from '../lentil-cup/constants/teams';
+import { teamNames, playerNames } from '../../lentil-cup/constants/teams';
 
 export const Teams = () => { 
 
