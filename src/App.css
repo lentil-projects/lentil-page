@@ -409,6 +409,15 @@ body {
   margin-right: 5px;
 }
 
+header .fab {
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+header .fab:hover {
+  color: purple;
+}
+
 li img {
   height: .8rem;
   margin-left: 5px;

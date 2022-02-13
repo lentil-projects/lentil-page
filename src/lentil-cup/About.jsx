@@ -16,12 +16,10 @@ export const About = () => {
             <h1>Lentil Cup</h1>
             <h2>About</h2>
             <ul>
-                <li>2v2 Co-op</li>
-                <li>Megarandom only</li>
+                <li>2v2 co-op mode</li>
                 <li>No civ draft, but no civ-repeat for the entire tournament</li>
                 <li>Sixteen players, eight teams, double-elimination</li>
                 <li>Games start January 9th, casting starts the 16th.</li>
-                <li>Five weeks of play, unless an undefeated team loses in the finals, then six weeks of play.</li>
                 <li>Casting will be from recs. Each team will be given a week to schedule and play their games.</li>
             </ul>
             <br />
@@ -33,6 +31,9 @@ export const About = () => {
                 Link to Rulebook
             </a>
             <i class="fas fa-external-link-alt"></i>
+            <br />
+            <h2>Maps</h2>
+            <p>Megarandom only</p>
             <br />
             <h2>Teams</h2>
             <Teams />

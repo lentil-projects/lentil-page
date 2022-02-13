@@ -1,23 +1,8 @@
-import { Link } from "react-router-dom"
 import { LentilCupOneAndAHalfBrackets } from "../lc-1.5/brackets"
 
 export const Tournaments = () => {
     return (
         <>
-            <header>
-                <div className='flex'>
-                    <h1>Upcoming Tournaments</h1>
-                    <a href='https://www.twitch.tv/lentil_aoe' target='_blank' rel="noreferrer"><i className="fab fa-twitch large-logo mobile-hide"></i></a>
-                </div>
-                <nav>
-                    <Link to='/tournaments/lentil-cup/'>
-                        <h2>Lentil Cup</h2>
-                    </Link>
-                    <Link to='/'>
-                        <h2>Back</h2>
-                    </Link>
-                </nav>
-            </header>
             <div className='rulebook'>
                 <h1>Lentil Cup 1.5</h1>
                 <h2>About</h2>
