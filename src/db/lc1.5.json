@@ -156,12 +156,10 @@
             "child_count": 0,
             "status": 4,
             "opponent1": {
-                "id": 0,
-                "position": 1
+                "id": 0
             },
             "opponent2": {
-                "id": 7,
-                "position": 8
+                "id": 1
             }
         },
         {
@@ -173,12 +171,10 @@
             "child_count": 0,
             "status": 3,
             "opponent1": {
-                "id": 3,
-                "position": 4
+                "id": 2
             },
             "opponent2": {
-                "id": 4,
-                "position": 5
+                "id": 3
             }
         },
         {
@@ -190,12 +186,10 @@
             "child_count": 0,
             "status": 2,
             "opponent1": {
-                "id": 2,
-                "position": 3
+                "id": 4
             },
             "opponent2": {
-                "id": 5,
-                "position": 6
+                "id": 5
             }
         },
         {
@@ -207,12 +201,10 @@
             "child_count": 0,
             "status": 0,
             "opponent1": {
-                "id": 1,
-                "position": 2
+                "id": 6
             },
             "opponent2": {
-                "id": 6,
-                "position": 7
+                "id": 7
             }
         },
         {
