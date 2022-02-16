@@ -3,42 +3,42 @@
         {
             "id": 0,
             "tournament_id": 0,
-            "name": "Player 1"
+            "name": "Monkeyninja"
         },
         {
             "id": 1,
             "tournament_id": 0,
-            "name": "Player 2"
+            "name": "Lord's Servant"
         },
         {
             "id": 2,
             "tournament_id": 0,
-            "name": "Player 3"
+            "name": "RedBearded"
         },
         {
             "id": 3,
             "tournament_id": 0,
-            "name": "Player 4"
+            "name": "Master Beef"
         },
         {
             "id": 4,
             "tournament_id": 0,
-            "name": "Player 5"
+            "name": "Albatross Rex"
         },
         {
             "id": 5,
             "tournament_id": 0,
-            "name": "Player 6"
+            "name": "Frizune"
         },
         {
             "id": 6,
             "tournament_id": 0,
-            "name": "Player 7"
+            "name": "FireEMT"
         },
         {
             "id": 7,
             "tournament_id": 0,
-            "name": "Player 8"
+            "name": "Nathan Skip"
         }
     ],
     "stage": [
@@ -46,7 +46,7 @@
             "id": 0,
             "tournament_id": 0,
             "name": "Brackets",
-            "type": "single_elimination",
+            "type": "double_elimination",
             "number": 1,
             "settings": {
                 "size": 8,
