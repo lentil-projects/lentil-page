@@ -3,42 +3,42 @@
         {
             "id": 0,
             "tournament_id": 0,
-            "name": "Player 1"
+            "name": "Monkeyninja"
         },
         {
             "id": 1,
             "tournament_id": 0,
-            "name": "Player 2"
+            "name": "Lord's Servant"
         },
         {
             "id": 2,
             "tournament_id": 0,
-            "name": "Player 3"
+            "name": "RedBearded"
         },
         {
             "id": 3,
             "tournament_id": 0,
-            "name": "Player 4"
+            "name": "Master Beef"
         },
         {
             "id": 4,
             "tournament_id": 0,
-            "name": "Player 5"
+            "name": "Albatross Rex"
         },
         {
             "id": 5,
             "tournament_id": 0,
-            "name": "Player 6"
+            "name": "Frizune"
         },
         {
             "id": 6,
             "tournament_id": 0,
-            "name": "Player 7"
+            "name": "FireEMT"
         },
         {
             "id": 7,
             "tournament_id": 0,
-            "name": "Player 8"
+            "name": "Nathan Skip"
         }
     ],
     "stage": [
@@ -46,11 +46,11 @@
             "id": 0,
             "tournament_id": 0,
             "name": "Brackets",
-            "type": "single_elimination",
+            "type": "double_elimination",
             "number": 1,
             "settings": {
                 "size": 8,
-                "grandFinal": "single",
+                "grandFinal": "double",
                 "matchesChildCount": 0
             }
         }
@@ -156,12 +156,10 @@
             "child_count": 0,
             "status": 4,
             "opponent1": {
-                "id": 0,
-                "position": 1
+                "id": 0
             },
             "opponent2": {
-                "id": 7,
-                "position": 8
+                "id": 1
             }
         },
         {
@@ -173,12 +171,10 @@
             "child_count": 0,
             "status": 3,
             "opponent1": {
-                "id": 3,
-                "position": 4
+                "id": 2
             },
             "opponent2": {
-                "id": 4,
-                "position": 5
+                "id": 3
             }
         },
         {
@@ -190,12 +186,10 @@
             "child_count": 0,
             "status": 2,
             "opponent1": {
-                "id": 2,
-                "position": 3
+                "id": 4
             },
             "opponent2": {
-                "id": 5,
-                "position": 6
+                "id": 5
             }
         },
         {
@@ -207,12 +201,10 @@
             "child_count": 0,
             "status": 0,
             "opponent1": {
-                "id": 1,
-                "position": 2
+                "id": 6
             },
             "opponent2": {
-                "id": 6,
-                "position": 7
+                "id": 7
             }
         },
         {
@@ -251,6 +243,118 @@
             "stage_id": 0,
             "group_id": 0,
             "round_id": 3,
+            "child_count": 0,
+            "status": 0,
+            "opponent1": {
+                "id": null
+            },
+            "opponent2": {
+                "id": null
+            }
+        },
+        {
+            "id": 15,
+            "number": 1,
+            "stage_id": 0,
+            "group_id": 1,
+            "round_id": 4,
+            "child_count": 0,
+            "status": 1,
+            "opponent1": {
+                "id": null,
+                "position": 1
+            },
+            "opponent2": {
+                "id": null,
+                "position": 2
+            }
+        },
+        {
+            "id": 16,
+            "number": 2,
+            "stage_id": 0,
+            "group_id": 1,
+            "round_id": 4,
+            "child_count": 0,
+            "status": 0,
+            "opponent1": {
+                "id": null,
+                "position": 4
+            },
+            "opponent2": {
+                "id": null,
+                "position": 4
+            }
+        },
+        {
+            "id": 19,
+            "number": 1,
+            "stage_id": 0,
+            "group_id": 1,
+            "round_id": 5,
+            "child_count": 0,
+            "status": 0,
+            "opponent1": {
+                "id": null,
+                "position": 2
+            },
+            "opponent2": {
+                "id": null
+            }
+        },
+        {
+            "id": 20,
+            "number": 2,
+            "stage_id": 0,
+            "group_id": 1,
+            "round_id": 5,
+            "child_count": 0,
+            "status": 0,
+            "opponent1": {
+                "id": null,
+                "position": 1
+            },
+            "opponent2": {
+                "id": null
+            }
+        },
+        {
+            "id": 23,
+            "number": 1,
+            "stage_id": 0,
+            "group_id": 1,
+            "round_id": 6,
+            "child_count": 0,
+            "status": 0,
+            "opponent1": {
+                "id": null
+            },
+            "opponent2": {
+                "id": null
+            }
+        },
+        {
+            "id": 26,
+            "number": 2,
+            "stage_id": 0,
+            "group_id": 1,
+            "round_id": 7,
+            "child_count": 0,
+            "status": 0,
+            "opponent1": {
+                "id": null,
+                "position": 1
+            },
+            "opponent2": {
+                "id": null
+            }
+        },
+        {
+            "id": 29,
+            "number": 1,
+            "stage_id": 0,
+            "group_id": 2,
+            "round_id": 10,
             "child_count": 0,
             "status": 0,
             "opponent1": {
