@@ -38,7 +38,7 @@ export const Tournaments = () => {
                     </ul>
                 </div>
                 <br />
-                <p>Maps will be available <a href='https://github.com/lentil-projects/lc1.5-maps' target='_blank' rel='noreferrer' className='purple'>here</a>.</p>
+                <p>Maps available <a href='https://github.com/lentil-projects/lc1.5-maps' target='_blank' rel='noreferrer' className='purple'>here</a>.</p>
                 <h2>Civs</h2>
                 <p>2 global bans each, 4 civ picks each</p>
                 <br />

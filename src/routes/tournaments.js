@@ -13,7 +13,7 @@ export const TournamentRoutes = () => {
         </div>
         <nav>
           <Link to='/tournaments/upcoming/'>
-            <h2>Upcoming</h2>
+            <h2>Lentil Cup 1.5</h2>
           </Link>
           <Link to='/tournaments/lentil-cup/'>
             <h2>Lentil Cup</h2>
