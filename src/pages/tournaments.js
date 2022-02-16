@@ -42,6 +42,7 @@ export const Tournaments = () => {
                 <h2>Civs</h2>
                 <p>2 global bans each, 4 civ picks each</p>
                 <br />
+                <p>Civ draft available <a href='https://aoe2cm.net/preset/WBnoK' target='_blank' rel='noreferrer' className='purple'>here</a>.</p>
                 <h2>Players</h2>
                 <div className='flex'>
                     <ul>
