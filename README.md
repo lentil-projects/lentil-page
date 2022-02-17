@@ -1,3 +1,3 @@
 # Lentil Cup website
 
-![Screenshot](src/assets/lentil-readme.png)
+![Screenshot](src/lentil-cup/assets/lentil-readme.png)
