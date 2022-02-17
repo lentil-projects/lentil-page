@@ -1,3 +1,3 @@
-# Lentil Cup website
+# Lentil website
 
-![Screenshot](src/lentil-cup/assets/lentil-readme.png)
+[Lentil page](https://lentil.page/)
