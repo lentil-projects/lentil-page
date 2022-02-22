@@ -5,10 +5,12 @@ export const Tournaments = () => {
         <>
             <div className='rulebook'>
                 <h1>Lentil Cup 1.5</h1>
+                <LentilCupOneAndAHalfBrackets />
                 <h2>About</h2>
                 <ul>
                     <li>Double elimination</li>
                     <li>First Round Best of 3</li>
+                    <li>Random seeding</li>
                 </ul>
                 {/* <br />
                 <p>Each round a player can choose one of the following game modes:</p>
@@ -17,8 +19,8 @@ export const Tournaments = () => {
                     <li>Game Speed? (Turbo, etc)</li>
                 </ul> */}
                 <h2>Maps</h2>
-                <p>2 map bans each, 2 home maps each</p>
                 <p>Game 1: MegaRandom</p>
+                <p>2 map bans each, 2 home maps each</p>
                 <br />
                 <h3>Map Pool:</h3>
                 <div className='flex'>
@@ -47,9 +49,9 @@ export const Tournaments = () => {
                 <div className='flex'>
                     <ul>
                         <li>Albatross Rex</li>
+                        <li>DerIKM</li>
                         <li>FireEMT</li>
                         <li>Frizune</li>
-                        <li>Lord's Servant</li>
                     </ul>
                     <ul>
                         <li>Master Beef</li>
@@ -58,13 +60,13 @@ export const Tournaments = () => {
                         <li>RedBearded</li>
                     </ul>
                 </div>
-                <br />
-                <LentilCupOneAndAHalfBrackets />
+                <h2>Prize Pool: $100.00</h2>
+                <p>$100 has been gifted by an anonymous benefactor!</p>
             </div>
-            <div className="rulebook">
+            {/* <div className="rulebook">
                 <h1>Lentil Cup 2</h1>
                 <p>coming soon... ish</p>
-            </div>
+            </div> */}
         </>
     )
 }

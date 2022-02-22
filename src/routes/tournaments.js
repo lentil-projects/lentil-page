@@ -16,7 +16,7 @@ export const TournamentRoutes = () => {
             <h2>Lentil Cup 1.5</h2>
           </Link>
           <Link to='/tournaments/lentil-cup/'>
-            <h2>Lentil Cup</h2>
+            <h2>Lentil Cup 1</h2>
           </Link>
           <Link to='/'>
             <h2>Back</h2>
