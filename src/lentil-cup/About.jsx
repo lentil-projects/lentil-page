@@ -14,7 +14,9 @@ const fourthPlace = (subMoney * .1).toFixed(2);
 export const About = () => {
     return (
         <div className='rulebook'>
-            <h1>Lentil Cup</h1>
+            <h1>Lentil Cup 1</h1>
+            <p><strong>Winner: </strong>Ernest Pudding's Gourd Surprise (Airiel and SurlyFish)</p>
+            <LentilCupOneBrackets />
             <h2>About</h2>
             <ul>
                 <li>2v2 co-op mode</li>
@@ -35,15 +37,11 @@ export const About = () => {
             <br />
             <h2>Maps</h2>
             <p>Megarandom only</p>
-            <br />
             <h2>Teams</h2>
             <Teams />
-            <LentilCupOneBrackets />
             <h2>Prize Pool: ${subMoney}</h2>
             <p>$150 plus $2.50 for every Lentil sub ({subs})</p>
-            <ul>
-                <li>plus $50 donated by Albatross_Rex!</li>
-            </ul>
+            <p>$50 donated by Albatross_Rex!</p>
             <br />
             <ul className='money'>
                 <li>1. {shortNames.team1} (50%): <strong>${firstPlace}</strong></li>
