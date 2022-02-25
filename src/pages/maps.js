@@ -1,17 +1,18 @@
-import reverseArena from '../assets/reverse-arena.png'
-import bogSocotra from '../assets/bog-socotra.png'
-import crochetbia from '../assets/crochetbia.png'
-import ponds from '../assets/ponds.png';
-import cliffhell from '../assets/cliffhell.PNG';
-import canberra from '../assets/canberra.png';
-import michi from '../assets/michi.jpeg';
-import zewall from '../assets/zewall.png';
+import reverseArena from '../assets/maps/reverse-arena.png'
+import bogSocotra from '../assets/maps/bog-socotra.png'
+import crochetbia from '../assets/maps/crochetbia.png'
+import ponds from '../assets/maps/ponds.png';
+import cliffhell from '../assets/maps/cliffhell.PNG';
+import canberra from '../assets/maps/canberra.png';
+import michi from '../assets/maps/michi.jpeg';
+import zewall from '../assets/maps/zewall.png';
 
 export const Maps = () => {
     return (
         <div className='rulebook'>
             <h1>Lentil Cup 1.5</h1>
             <h2>Original Maps</h2>
+            <p>crochet x Lentil</p>
             <div className='maps'>
                 <div className='map'>
                     <h3>Reverse Arena</h3>
