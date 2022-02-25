@@ -1,0 +1,19 @@
+.maps {
+    display: flex;
+    margin: 25px 0;
+    flex-wrap: wrap;
+}
+
+.map {
+    width: 400px;
+    padding: 10px;
+}
+
+.map img {
+    width: 100%;
+    height: auto;
+}
+
+.map li, .map p {
+    margin-bottom: 1rem;
+}

@@ -72,16 +72,6 @@
   color: white;
 }
 
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 100px;
-  box-sizing: border-box;
-  max-width: 75vw;
-  margin: 0 auto;
-}
-
 @media (max-width: 800px){
   .mobile-hide {
     display: none;
@@ -93,14 +83,6 @@ header {
     font-size: .8rem;
   }
   .mobile .fa-twitch {
-    font-size: 1rem;
-  }
-  header {
-    padding: 5px;
-    justify-content: center;
-  }
-
- header nav h2, header h1 {
     font-size: 1rem;
   }
 
@@ -125,27 +107,7 @@ header {
   }
 }
 
-nav a {
-  display: flex;
-  align-items: center;
-}
-
-nav {
-  padding: 25px 0;
-  display: flex;
-}
-
-nav h2 {
-  margin: 0 10px;
-  font-size: 22px;
-}
-
-nav h2:hover {
-  text-shadow: 2px 2px 5px black;
-  cursor: pointer;
-}
-
-a, header h1 {
+a {
   text-decoration: none;
   color: white;
   text-shadow: 1px 1px black;
