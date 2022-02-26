@@ -45,7 +45,7 @@ export const Maps = () => {
                 <div className="map">
                     <h3>Canberra</h3>
                     <img src={canberra} alt="" />
-                    <p>A palisade arena protects players in the early game, but the lure of additional resources may bring players out early. A river connects both arenas, and a single fish sits in the central lake. Not just any fish, it's worth 30 000 food.</p>
+                    <p>"A palisade arena protects players in the early game, but the lure of additional resources may bring players out early. A river connects both arenas, and a single fish sits in the central lake. Not just any fish, it's worth 30,000 food."</p>
                     <p>by <strong>Zetnus</strong></p>
                 </div>
                 <div className="map">
