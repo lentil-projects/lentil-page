@@ -17,3 +17,9 @@
 .map li, .map p {
     margin-bottom: 1rem;
 }
+
+@media (max-width: 1800px){
+    .map {
+        width: 300px;
+    }
+}
