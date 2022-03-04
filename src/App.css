@@ -128,7 +128,7 @@ a:hover {
   font-size: 1.05rem;
 }
 
-i:hover {
+header i:hover {
   cursor: pointer;
   color: purple;
 }
@@ -311,7 +311,7 @@ img {
   background: none;
 }
 
-.rulebook, .lentil-div {
+.rulebook {
   border: 1px solid lightgray;
   width: 70vw;
   margin: 0 auto;
@@ -547,25 +547,6 @@ a strong .fa-twitch {
 
 .mobile-only {
   display: none;
-}
-
-.lentil {
-  height: calc(100vh - 100px);
-  display: flex;
-  margin: 50px;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: center;
-}
-
-.lentil-div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: auto;
-  height: 200px;
-  margin: auto auto;
 }
 
 button {

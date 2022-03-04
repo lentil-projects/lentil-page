@@ -1,0 +1,96 @@
+.landing {
+    width: 100vw;
+    padding: 25px;
+    box-sizing: border-box;
+    background: rgba(255,255,255,.3);
+    backdrop-filter: blur(5px);
+    text-align: left;
+}
+
+.landing .diptych {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+.diptych img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.landing p {
+    font-size: 73px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+.landing a {
+    color: white;
+}
+
+.landing a:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.landing hr {
+    border: solid 3px white;
+}
+
+.landing .right {
+    text-align: right;
+}
+
+.lentil-div {
+    text-align: left;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .float {
+      /* position: fixed; */
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 25px;
+  }
+
+  .parallax {
+    perspective: 1px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  .parallax__layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .parallax__layer--base {
+    transform: translateZ(0);
+  }
+
+  .parallax__layer--back {
+    transform: translateZ(-1px);
+  }
+
+  .done {
+      z-index: 100;
+  }
+
+  .dtwo {
+      margin-top: -300px;
+  }
+
+  .dthree {
+    margin-top: -100px;
+      z-index: -100;
+      position: relative;
+  }
