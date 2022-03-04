@@ -109,10 +109,27 @@
       display: none;
   }
 
+  .info2 ul {
+      background: black;
+      color: white;
+      position: absolute;
+      right: 25px;
+      width: 300px;
+      font-size: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: -65px;
+  } 
+
+  .info2 a {
+      color: purple;
+  }
+
   @media (max-width: 800px){
     .diptych {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     .mobile-hide {
