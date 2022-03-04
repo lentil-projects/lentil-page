@@ -2,8 +2,6 @@
     width: 100vw;
     padding: 25px;
     box-sizing: border-box;
-    background: rgba(255,255,255,.3);
-    backdrop-filter: blur(5px);
     text-align: left;
 }
 
@@ -25,8 +23,17 @@
     color: white;
 }
 
-.landing a {
+.landing a, .landing i  {
     color: white;
+}
+
+.landing a {
+    min-width: 300px;
+}
+
+.landing a:hover {
+    color: white;
+    background: black;
 }
 
 .landing a:hover {
@@ -52,17 +59,20 @@
   }
 
   .float {
-      /* position: fixed; */
-        display: flex;
-        justify-content: space-evenly;
-        padding-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 25px;
   }
 
   .parallax {
     perspective: 1px;
     height: 100vh;
-    overflow-x: hidden;
     overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  .parallax::-webkit-scrollbar, body::-webkit-scrollbar {
+    display: none;
   }
 
   .parallax__layer {
@@ -93,4 +103,48 @@
     margin-top: -100px;
       z-index: -100;
       position: relative;
+  }
+
+  .mobile {
+      display: none;
+  }
+
+  @media (max-width: 800px){
+    .diptych {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobile-hide {
+        display: none;
+    }
+
+    .mobile {
+        display: inline-block;
+    }
+
+    .landing a p {
+        min-width: 300px;
+        font-size: 2rem;
+        background: black;
+        margin: 5px;
+        text-align: center;
+    }
+
+    .right {
+        text-align: center;
+    }
+
+    .diptych img {
+        height: 50vh;
+        object-fit: cover;
+    }
+
+    .dthree {
+        margin: 0;
+    }
+
+    .float img {
+        width: 25%;
+    }
   }
