@@ -16,11 +16,13 @@ export const Lentil = () => {
                             <img src={untitled3} alt="" />
                             <img src={untitled3} alt="" />
                             <img src={untitled3} alt="" />
+                            <img src={untitled3} alt="" />
                         </div>
                         <div className="diptych">
                             <img src={untitled2} alt="" />
                         </div>
                         <div className="float">
+                            <img src={untitled3} alt="" />
                             <img src={untitled3} alt="" />
                             <img src={untitled3} alt="" />
                             <img src={untitled3} alt="" />
@@ -50,12 +52,14 @@ export const Lentil = () => {
                             <a href='https://twitter.com/lentilgarf' target='_blank' rel="noreferrer">
                                 <p>@lentilgarf</p>
                             </a>
+                            <hr className='mobile'/>
                             <Link to='/tournaments'>
-                                <p className='right'><span className='mobile'>{'Lentil Cup'}</span><span className='right'>{' 1.5'}</span></p>
+                                <p className='right mobile-right'><span className='mobile'>{'Lentil Cup'}</span><span className='right'>{' 1.5'}</span></p>
                             </Link>
                         </div>
                         <hr />
                         <div className="float">
+                            <img src={untitled3} alt="" />
                             <img src={untitled3} alt="" />
                             <img src={untitled3} alt="" />
                             <img src={untitled3} alt="" />

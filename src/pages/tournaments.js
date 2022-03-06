@@ -12,12 +12,6 @@ export const Tournaments = () => {
                     <li>First Round Best of 3</li>
                     <li>Random seeding</li>
                 </ul>
-                {/* <br />
-                <p>Each round a player can choose one of the following game modes:</p>
-                <ul>
-                    <li>King of the Hill</li>
-                    <li>Game Speed? (Turbo, etc)</li>
-                </ul> */}
                 <h2>Maps</h2>
                 <p>Game 1: MegaRandom</p>
                 <p>2 map bans each, 2 home maps each</p>
@@ -60,13 +54,9 @@ export const Tournaments = () => {
                         <li>RedBearded</li>
                     </ul>
                 </div>
-                <h2>Prize Pool: $100.00</h2>
-                <p>$100 has been gifted by an anonymous benefactor!</p>
+                <h2>Prize Pool: $150.00</h2>
+                <p>$150 has been gifted by an anonymous benefactor!</p>
             </div>
-            {/* <div className="rulebook">
-                <h1>Lentil Cup 2</h1>
-                <p>coming soon... ish</p>
-            </div> */}
         </>
     )
 }
