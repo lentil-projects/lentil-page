@@ -1,6 +1,5 @@
 .landing {
     width: 100vw;
-    padding: 25px;
     box-sizing: border-box;
     text-align: left;
 }
@@ -21,6 +20,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
     color: white;
+    margin: 0 15px;
 }
 
 .landing a, .landing i  {
@@ -64,6 +64,10 @@
     padding-top: 25px;
   }
 
+  .float img {
+      height: 250px;
+  }
+
   .parallax {
     perspective: 1px;
     height: 100vh;
@@ -96,7 +100,7 @@
   }
 
   .dtwo {
-      margin-top: -300px;
+      margin-top: -200px;
   }
 
   .dthree {
@@ -125,6 +129,10 @@
       color: purple;
   }
 
+  hr {
+      width: 100%;
+  }
+
   @media (max-width: 800px){
     .diptych {
         display: flex;
@@ -148,8 +156,9 @@
         text-align: center;
     }
 
-    .right {
-        text-align: center;
+    .mobile-right {
+        display: flex;
+        justify-content: space-evenly;
     }
 
     .diptych img {
@@ -162,6 +171,7 @@
     }
 
     .float img {
-        width: 25%;
+        /* width: 25%; */
+        height: 80px;
     }
   }
