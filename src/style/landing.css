@@ -1,177 +1,133 @@
-.landing {
-    width: 100vw;
-    box-sizing: border-box;
-    text-align: left;
-}
-
-.landing .diptych {
+.parallax {
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://delivery2u.ca/wp-content/uploads/2020/04/Desi-Red-Lentil.jpg');
     display: flex;
-    justify-content: space-between;
-    max-width: 100%;
-}
-
-.diptych img {
-    width: 100%;
-    object-fit: contain;
-}
-
-.landing p {
-    font-size: 73px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 500;
-    color: white;
-    margin: 0 15px;
-}
-
-.landing a, .landing i  {
-    color: white;
-}
-
-.landing a {
-    min-width: 300px;
-}
-
-.landing a:hover {
-    color: white;
-    background: black;
-}
-
-.landing a:hover {
-    cursor: pointer;
-    color: white;
-}
-
-.landing hr {
-    border: solid 3px white;
-}
-
-.landing .right {
-    text-align: right;
-}
-
-.lentil-div {
-    text-align: left;
-    padding: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-  }
+    align-items: center;
+}
 
-  .float {
+.parallax h1 {
+    font-size: 12rem;
+}
+
+.parallax h1:hover{
+    cursor: pointer;
+    transform: scale(10);
+    transition: 30s;
+}
+
+.two {
     display: flex;
-    justify-content: space-evenly;
-    padding-top: 25px;
-  }
-
-  .float img {
-      height: 250px;
-  }
-
-  .parallax {
-    perspective: 1px;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
-    overflow-y: auto;
-    overflow-x: hidden;
-  }
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    background-image: url('https://delivery2u.ca/wp-content/uploads/2020/04/Desi-Red-Lentil.jpg');
+}
 
-  .parallax::-webkit-scrollbar, body::-webkit-scrollbar {
-    display: none;
-  }
+.two img {
+    height: 100%;
+    object-fit: contain;
+    flex-direction: column;
+}
 
-  .parallax__layer {
+.two .two-links {
     position: absolute;
-    top: 0;
-    right: 0;
+    font-size: 5rem;
+}
+
+.two .two-links h2:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(120vh);
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://assets.bonappetit.com/photos/5c1a7a5f545f2f2dd623352a/16:9/w_4848,h_2727,c_limit/Healthyish-Black-Lentils.jpg');
+}
+
+.banner {
+    font-size: 5rem;
+    background: rgba(0, 0, 0, .85);
+    color: white;
+    padding: 50px;
+    border-radius: 50%;
+}
+
+.banner:hover {
+    transform: scale(1.1);
+    transition: 10s;
+}
+
+.banner p:hover, footer a:hover  {
+    color: purple;
+    cursor: pointer;
+}
+
+footer {
+    height: 150px;
+    background: black;
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
     bottom: 0;
-    left: 0;
-  }
+    height: 50px;
+    z-index: 10;
+    width: 100%;
+}
 
-  .parallax__layer--base {
-    transform: translateZ(0);
-  }
-
-  .parallax__layer--back {
-    transform: translateZ(-1px);
-  }
-
-  .done {
-      z-index: 100;
-  }
-
-  .dtwo {
-      margin-top: -200px;
-  }
-
-  .dthree {
-    margin-top: -100px;
-      z-index: -100;
-      position: relative;
-  }
-
-  .mobile {
-      display: none;
-  }
-
-  .info2 ul {
-      background: black;
-      color: white;
-      position: absolute;
-      right: 25px;
-      width: 300px;
-      font-size: 1rem;
-      display: flex;
-      flex-wrap: wrap;
-      margin-top: -65px;
-  } 
-
-  .info2 a {
-      color: purple;
-  }
-
-  hr {
-      width: 100%;
-  }
-
-  @media (max-width: 800px){
-    .diptych {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+@media (max-width: 800px){
+    .parallax, .two {
+        min-height: 25vh;
+        background-image: none;
     }
 
-    .mobile-hide {
-        display: none;
+    .parallax h1 {
+        font-size: 3.5rem;
     }
 
-    .mobile {
-        display: inline-block;
-    }
-
-    .landing a p {
-        min-width: 300px;
+    .two .two-links {
+        position: absolute;
         font-size: 2rem;
-        background: black;
-        margin: 5px;
-        text-align: center;
     }
 
-    .mobile-right {
-        display: flex;
-        justify-content: space-evenly;
+    .banner {
+        font-size: 2rem;
+        background: rgba(0, 0, 0, .85);
+        color: white;
+        padding: 50px;
+        border-radius: 50%;
     }
 
-    .diptych img {
+    .two, .three {
         height: 50vh;
-        object-fit: cover;
     }
 
-    .dthree {
-        margin: 0;
+    footer {
+        position: absolute;
+        bottom: 0;
+        height: 50px;
+        z-index: 10;
+        width: 100%;
     }
-
-    .float img {
-        /* width: 25%; */
-        height: 80px;
-    }
-  }
+}

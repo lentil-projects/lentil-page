@@ -12,6 +12,12 @@ const thirdPlace = (subMoney * .15).toFixed(2);
 const fourthPlace = (subMoney * .1).toFixed(2);
 
 export const About = () => {
+    window.scroll({
+        top: 0,
+        left: 0,
+        behavior: 'smooth'
+    });
+
     return (
         <div className='rulebook'>
             <h1>Lentil Cup 1</h1>

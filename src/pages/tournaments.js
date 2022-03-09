@@ -1,6 +1,12 @@
 import { LentilCupOneAndAHalfBrackets } from "../lc-1.5/brackets"
 
 export const Tournaments = () => {
+    window.scroll({
+        top: 0,
+        left: 0,
+        behavior: 'smooth'
+    });
+
     return (
         <>
             <div className='rulebook'>
