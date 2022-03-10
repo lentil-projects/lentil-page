@@ -11,13 +11,17 @@ export const Lentil = () => {
             </div>
             <div className='two'>
                 <div className="two-links">
-                    <h1>Lentil Cup</h1>
-                    <Link to='/tournaments/lentil-cup'>
-                        <h2>One</h2>
-                    </Link>
-                    <Link to='/tournaments'>
-                        <h2>One and a half</h2>
-                    </Link>
+                    <div className="banner2">
+                        <h1>Lentil Cup</h1>
+                        <div className='buttons'>
+                            <button>
+                                <Link to='/tournaments/lentil-cup'>1</Link>
+                            </button>
+                            <button>
+                                <Link to='/tournaments/lentil-cup'>1.5</Link>
+                            </button>
+                        </div>
+                    </div>
                 </div>
                 <img src={bowl} alt="" />
             </div>
@@ -31,11 +35,11 @@ export const Lentil = () => {
                         <p>@lentilgarf</p>
                     </a>
                 </div>
-            <footer>
-                <p>website by
-                    <a href='https://doily.dev/' target='_blank' rel="noreferrer">{' crochet'}</a>
-                </p>
-            </footer>
+                <footer>
+                    <p>website by
+                        <a href='https://doily.dev/' target='_blank' rel="noreferrer">{' crochet'}</a>
+                    </p>
+                </footer>
             </div>
         </>
     )

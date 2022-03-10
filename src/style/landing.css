@@ -63,12 +63,52 @@
     background-image: url('https://assets.bonappetit.com/photos/5c1a7a5f545f2f2dd623352a/16:9/w_4848,h_2727,c_limit/Healthyish-Black-Lentils.jpg');
 }
 
-.banner {
+.banner, .banner2 {
     font-size: 5rem;
     background: rgba(0, 0, 0, .85);
     color: white;
     padding: 50px;
     border-radius: 50%;
+}
+
+.banner2 {
+    border-radius: 0;
+    font-size: 3rem;
+    background: none;
+}
+
+.banner2 h1 {
+    background: black;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner2 button {
+    margin: 5px;
+    height: 150px;
+    font-size: 10rem;
+    font-weight: 900;
+    border: 10px solid white;
+    border: 10px solid black;
+    overflow: hidden;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+
+.banner2 button:hover {
+    background: black;
+    color: white;
+}
+
+.banner2 li:hover {
+    text-decoration: underline;
 }
 
 .banner:hover {
@@ -97,9 +137,8 @@ footer {
 }
 
 @media (max-width: 800px){
-    .parallax, .two {
-        min-height: 25vh;
-        background-image: none;
+    .parallax {
+        min-height: 95vh;
     }
 
     .parallax h1 {
@@ -117,10 +156,35 @@ footer {
         color: white;
         padding: 50px;
         border-radius: 50%;
+        margin-bottom: 50px;
     }
 
-    .two, .three {
-        height: 50vh;
+    .banner2, .banner2 button {
+        font-size: 2rem;
+    }
+
+    .banner2 h1 {
+        font-size: 3rem;
+        padding: 5px;
+    }
+    
+    .banner2 button {
+        height: 100px;
+        width: 115px;
+        border-radius: 50%;
+    }
+
+    .two {
+        height: 35vh; 
+    }
+
+    .three {
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .two img {
+        width: 100vw;
     }
 
     footer {
