@@ -18,7 +18,7 @@ export const Lentil = () => {
                                 <Link to='/tournaments/lentil-cup'>1</Link>
                             </button>
                             <button>
-                                <Link to='/tournaments/lentil-cup'>1.5</Link>
+                                <Link to='/tournaments/upcoming'>1.5</Link>
                             </button>
                         </div>
                     </div>
