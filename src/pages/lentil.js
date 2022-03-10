@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import bowl from '../assets/landing/bowl.png';
+// import bowl from '../assets/landing/bowl.jpeg';
 
 export const Lentil = () => {
     return (
@@ -23,7 +24,7 @@ export const Lentil = () => {
                         </div>
                     </div>
                 </div>
-                <img src={bowl} alt="" />
+                <img src={bowl} alt='bowl of lentils' />
             </div>
             <div className='three'>
                 <div className='banner'>
