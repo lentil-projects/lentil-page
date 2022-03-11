@@ -14,12 +14,12 @@ export const Lentil = () => {
                     <div className="banner2">
                         <h1>Lentil Cup</h1>
                         <div className='buttons'>
-                            <button>
-                                <Link to='/lentil-cup/1'>1</Link>
-                            </button>
-                            <button>
-                                <Link to='/lentil-cup/1.5'>1.5</Link>
-                            </button>
+                            <Link to='/lentil-cup/1'>
+                                <button>1</button>
+                            </Link>
+                            <Link to='/lentil-cup/1.5'>
+                                <button>1.5</button>
+                            </Link>
                         </div>
                     </div>
                 </div>
