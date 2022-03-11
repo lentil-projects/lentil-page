@@ -2,6 +2,8 @@ import React from 'react';
 import { LentilCupOneBrackets } from './components/brackets';
 import { Teams } from './components/Teams';
 import { shortNames } from './constants/teams';
+import { Link } from 'react-router-dom';
+import cageLogo from '../lentil-cup/assets/faceoff/cage-logo.png';
 
 const subs = 63;
 const subMoney = (150 + (subs * 2.5)).toFixed(2)
@@ -55,6 +57,10 @@ export const About = () => {
                 <li>3. {shortNames.team3} (15%):<strong> ${thirdPlace}</strong></li>
                 <li>4. {shortNames.team4} (10%):<strong> ${fourthPlace}</strong></li>
             </ul>
+            <br />
+            <Link to='/lentil-cup/1/faceoff' className='mobile-hide'>
+                <img className='cage-logo' src={cageLogo} alt="" />
+            </Link>
         </div>
     )
 }

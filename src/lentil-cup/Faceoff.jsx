@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 import { FaceoffStyle } from '../style/FaceoffStyle';
 import { teamNames } from '../lentil-cup/constants/teams';
 import { TeamInfo } from '../lentil-cup/components/TeamInfo';
@@ -47,9 +46,6 @@ export const Faceoff = () => {
             <img src={cage} alt=""/>
             <img src={travolta} alt=""/>
             <div className="foreground">
-                <Link to='/tournaments/lentil-cup'>
-                <i class="fas fa-times"></i>
-                </Link>
                 {!teamsVisible &&
                     <div className='container'>
                         <h6>LENTIL/CUP</h6>

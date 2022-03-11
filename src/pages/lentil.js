@@ -15,10 +15,10 @@ export const Lentil = () => {
                         <h1>Lentil Cup</h1>
                         <div className='buttons'>
                             <button>
-                                <Link to='/tournaments/lentil-cup'>1</Link>
+                                <Link to='/lentil-cup/1'>1</Link>
                             </button>
                             <button>
-                                <Link to='/tournaments/upcoming'>1.5</Link>
+                                <Link to='/lentil-cup/1.5'>1.5</Link>
                             </button>
                         </div>
                     </div>

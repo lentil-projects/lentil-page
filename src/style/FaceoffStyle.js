@@ -2,19 +2,16 @@ import styled from 'styled-components';
 
 export const FaceoffStyle = styled.div`
 background: black;
-height: 100vh;
 width: 100vw;
-position: fixed;
-top: 0;
 display: flex;
 justify-content: space-between;
 
 .foreground {
-    z-index: 20;
+    z-index: 5;
     height: 100vh;
     width: 100vw;
-    position: fixed;
-    top: 0;
+    position: absolute;
+    top: 75px;
 }
 
 .container {
@@ -26,9 +23,9 @@ justify-content: space-between;
 }
 
 .panel {
-    margin: 50px;
+    margin: 25px;
     background: white;
-    padding: 35px;
+    padding: 25px;
     border-radius: 7px;
     display: flex;
     flex-direction: column;
@@ -72,7 +69,7 @@ h3:hover {
 }
 
 .gif {
-    height: 250px;
+    height: 200px;
     border-radius: 50px;
 }
 
