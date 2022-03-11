@@ -481,9 +481,6 @@ h3 {
 .cage-logo {
   height: 2.5rem;
   border-radius: 50%;
-  position: fixed;
-  right: 12.5vw;
-  bottom: 25px;
 }
 
 .cage-logo:hover {

@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom"
 import bowl from '../assets/landing/bowl.png';
-// import bowl from '../assets/landing/bowl.jpeg';
 
 export const Lentil = () => {
     return (
@@ -16,10 +15,10 @@ export const Lentil = () => {
                         <h1>Lentil Cup</h1>
                         <div className='buttons'>
                             <button>
-                                <Link to='/tournaments/lentil-cup'>1</Link>
+                                <Link to='/lentil-cup/1'>1</Link>
                             </button>
                             <button>
-                                <Link to='/tournaments/upcoming'>1.5</Link>
+                                <Link to='/lentil-cup/1.5'>1.5</Link>
                             </button>
                         </div>
                     </div>
@@ -36,12 +35,12 @@ export const Lentil = () => {
                         <p>@lentilgarf</p>
                     </a>
                 </div>
-                <footer>
-                    <p>website by
-                        <a href='https://doily.dev/' target='_blank' rel="noreferrer">{' crochet'}</a>
-                    </p>
-                </footer>
             </div>
+            <footer>
+                <p>website by
+                    <a href='https://doily.dev/' target='_blank' rel="noreferrer">{' crochet'}</a>
+                </p>
+            </footer>
         </>
     )
 }

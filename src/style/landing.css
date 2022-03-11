@@ -54,7 +54,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(120vh);
+    height: calc(100vh);
     position: relative;
     background-attachment: fixed;
     background-position: center;
@@ -129,8 +129,6 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    bottom: 0;
     height: 50px;
     z-index: 10;
     width: 100%;
@@ -156,7 +154,6 @@ footer {
         color: white;
         padding: 50px;
         border-radius: 50%;
-        margin-bottom: 50px;
     }
 
     .banner2, .banner2 button {
@@ -171,12 +168,11 @@ footer {
     .banner2 button {
         height: 100px;
         width: 115px;
-        /* border-radius: 50%; */
         border: 5px solid black;
     }
 
     .two {
-        height: 70vh; 
+        height: 120vh; 
     }
 
     .three {
@@ -188,12 +184,9 @@ footer {
 
     .two img {
         height: 50vh;
-        /* width: 100vw; */
     }
 
     footer {
-        position: absolute;
-        bottom: 0;
         height: 50px;
         z-index: 10;
         width: 100%;
