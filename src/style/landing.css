@@ -90,9 +90,8 @@
 .banner2 button {
     margin: 5px;
     height: 150px;
-    font-size: 10rem;
+    font-size: 100px;
     font-weight: 900;
-    border: 10px solid white;
     border: 10px solid black;
     overflow: hidden;
     background: none;
@@ -157,7 +156,7 @@ footer {
     }
 
     .banner2, .banner2 button {
-        font-size: 2rem;
+        font-size: 60px;
     }
 
     .banner2 h1 {
