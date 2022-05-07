@@ -11,20 +11,21 @@ export const TournamentRoutes = () => {
         <nav>
           <div className='flex'>
             <a href='https://www.twitch.tv/lentil_aoe' target='_blank' rel="noreferrer"><i className="fab fa-twitch large-logo mobile-hide"></i></a>
-            <h1>Lentil_AoE</h1>
+            <Link to='/'>
+              <h1>Lentil_AoE</h1>
+            </Link>
           </div>
-          <Link to='/lentil-cup/1.5/'>
-            <h2 className='tab'>Lentil Cup 1.5</h2>
-          </Link>
-          <Link to='/lentil-cup/1'>
-            <h2 className='tab'>Lentil Cup 1</h2>
-          </Link>
-          <Link to='/lentil-cup/maps/'>
-            <h2 className='tab'>Maps</h2>
-          </Link>
-          <Link to='/'>
-            <h2 className='tab'>Back</h2>
-          </Link>
+          <div className='flex'>
+            <Link to='/lentil-cup/1.5/'>
+              <h2 className='tab'>Lentil Cup 1.5</h2>
+            </Link>
+            <Link to='/lentil-cup/1'>
+              <h2 className='tab'>Lentil Cup 1</h2>
+            </Link>
+            <Link to='/lentil-cup/maps/'>
+              <h2 className='tab'>Maps</h2>
+            </Link>
+          </div>
         </nav>
       </header>
       <Routes>
