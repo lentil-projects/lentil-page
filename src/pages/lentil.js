@@ -4,12 +4,7 @@ import bowl from '../assets/landing/bowl.png';
 export const Lentil = () => {
     return (
         <>
-            {/* <div className='parallax'> */}
-            {/* </div> */}
             <div className='two'>
-                {/* <a href='https://www.twitch.tv/lentil_aoe' target='_blank' rel="noreferrer">
-                    <h1><i className="fab fa-twitch"></i>{' Lentil_AoE'}</h1>
-                </a> */}
                 <div className="two-links">
                     <div className="banner2">
                         <h1>Lentil Cup</h1>
