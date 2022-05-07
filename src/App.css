@@ -370,7 +370,7 @@ body {
 }
 
 .fab {
-  color: black;
+  color: inherit;
   text-shadow: none;
   margin-right: 5px;
 }
