@@ -1,11 +1,11 @@
-import { Link } from "react-router-dom"
+import { Link } from 'react-router-dom';
 import bowl from '../assets/landing/bowl.png';
 
 export const Lentil = () => {
     return (
         <>
             <div className='two'>
-                <div className="two-links">
+                <div className='two-links'>
                     <div className="banner2">
                         <h1>Lentil Cup</h1>
                         <div className='buttons'>
