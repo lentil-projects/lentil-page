@@ -384,10 +384,14 @@
             "child_count": 0,
             "status": 0,
             "opponent1": {
-                "id": 1
+                "id": 1,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
-                "id": 3
+                "id": 3,
+                "score": 2,
+                "result": "win"
             }
         },
         {
@@ -402,7 +406,7 @@
                 "id": 7
             },
             "opponent2": {
-                "id": null
+                "id": 3
             }
         }
     ],
