@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import bowl from '../assets/landing/bowl.png';
+import {Footer} from '../components/footer';
 
 export const Lentil = () => {
     return (
@@ -34,13 +35,7 @@ export const Lentil = () => {
                     </a>
                 </div>
             </div>
-            <footer>
-                <nav>
-                    <p>website by
-                        <a href='https://doily.dev/' target='_blank' rel="noreferrer">{' crochet'}</a>
-                    </p>
-                </nav>
-            </footer>
+            <Footer/>
         </>
     )
 }

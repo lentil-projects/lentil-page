@@ -3,7 +3,7 @@
 }
 
 header {
-  position: fixed;
+  position: absolute;
   top: 0;
   background: white;
   background: black;

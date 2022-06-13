@@ -3,6 +3,7 @@ import { Tournaments } from '../pages/tournaments';
 import { LentilCupRoutes } from './lentil-cup';
 import { Link } from 'react-router-dom';
 import { Maps } from '../pages/maps';
+import {Footer} from '../components/footer';
 
 export const TournamentRoutes = () => {
   return (
@@ -34,11 +35,7 @@ export const TournamentRoutes = () => {
         <Route path='/1/*' element={<LentilCupRoutes />} />
         <Route path='/maps/*' element={<Maps />} />
       </Routes>
-      <footer>
-        <p>website by
-          <a href='https://doily.dev/' target='_blank' rel="noreferrer">{' crochet'}</a>
-        </p>
-      </footer>
+      <Footer/>
     </div>
   );
 }
