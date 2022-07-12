@@ -10,6 +10,7 @@ export const Tournaments = () => {
         <>
             <div className='rulebook'>
                 <h1>Lentil Cup 1.5</h1>
+                <p><strong>Winner: </strong>Master Beef</p>
                 <LentilCupOneAndAHalfBrackets />
                 <h2>About</h2>
                 <ul>
