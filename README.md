@@ -1,3 +1,5 @@
 # Lentil website
 
-[Lentil page](https://lentil.page/)
+![landing page](/src/assets/readme/landing.png)
+
+![brackets](/src/assets/readme/bracket.png)
